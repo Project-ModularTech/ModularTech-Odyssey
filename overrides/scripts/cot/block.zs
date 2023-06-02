@@ -1,11 +1,14 @@
 //本脚本由ohxihh编写，未经ohxihh允许，任何人不允许发布修改过的脚本或将其应用于你的整合包
+//The script is create by ohxihh, No one is allowed to distribute modified scripts or apply them to your modpack without the permission of ohxihh.
+
+//Fixed Version by Oganesson897.
 
 #priority 1467
 #loader contenttweaker
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
-//教皇块
+//教皇块-ZL Block
 val zl as Block = VanillaFactory.createBlock("zl_block", <blockmaterial:iron>);
 zl.fullBlock = true;
 zl.setLightOpacity(255);
@@ -18,7 +21,7 @@ zl.setToolLevel(4);
 zl.setBlockSoundType(<soundtype:metal>);
 zl.register();
 
-//教皇矿
+//教皇矿-ZL Ore
 val zl_ore as Block = VanillaFactory.createBlock("zl_ore", <blockmaterial:iron>);
 zl_ore.fullBlock = true;
 zl_ore.setLightOpacity(255);
@@ -31,7 +34,7 @@ zl_ore.setToolLevel(4);
 zl_ore.setBlockSoundType(<soundtype:metal>);
 zl_ore.register();
 
-//深溟矿
+//深溟矿-Shen Ming Ore
 val shenming_ore as Block = VanillaFactory.createBlock("shenming_ore", <blockmaterial:iron>);
 shenming_ore.fullBlock = true;
 shenming_ore.setLightOpacity(255);
@@ -44,7 +47,7 @@ shenming_ore.setToolLevel(4);
 shenming_ore.setBlockSoundType(<soundtype:metal>);
 shenming_ore.register();
 
-//模块化合金块
+//模块化合金块-Modular Alloy Block
 val MB as Block = VanillaFactory.createBlock("modularblock", <blockmaterial:iron>);
 MB.fullBlock = true;
 MB.setLightOpacity(255);
@@ -57,7 +60,7 @@ MB.setToolLevel(3);
 MB.setBlockSoundType(<soundtype:metal>);
 MB.register();
 
-//树脂覆盖的机械框架
+//树脂覆盖的机械框架-Resin Covered Mechanical Frame
 val RB as Block = VanillaFactory.createBlock("resinmachineblock", <blockmaterial:iron>);
 RB.fullBlock = false;
 RB.setLightOpacity(255);
@@ -70,7 +73,7 @@ RB.setToolLevel(3);
 RB.setBlockSoundType(<soundtype:metal>);
 RB.register();
 
-//铬矿
+//铬矿-Chromium Ore
 val CO as Block = VanillaFactory.createBlock("chrome_ore", <blockmaterial:iron>);
 CO.fullBlock = false;
 CO.setLightOpacity(255);
@@ -83,7 +86,7 @@ CO.setToolLevel(4);
 CO.setBlockSoundType(<soundtype:metal>);
 CO.register();
 
-//银河能量块
+//银河能量块-Galaxy Energy Block
 val GB as Block = VanillaFactory.createBlock("galaxy_block", <blockmaterial:iron>);
 GB.fullBlock = false;
 GB.setLightOpacity(255);
@@ -96,7 +99,7 @@ GB.setToolLevel(4);
 GB.setBlockSoundType(<soundtype:metal>);
 GB.register();
 
-//宇宙能量块
+//宇宙能量块-Universe Energy Block
 val UB as Block = VanillaFactory.createBlock("universe_block", <blockmaterial:iron>);
 UB.fullBlock = false;
 UB.setLightOpacity(255);

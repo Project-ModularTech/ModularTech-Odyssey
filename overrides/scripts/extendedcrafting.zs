@@ -1,39 +1,53 @@
 //本脚本由ohxihh编写，未经ohxihh允许，任何人不允许发布修改过的脚本或将其应用于你的整合包
+//The script is create by ohxihh, No one is allowed to distribute modified scripts or apply them to your modpack without the permission of ohxihh.
+
+//Fixed Version by Oganesson897.
 
 import mods.extendedcrafting.TableCrafting;
 import mods.extendedcrafting.CombinationCrafting;
 
+import crafttweaker.item.IItemStack;
+
+//Remove all recipes in here
+var result as IItemStack[] = [
+	<extendedcrafting:material:15>,
+	<thermalexpansion:frame>,
+	<tinymobfarm:gold_farm>,
+	<tinymobfarm:diamond_farm>,
+	<deepmoblearning:simulation_chamber>,
+	
+];
+
 //========================================================================================基础========================================================================================
-//大理石
+//大理石-Marble
 TableCrafting.addShaped(0, <astralsorcery:blockmarble>*8, [
 	[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
 	[<minecraft:stone>, <thermalfoundation:dye:15>, <minecraft:stone>],
 	[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]
 ]);
 
-//铁制机械部件
+//铁制机械部件-Iron Mechanical Component
 TableCrafting.addShaped(0, <immersiveengineering:material:8>, [
 	[null,<minecraft:iron_ingot>,null],
 	[<minecraft:iron_ingot>, <thermalfoundation:material:256>,<minecraft:iron_ingot>],
 	[null,<minecraft:iron_ingot>,null]
 ]);
 
-//高级合成组件
-recipes.remove(<extendedcrafting:material:15>);
+//高级合成组件-Advanced Component
 TableCrafting.addShaped(0, <extendedcrafting:material:15>*2, [
 	[<ore:plateGold>,<ore:plateGold>, <extendedcrafting:material:7>],
 	[<extendedcrafting:material:14>,<extendedcrafting:material:14>,<ore:plateGold>],
 	[<extendedcrafting:material:14>,<extendedcrafting:material:14>,<ore:plateGold>]
 ]);
 
-//中型物品输入仓
+//中型物品输入仓-Normal Item Input
 TableCrafting.addShaped(0,<modularmachinery:blockinputbus:2> * 2, [
 	[<modularmachinery:blockcasing>, <ironchest:iron_chest:1>, <modularmachinery:blockcasing>],
 	[<modularmachinery:blockinputbus:1>, null, <modularmachinery:blockinputbus:1>], 
 	[<modularmachinery:blockcasing>, <ironchest:iron_chest:1>, <modularmachinery:blockcasing>]
 ]);
 
-//强化物品输入仓
+//强化物品输入仓-Reinforced Item Input
 TableCrafting.addShaped(0,<modularmachinery:blockinputbus:3>, [
 	[<modularmachinery:blockcasing>, <ironchest:iron_chest:2>, <modularmachinery:blockcasing>],
 	[<modularmachinery:blockinputbus:2>, null, <modularmachinery:blockinputbus:2>], 
@@ -41,8 +55,7 @@ TableCrafting.addShaped(0,<modularmachinery:blockinputbus:3>, [
 ]);
 
 //========================================================================================高级========================================================================================
-//机器框架（热力）
-recipes.remove(<thermalexpansion:frame>);
+//机器框架（热力）- Machine Frame(Thermal)
 TableCrafting.addShaped(0, <thermalexpansion:frame>, [
 	[<modularmachinery:blockcasing>,<ore:barsIron>, <ore:gearBronze>, <ore:barsIron>,<modularmachinery:blockcasing>],
 	[<ore:barsIron>, <ore:ingotDawnstone>, <ore:scaffoldingSteel>, <ore:ingotDawnstone>, <ore:barsIron>],
@@ -51,8 +64,7 @@ TableCrafting.addShaped(0, <thermalexpansion:frame>, [
 	[<modularmachinery:blockcasing>, <ore:barsIron>, <ore:gearBronze>, <ore:barsIron>, <modularmachinery:blockcasing>]
 ]);
 
-//金质生物农场
-recipes.remove(<tinymobfarm:gold_farm>);
+//金质生物农场-Gold Farm
 TableCrafting.addShaped(0, <tinymobfarm:gold_farm>, [
 	[<enderio:block_holy_fused_glass>,<enderio:block_holy_fused_glass>,<enderio:block_holy_fused_glass>,<enderio:block_holy_fused_glass>,<enderio:block_holy_fused_glass>],
 	[<enderio:block_holy_fused_glass>,<minecraft:blaze_rod>,<minecraft:ender_eye>,<minecraft:blaze_rod>,<enderio:block_holy_fused_glass>],
@@ -61,8 +73,7 @@ TableCrafting.addShaped(0, <tinymobfarm:gold_farm>, [
 	[<ore:blockGold>,<ore:blockGold>,<ore:blockGold>,<ore:blockGold>,<ore:blockGold>]
 ]);
 
-//钻石生物农场
-recipes.remove(<tinymobfarm:diamond_farm>);
+//钻石生物农场-Diamond Farm
 TableCrafting.addShaped(0, <tinymobfarm:diamond_farm>, [
 	[<enderio:block_holy_fused_glass>,<enderio:block_holy_fused_glass>,<enderio:block_holy_fused_glass>,<enderio:block_holy_fused_glass>,<enderio:block_holy_fused_glass>],
 	[<enderio:block_holy_fused_glass>,<contenttweaker:mana_crystal2>,<deepmoblearning:living_matter_overworldian>,<contenttweaker:mana_crystal2>,<enderio:block_holy_fused_glass>],
@@ -72,7 +83,7 @@ TableCrafting.addShaped(0, <tinymobfarm:diamond_farm>, [
 ]);
 
 //大型能源
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockenergyinputhatch:4>*2, [
+TableCrafting.addShaped(0, <modularmachinery:blockenergyinputhatch:4>*2, [
 	[<tconevo:metal_block:7>, <modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:3>, <modularmachinery:blockcasing:4>, <tconevo:metal_block:7>], 
 	[<modularmachinery:blockcasing:4>, <enderio:item_capacitor_stellar>, <draconicevolution:particle_generator:2>, <enderio:item_capacitor_stellar>, <modularmachinery:blockcasing:4>], 
 	[<modularmachinery:blockenergyinputhatch:3>, <draconicevolution:particle_generator:2>, <draconicevolution:energy_storage_core>, <draconicevolution:particle_generator:2>, <modularmachinery:blockenergyinputhatch:3>], 
@@ -81,7 +92,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockenergyin
 ]);
 
 //模拟室
-recipes.remove(<deepmoblearning:simulation_chamber>);
 TableCrafting.addShaped(0, <deepmoblearning:simulation_chamber>*2, [
 	[<tconevo:metal>,<plustic:osgloglasingot>,<appliedenergistics2:material:9>,<plustic:osgloglasingot>,<tconevo:metal>],
 	[<plustic:osgloglasingot>,<contenttweaker:epiccircuit>,<deepmoblearning:machine_casing>,<contenttweaker:epiccircuit>,<plustic:osgloglasingot>],
