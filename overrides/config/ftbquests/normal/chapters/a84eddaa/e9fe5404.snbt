@@ -1,0 +1,24 @@
+{
+	x: -19.5d,
+	y: 4.5d,
+	shape: "hexagon",
+	text: [
+		"可继承所有聚合核心的合成配方，支持使用导管或漏斗等设备进行输入输出",
+		"基础能量缓存为10亿，可使用储电物品提供额外能量缓存，每充能满10亿，记作1单位存入右侧条，上限1万单位",
+		"充能速度极快，只要内部存储的能量达到合成所需的能量，即可瞬间充满",
+		"§e最下方红色栏用于放置注入装置，每个注入装置解锁一个原材料栏"
+	],
+	dependencies: [
+		"7fa925d4"
+	],
+	tasks: [{
+		uid: "5827b71e",
+		type: "item",
+		items: [{
+			id: "chambers:fusion_chamber",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

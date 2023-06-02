@@ -1,0 +1,41 @@
+{
+	x: -6.5d,
+	y: 0.5d,
+	text: [
+		"你的第三个合金设备 非常方便就是了 可以用于合成连接器"
+	],
+	dependencies: [
+		"e0872e76"
+	],
+	tasks: [{
+		uid: "459c191d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 3s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2731214",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -16.5d,
+	y: -1.0d,
+	text: [
+		"ME网络能够存储大量的物品，将物品统一化管理，同时也能根据自动化的样板，在下达合成指令后完成自动合成。",
+		"在建立ME网络时请尽量保证控制器结构在同一个区块内，否则可能会导致严重卡顿/AE故障",
+		"§e强烈建议使用大型分子装配室代替分子装配室以减少卡顿"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "77ae1f73",
+		type: "checkmark",
+		title: "ME网络",
+		icon: {
+			id: "appliedenergistics2:controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-口袋熔炉",
+	x: -7.5d,
+	y: 29.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b19c6f25",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 114s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ce853b6e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,39 @@
+{
+    "machine": "star_alloy_furance",
+    "adapter": "minecraft:furnace",
+    "modifiers": [
+        {
+            "io": "input",
+            "target": "modularmachinery:duration",
+            "operation": 1,
+            "multiplier": 0.01
+        },
+        {
+            "io": "input",
+            "target": "modularmachinery:energy",
+            "operation": 1,
+            "multiplier": 800
+        },
+        {
+            "io": "input",
+            "target": "modularmachinery:item",
+            "operation": 1,
+            "multiplier": 16
+        },
+        {
+            "io": "output",
+            "target": "modularmachinery:item",
+            "operation": 1,
+            "multiplier": 16
+        }
+    ],
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:furnace",
+            "amount": 16,
+            "chance": 0
+        }
+    ]
+}

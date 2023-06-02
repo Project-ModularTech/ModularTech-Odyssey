@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-大地震颤",
+	x: 3.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "93ab39cf",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 207s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "74d5f8c2",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

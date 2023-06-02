@@ -1,0 +1,25 @@
+{
+	x: 14.0d,
+	y: -10.5d,
+	text: [
+		"合成材料 可以合成野火核心"
+	],
+	dependencies: [
+		"1fe459ad"
+	],
+	tasks: [{
+		uid: "80accb03",
+		type: "item",
+		items: [{
+			id: "embers:ember_cluster",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4c5130b0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

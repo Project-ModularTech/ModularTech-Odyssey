@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: -2.5d,
+	dependencies: [
+		"b5198eb5"
+	],
+	tasks: [{
+		uid: "b34b0f8c",
+		type: "item",
+		items: [{
+			id: "enderio:block_solar_panel",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

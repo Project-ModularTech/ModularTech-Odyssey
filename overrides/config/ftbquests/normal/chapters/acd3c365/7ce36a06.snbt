@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-寒霜壁垒",
+	x: -7.5d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a71c6847",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 173s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "810a834d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

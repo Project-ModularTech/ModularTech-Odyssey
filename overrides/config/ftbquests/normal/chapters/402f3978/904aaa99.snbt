@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -3.5d,
+	dependencies: [
+		"dc0b8838"
+	],
+	tasks: [{
+		uid: "2bf1fe9e",
+		type: "item",
+		items: [{
+			id: "mekanism:enrichedalloy",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 18.5d,
+	y: -1.0d,
+	text: [
+		"用于制作石墨电极"
+	],
+	dependencies: [
+		"3fcae448"
+	],
+	tasks: [{
+		uid: "2cd86e76",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:material",
+			Damage: 18s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "58bfcf57",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

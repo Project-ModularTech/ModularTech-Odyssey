@@ -1,0 +1,24 @@
+{
+	title: "§a新手-召唤火蚁",
+	x: -19.0d,
+	y: 25.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "93f36d6b",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 361s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4e423215",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

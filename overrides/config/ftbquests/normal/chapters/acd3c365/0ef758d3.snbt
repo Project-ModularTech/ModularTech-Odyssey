@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-魔力增强",
+	x: -7.5d,
+	y: 28.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "90f2481e",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 151s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "10d39a51",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -8.0d,
+	y: -7.5d,
+	shape: "hexagon",
+	dependencies: [
+		"c399b559",
+		"3bbcf8b4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b7b8344e",
+		type: "item",
+		items: [{
+			id: "enderutilities:handybag",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1480501b",
+		type: "loot",
+		table: 4
+	}]
+}

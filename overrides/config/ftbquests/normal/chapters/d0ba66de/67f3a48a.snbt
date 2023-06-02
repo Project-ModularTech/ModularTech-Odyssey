@@ -1,0 +1,23 @@
+{
+	x: -10.0d,
+	y: -7.0d,
+	dependencies: [
+		"03791487",
+		"3a0b3ce5"
+	],
+	tasks: [{
+		uid: "b56f185e",
+		type: "item",
+		items: [{
+			id: "yabba:item_barrel_connector",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "efe66380",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 3.5d,
+	text: [
+		"一些铬 足以做不锈钢了"
+	],
+	dependencies: [
+		"9d48832f"
+	],
+	tasks: [{
+		uid: "756f26fe",
+		type: "item",
+		items: [{
+			id: "contenttweaker:chrome_dust",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1d95e8e0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

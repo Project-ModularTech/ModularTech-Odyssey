@@ -1,0 +1,37 @@
+{
+	title: "封包合成拓展",
+	x: -11.5d,
+	y: 2.5d,
+	shape: "hexagon",
+	dependencies: [
+		"0c19279e"
+	],
+	tasks: [{
+		uid: "07a49ed0",
+		type: "item",
+		items: [{
+			id: "packagedexcrafting:advanced_crafter",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "packagedexcrafting:elite_crafter",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "packagedexcrafting:ultimate_crafter",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f274c9b6",
+		type: "loot",
+		table: 3
+	}]
+}

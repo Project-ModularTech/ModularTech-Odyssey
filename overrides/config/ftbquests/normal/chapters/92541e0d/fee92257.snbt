@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: -2.5d,
+	dependencies: [
+		"ac11bcc2",
+		"10d6c4d5"
+	],
+	tasks: [{
+		uid: "d7b07621",
+		type: "item",
+		items: [{
+			id: "contenttweaker:mastercircuit",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "055b9b61",
+		type: "loot",
+		table: 5
+	}]
+}

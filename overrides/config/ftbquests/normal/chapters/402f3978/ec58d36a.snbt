@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: -5.5d,
+	dependencies: [
+		"ba6c594b"
+	],
+	tasks: [{
+		uid: "66f334c8",
+		type: "item",
+		items: [{
+			id: "minecraft:tnt",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

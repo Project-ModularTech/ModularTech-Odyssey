@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 4.5d,
+	text: [
+		"三级水晶 可以用于制作三级矿机 这是速度大幅度提升的阶段",
+		"因为可以安装升级了"
+	],
+	dependencies: [
+		"791e8aab"
+	],
+	tasks: [{
+		uid: "accd24d9",
+		type: "item",
+		items: [{
+			id: "environmentaltech:kyronite_crystal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

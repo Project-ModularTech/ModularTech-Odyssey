@@ -1,0 +1,26 @@
+{
+	x: 8.5d,
+	y: -3.0d,
+	text: [
+		"作用有很多的钢栅栏 可以用于装饰",
+		"当然 它更多时间是被拿去合成红石工程块"
+	],
+	dependencies: [
+		"78ea2513"
+	],
+	tasks: [{
+		uid: "7fefb570",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:metal_decoration1",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "727ddfbd",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "阶段十  终极力量",
+	icon: "extendedcrafting:singularity_ultimate",
+	description: [
+		"无限潜能"
+	],
+	always_invisible: false,
+	group: -2012405485,
+	default_quest_shape: ""
+}

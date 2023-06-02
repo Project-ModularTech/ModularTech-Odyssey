@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 0.5d,
+	dependencies: [
+		"ebf28898"
+	],
+	tasks: [{
+		uid: "17035ed9",
+		type: "item",
+		items: [{
+			id: "mekanism:polyethene",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6d52eec4",
+		type: "loot",
+		table: 4
+	}]
+}

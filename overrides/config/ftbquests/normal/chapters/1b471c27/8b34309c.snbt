@@ -1,0 +1,43 @@
+{
+	x: -11.0d,
+	y: -2.5d,
+	text: [
+		"压缩机可以用于制造板和齿轮",
+		"你只需要给出对应的升级就好了",
+		"齿轮需要对应的升级 右键安装"
+	],
+	dependencies: [
+		"f405c959"
+	],
+	tasks: [{
+		uid: "58ce5d6d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 5s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8f12b6c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

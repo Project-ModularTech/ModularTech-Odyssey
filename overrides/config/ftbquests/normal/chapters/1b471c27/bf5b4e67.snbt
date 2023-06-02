@@ -1,0 +1,26 @@
+{
+	x: 12.0d,
+	y: -6.5d,
+	text: [
+		"消耗两万魔力进行转换"
+	],
+	dependencies: [
+		"626961dc"
+	],
+	tasks: [{
+		uid: "a9cac9dc",
+		type: "item",
+		items: [{
+			id: "enderutilities:enderpart",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "43f9558a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

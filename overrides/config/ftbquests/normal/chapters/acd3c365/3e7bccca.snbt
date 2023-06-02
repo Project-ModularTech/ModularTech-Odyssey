@@ -1,0 +1,24 @@
+{
+	title: "§a新手-冻结",
+	x: -17.5d,
+	y: 23.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "307797a3",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "88f28712",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

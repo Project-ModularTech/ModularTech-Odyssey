@@ -1,0 +1,17 @@
+{
+	x: -3.5d,
+	y: -6.5d,
+	dependencies: [
+		"ed592742"
+	],
+	tasks: [{
+		uid: "a5ecc838",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_energy_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

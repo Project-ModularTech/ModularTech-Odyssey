@@ -1,0 +1,25 @@
+{
+	x: -9.0d,
+	y: -2.5d,
+	text: [
+		"厚度刚刚好 可以拿去制作电路板的基板了"
+	],
+	dependencies: [
+		"8b34309c"
+	],
+	tasks: [{
+		uid: "977b696e",
+		type: "item",
+		items: [{
+			id: "contenttweaker:compressedresinplate",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d7f2c785",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

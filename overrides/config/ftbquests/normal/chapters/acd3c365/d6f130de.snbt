@@ -1,0 +1,24 @@
+{
+	title: "§a新手-气泡头罩",
+	x: -20.5d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6c060a04",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 313s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7bc16dbf",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

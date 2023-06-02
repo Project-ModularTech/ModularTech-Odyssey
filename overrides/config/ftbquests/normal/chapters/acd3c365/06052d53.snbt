@@ -1,0 +1,24 @@
+{
+	title: "§6大师-冲击波",
+	x: 10.5d,
+	y: 25.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "26974f22",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 106s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7a4e10d9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

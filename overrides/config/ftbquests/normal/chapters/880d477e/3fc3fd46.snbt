@@ -1,0 +1,25 @@
+{
+	x: 26.5d,
+	y: -5.0d,
+	text: [
+		"制作赤晶锭的必要材料 多搞点 好东西"
+	],
+	dependencies: [
+		"96157cba"
+	],
+	tasks: [{
+		uid: "ac36a2c5",
+		type: "item",
+		items: [{
+			id: "contenttweaker:ruby",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "86365c3e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

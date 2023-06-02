@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-冰霜碎片",
+	x: -9.0d,
+	y: 44.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0e110339",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 20s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5eaf80da",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

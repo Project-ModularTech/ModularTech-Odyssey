@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-召唤强力守卫",
+	x: -3.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "130c8507",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 349s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e5ba3ed5",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-触发法术-火焰",
+	x: -12.0d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "098fc203",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 327s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "09e8f88a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

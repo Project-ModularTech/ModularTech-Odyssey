@@ -1,0 +1,27 @@
+{
+	x: 2.5d,
+	y: 3.5d,
+	shape: "gear",
+	text: [
+		"你需要使用MK2及以上工业高炉烧炼不锈钢粉来获取不锈钢锭"
+	],
+	dependencies: [
+		"fcbcedef"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "51f3869f",
+		type: "item",
+		items: [{
+			id: "contenttweaker:stainless_ingot",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1c654c19",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

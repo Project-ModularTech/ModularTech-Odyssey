@@ -1,0 +1,29 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	text: [
+		"你的第二个余烬能量产出设备",
+		"它需要在下半方块输入水才能运行",
+		"在它最下面放不同方块能增加不同系数",
+		"东西南北有热源（如岩浆）也能增加产能",
+		"金 银 铜 琥珀金块可以增加1.0的系数"
+	],
+	dependencies: [
+		"49552c16"
+	],
+	tasks: [{
+		uid: "f180760f",
+		type: "item",
+		items: [{
+			id: "embers:boiler",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "403f392c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

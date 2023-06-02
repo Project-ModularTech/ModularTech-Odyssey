@@ -1,0 +1,38 @@
+{
+	x: -9.5d,
+	y: -1.0d,
+	text: [
+		"通过木制曲柄插入石英磨具，并对曲柄持续右键来粉碎物品"
+	],
+	dependencies: [
+		"8dc01937",
+		"1670f5c3"
+	],
+	tasks: [{
+		uid: "6aca8380",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:grindstone",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6927a4b3",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:crank",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d84b69e0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

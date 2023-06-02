@@ -1,0 +1,447 @@
+{
+	title: "三级奖励箱",
+	icon: "contenttweaker:box3",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "contenttweaker:resinmachineblock",
+		count: 4
+	},
+	{
+		item: "rftools:machine_frame",
+		count: 8
+	},
+	{
+		item: "thermalexpansion:frame",
+		count: 4
+	},
+	{
+		item: "enderio:item_material"
+	},
+	{
+		item: "ebwizardry:advanced_wand"
+	},
+	{
+		item: "ebwizardry:advanced_fire_wand"
+	},
+	{
+		item: "ebwizardry:advanced_ice_wand"
+	},
+	{
+		item: "ebwizardry:advanced_necromancy_wand"
+	},
+	{
+		item: "ebwizardry:advanced_earth_wand"
+	},
+	{
+		item: "ebwizardry:advanced_sorcery_wand"
+	},
+	{
+		item: "ebwizardry:advanced_healing_wand"
+	},
+	{
+		item: "contenttweaker:box2"
+	},
+	{
+		item: "contenttweaker:box1",
+		count: 2
+	},
+	{
+		item: "contenttweaker:box3"
+	},
+	{
+		item: "contenttweaker:box4"
+	},
+	{
+		item: "minecraft:skull 1 5",
+		count: 4
+	},
+	{
+		item: "botania:storage 1 4"
+	},
+	{
+		item: "nuclearcraft:rtg_plutonium"
+	},
+	{
+		item: "nuclearcraft:solar_panel_du"
+	},
+	{
+		item: "enderio:block_solar_panel 1 3"
+	},
+	{
+		item: "immersiveengineering:metal_decoration0 1 3",
+		count: 32
+	},
+	{
+		item: "immersiveengineering:metal_decoration0 1 4",
+		count: 32
+	},
+	{
+		item: "immersiveengineering:metal_decoration0 1 5",
+		count: 32
+	},
+	{
+		item: "contenttweaker:crystal_1",
+		count: 8
+	},
+	{
+		item: "contenttweaker:advancedcircuit",
+		count: 4
+	},
+	{
+		item: "contenttweaker:basiccircuit",
+		count: 8
+	},
+	{
+		item: "extendedcrafting:table_advanced"
+	},
+	{
+		item: "minecraft:ender_pearl",
+		count: 64
+	},
+	{
+		item: "minecraft:blaze_rod",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:material 1 38",
+		count: 4
+	},
+	{
+		item: "aeadditions:storage.component 1 1"
+	},
+	{
+		item: "appliedenergistics2:material 1 37",
+		count: 4
+	},
+	{
+		item: "botania:manaresource 1 14"
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 32
+	},
+	{
+		item: "nuclearcraft:alloy 1 15",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:upgrade 1 1"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 2"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 3"
+	},
+	{
+		item: "ae2stuff:wireless",
+		count: 2
+	},
+	{
+		item: "ae2stuff:wireless_kit"
+	},
+	{
+		item: "ae2wtlib:infinity_booster_card",
+		count: 64
+	},
+	{
+		item: "appliedenergistics2:material 1 42",
+		count: 16
+	},
+	{
+		item: "thermalexpansion:augment 1 128",
+		count: 4
+	},
+	{
+		item: "thermalexpansion:augment 1 129",
+		count: 4
+	},
+	{
+		item: "thermalexpansion:augment 1 512",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:fertilizer 1 2",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:fertilizer 1 1",
+		count: 32
+	},
+	{
+		item: "environmentaltech:laser_core",
+		count: 4
+	},
+	{
+		item: "environmentaltech:connector",
+		count: 16
+	},
+	{
+		item: "astralsorcery:blockcustomore 1 1",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:upgrade 1 35"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 34"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 33"
+	},
+	{
+		item: "contenttweaker:compressedresinplate",
+		count: 16
+	},
+	{
+		item: "environmentaltech:structure_frame_1",
+		count: 4
+	},
+	{
+		item: "environmentaltech:solar_cell_litherite",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage_alloy",
+		count: 8
+	},
+	{
+		item: "immersiveengineering:storage 1 5",
+		count: 4
+	},
+	{
+		item: {
+			id: "thermalexpansion:device",
+			Damage: 4s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0
+			}
+		}
+	},
+	{
+		item: "environmentaltech:structure_frame_2",
+		count: 4
+	},
+	{
+		item: "tinymobfarm:gold_farm"
+	},
+	{
+		item: "tinymobfarm:iron_farm",
+		count: 2
+	},
+	{
+		item: "minecraft:elytra"
+	},
+	{
+		item: "draconicevolution:crafting_injector",
+		count: 2
+	},
+	{
+		item: "appliedenergistics2:sky_stone_block",
+		count: 128
+	},
+	{
+		item: "quark:marble",
+		count: 128
+	},
+	{
+		item: "immersiveengineering:material 1 4",
+		count: 128
+	},
+	{
+		item: "immersiveengineering:stone_decoration 1 4",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:storage 1 6",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:glass_alloy 1 7",
+		count: 16
+	},
+	{
+		item: "enderio:item_material 1 20",
+		count: 32
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 70s,
+					lvl: 1s
+				}]
+			}
+		}
+	},
+	{
+		item: "oeintegration:excavatemodifier",
+		count: 8
+	},
+	{
+		item: "touhou_little_maid:smart_slab"
+	},
+	{
+		item: "modularmachinery:blockcasing 1 3",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage_alloy",
+		count: 16
+	},
+	{
+		item: "minecraft:nether_star",
+		count: 2
+	},
+	{
+		item: "draconicevolution:dragon_heart",
+		count: 2
+	},
+	{
+		item: {
+			id: "draconicevolution:draconium_chest",
+			tag: {
+				ChestColour: 6553750
+			}
+		}
+	},
+	{
+		item: "draconicevolution:draconium_dust",
+		count: 32
+	},
+	{
+		item: "botania:terrasword"
+	},
+	{
+		item: {
+			id: "mekanism:atomicdisassembler",
+			tag: {
+				mekData: {
+					energyStored: 1000000.0d
+				}
+			}
+		}
+	},
+	{
+		item: "modularrouters:item_router",
+		count: 16
+	},
+	{
+		item: "fluxnetworks:fluxcore",
+		count: 32
+	},
+	{
+		item: "modularrouters:upgrade 1 1",
+		count: 16
+	},
+	{
+		item: "modularrouters:upgrade",
+		count: 16
+	},
+	{
+		item: "enderutilities:storage_0 1 5"
+	},
+	{
+		item: "nuclearcraft:portable_ender_chest"
+	},
+	{
+		item: "enderio:item_alloy_endergy_ball 1 3",
+		count: 8
+	},
+	{
+		item: "enderio:item_material 1 58",
+		count: 24
+	},
+	{
+		item: "enderio:item_alloy_ball 1 8",
+		count: 24
+	},
+	{
+		item: "avaritiaio:grindingballneutronium",
+		count: 8
+	},
+	{
+		item: "enderio:item_extract_speed_upgrade",
+		count: 8
+	},
+	{
+		item: "contenttweaker:crystal_2",
+		count: 8
+	},
+	{
+		item: "environmentaltech:erodium_crystal",
+		count: 32,
+		weight: 2
+	},
+	{
+		item: "environmentaltech:laser_lens_crystal",
+		count: 2
+	},
+	{
+		item: "environmentaltech:structure_frame_2",
+		count: 4
+	},
+	{
+		item: "environmentaltech:erodium",
+		count: 4
+	},
+	{
+		item: "rftools:peace_essence"
+	},
+	{
+		item: "yabba:upgrade_blank",
+		count: 4
+	},
+	{
+		item: "yabba:upgrade_iron_tier",
+		count: 4
+	},
+	{
+		item: "yabba:upgrade_gold_tier",
+		count: 2
+	},
+	{
+		item: "harvestcraft:energydrinkitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:bbqpotatochipsitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:honeyglazedcarrotsitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:groiledcheesesandwichitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:kohlundpinkelitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:gourmetmuttonburgeritem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:chimichangaitem",
+		count: 4
+	}]
+}

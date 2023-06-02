@@ -1,0 +1,17 @@
+{
+	x: -5.5d,
+	y: 2.5d,
+	dependencies: [
+		"1412ea2d"
+	],
+	tasks: [{
+		uid: "133bb9ce",
+		type: "item",
+		items: [{
+			id: "contenttweaker:universe_ingot",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -5.5d,
+	y: -1.0d,
+	text: [
+		"古代砖块可以用来制作基础的余烬机械",
+		"当然啦 后面也会用到很多",
+		""
+	],
+	dependencies: [
+		"c452304f",
+		"e2987d02"
+	],
+	tasks: [{
+		uid: "14734763",
+		type: "item",
+		items: [{
+			id: "embers:archaic_brick",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "26703c2e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

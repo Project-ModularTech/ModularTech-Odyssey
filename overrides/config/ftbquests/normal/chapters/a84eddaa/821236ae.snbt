@@ -1,0 +1,18 @@
+{
+	x: -13.5d,
+	y: 4.5d,
+	dependencies: [
+		"82c94e3c",
+		"a47b23b6"
+	],
+	tasks: [{
+		uid: "2fcbb172",
+		type: "item",
+		items: [{
+			id: "avaritia:ultimate_stew",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

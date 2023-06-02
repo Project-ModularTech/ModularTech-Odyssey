@@ -1,0 +1,28 @@
+{
+	x: 6.5d,
+	y: -5.5d,
+	shape: "gear",
+	text: [
+		"mek的机械方块 几乎所有机器都需要 所以我推荐制作自动化"
+	],
+	dependencies: [
+		"9f8ac405"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "60008d9f",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock",
+			Damage: 8s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "aa84b975",
+		type: "loot",
+		table: 3
+	}]
+}

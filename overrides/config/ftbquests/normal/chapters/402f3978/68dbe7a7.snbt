@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: -3.5d,
+	dependencies: [
+		"ec58d36a"
+	],
+	tasks: [{
+		uid: "c783f2ec",
+		type: "item",
+		items: [{
+			id: "modularmachinery:implosion_compressor_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

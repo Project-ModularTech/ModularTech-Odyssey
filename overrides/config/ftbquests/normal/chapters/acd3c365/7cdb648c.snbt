@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-奥数磁场",
+	x: -3.0d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4185a471",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 265s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "94008ae8",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

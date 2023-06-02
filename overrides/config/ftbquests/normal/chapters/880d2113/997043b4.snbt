@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 3.0d,
+	dependencies: [
+		"92541e0d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c68c6690",
+		type: "checkmark",
+		title: "完成阶段五",
+		icon: {
+			id: "contenttweaker:nova",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

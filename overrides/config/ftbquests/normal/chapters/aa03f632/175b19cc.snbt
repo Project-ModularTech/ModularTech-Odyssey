@@ -1,0 +1,28 @@
+{
+	title: "基础电容",
+	x: -16.0d,
+	y: -5.5d,
+	text: [
+		"电容是end io不可或缺的一部分 高等级的电容可以让你的机器更快速 运行范围更大等"
+	],
+	dependencies: [
+		"abd28174"
+	],
+	optional: true,
+	tasks: [{
+		uid: "61e465e9",
+		type: "item",
+		items: [{
+			id: "enderio:item_basic_capacitor",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "enderio:item_capacitor_silver",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

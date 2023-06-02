@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: -6.5d,
+	text: [
+		"存储魔力的设备 可以安装火花"
+	],
+	dependencies: [
+		"fa4e0c5f"
+	],
+	tasks: [{
+		uid: "3a58399c",
+		type: "item",
+		items: [{
+			id: "botania:pool",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3e1c8763",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

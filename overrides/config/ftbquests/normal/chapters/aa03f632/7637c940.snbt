@@ -1,0 +1,40 @@
+{
+	title: "顶尖机械",
+	x: -10.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	text: [
+		"你可以制作一些不死图腾电容来提升效率 因为不死图腾电容可以附魔效率来提升机械运作速度"
+	],
+	dependencies: [
+		"a589b815"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c4b50a51",
+		type: "item",
+		items: [{
+			id: "enderio:block_enhanced_alloy_smelter",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d6b6aff5",
+		type: "item",
+		items: [{
+			id: "enderio:block_enhanced_sag_mill",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "85f67608",
+		type: "loot",
+		table: 3
+	}]
+}

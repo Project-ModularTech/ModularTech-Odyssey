@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: -8.5d,
+	text: [
+		"聚星缸只有底面可以连接管道输出 有了五彩祭坛就可以做遏制圣杯 它可以自动抽取聚星缸的星能液"
+	],
+	dependencies: [
+		"ad9f2a26"
+	],
+	tasks: [{
+		uid: "724b18b6",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockwell",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "32d015b4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

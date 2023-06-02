@@ -1,0 +1,21 @@
+{
+	x: -8.5d,
+	y: -6.0d,
+	text: [
+		"获得配方产物"
+	],
+	dependencies: [
+		"63bd2cb3",
+		"2bff0041"
+	],
+	tasks: [{
+		uid: "052b642f",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockoutputbus",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

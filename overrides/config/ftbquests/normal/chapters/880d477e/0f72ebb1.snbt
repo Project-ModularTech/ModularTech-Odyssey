@@ -1,0 +1,51 @@
+{
+	icon: "embers:stamper",
+	x: 20.5d,
+	y: -5.0d,
+	text: [
+		"它由两部分组成：压印锤和压印基座。压印须面向压印基座，且两者之间必须有一格的空间距离",
+		"给予压印锤模具以及一定量的灰烬能量，压印器将开始工作。压印后的产物会直接掉落到世界上",
+		"§e你可以在压印锤和压印基座中间放置一个储物仓，将压印产物自动收集"
+	],
+	dependencies: [
+		"15012e6d"
+	],
+	tasks: [{
+		uid: "cac23e03",
+		type: "item",
+		items: [{
+			id: "embers:stamper",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3ff55a1f",
+		type: "item",
+		items: [{
+			id: "embers:stamper_base",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "92402a32",
+		type: "item",
+		items: [{
+			id: "embers:stamp_bar",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "589e763a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

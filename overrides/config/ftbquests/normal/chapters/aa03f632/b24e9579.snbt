@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -7.5d,
+	shape: "gear",
+	text: [
+		"在这一阶段基础电路板会很有用 所以建议发展ae搞自动化"
+	],
+	dependencies: [
+		"ea147dc6"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7e56f48f",
+		type: "item",
+		items: [{
+			id: "contenttweaker:basiccircuit",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

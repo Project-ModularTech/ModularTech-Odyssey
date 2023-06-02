@@ -1,0 +1,85 @@
+{
+	icon: "embers:alchemy_tablet",
+	x: 12.0d,
+	y: -10.5d,
+	text: [
+		"余烬的炼金 非常帅",
+		"炼金制作物品的方法如下：灰烬炼金术是一个奇妙的发现。第一个关键设备是炼金台：通过右键除了底面以外的五个面来放入物品（或者使用管道）。接下来是炼金基座，基座上必须包含金属元素象征和一定量的灰烬。你必须在炼金台中摆上正确 的配方，并在相应的元素象征中放入确定范围数量的灰烬。最后，用光束炮轰击炼金台以启动炼金仪式"
+	],
+	dependencies: [
+		"0d7b98ad"
+	],
+	tasks: [{
+		uid: "018d6fcd",
+		type: "item",
+		items: [{
+			id: "embers:alchemy_pedestal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "21e9af33",
+		type: "item",
+		items: [{
+			id: "embers:alchemy_tablet",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d63f0f25",
+		type: "item",
+		items: [{
+			id: "embers:beam_cannon",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e94e9737",
+		type: "item",
+		title: "任意元素象征",
+		items: [{
+			id: "embers:aspectus_copper",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "embers:aspectus_iron",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "embers:aspectus_lead",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "embers:aspectus_silver",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "embers:aspectus_dawnstone",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fffd0c43",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

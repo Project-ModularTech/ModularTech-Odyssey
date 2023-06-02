@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-力与魔法",
+	x: -12.0d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1b64b81c",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 325s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "03dd3d8d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

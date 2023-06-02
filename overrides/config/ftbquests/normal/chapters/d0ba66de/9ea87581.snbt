@@ -1,0 +1,24 @@
+{
+	title: "物品存储的不错选择",
+	x: -12.0d,
+	y: -5.0d,
+	dependencies: [
+		"bcdf7786"
+	],
+	tasks: [{
+		uid: "f509a6a7",
+		type: "item",
+		items: [{
+			id: "enderutilities:enderpart",
+			Damage: 51s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f5795536",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

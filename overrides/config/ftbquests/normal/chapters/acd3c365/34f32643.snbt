@@ -1,0 +1,24 @@
+{
+	title: "§6大师-焚尽术",
+	x: 9.0d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "cb79e4ee",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 304s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "376d3e24",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

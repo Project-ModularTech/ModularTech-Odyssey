@@ -1,0 +1,29 @@
+{
+	x: 26.5d,
+	y: -3.0d,
+	shape: "hexagon",
+	text: [
+		"可以用于存储27种不同的物品",
+		"最大堆叠数1024",
+		"可以设置的哦"
+	],
+	dependencies: [
+		"bcdf7786"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ffd1e422",
+		type: "item",
+		items: [{
+			id: "enderutilities:asu",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "84ee3b02",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

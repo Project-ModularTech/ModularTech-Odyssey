@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: -14.5d,
+	text: [
+		"有了星能聚集器就可以便宜的合成聚星玻璃了",
+		"它会在每一次合成随机消耗掉其中一桶星能液 你可以在它附近放一个遏制圣杯来给予他消耗的星能液"
+	],
+	dependencies: [
+		"97f33223"
+	],
+	tasks: [{
+		uid: "6af615ee",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockstarlightinfuser",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1480ef7e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

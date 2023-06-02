@@ -1,0 +1,26 @@
+{
+	x: -9.0d,
+	y: -8.5d,
+	text: [
+		"星辰石是激发了陨石粉的魔力造就的",
+		"用它来合成赤晶锭吧"
+	],
+	dependencies: [
+		"9eef7609"
+	],
+	tasks: [{
+		uid: "fef09bb5",
+		type: "item",
+		items: [{
+			id: "contenttweaker:starstone",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cb8a956e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

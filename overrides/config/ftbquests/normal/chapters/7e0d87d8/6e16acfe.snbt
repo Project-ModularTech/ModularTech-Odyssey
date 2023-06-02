@@ -1,0 +1,15 @@
+{
+	x: -21.0d,
+	y: 1.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "c704d0cd",
+		type: "item",
+		items: [{
+			id: "thermaldynamics:duct_0",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

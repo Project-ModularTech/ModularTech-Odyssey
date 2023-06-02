@@ -1,0 +1,23 @@
+{
+	x: -24.0d,
+	y: -5.0d,
+	dependencies: [
+		"a9cac9dc"
+	],
+	tasks: [{
+		uid: "bba6f7ce",
+		type: "item",
+		items: [{
+			id: "enderutilities:handybag",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "129cb62e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

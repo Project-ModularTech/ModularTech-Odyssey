@@ -1,0 +1,27 @@
+{
+	x: -7.5d,
+	y: -3.0d,
+	text: [
+		"使用工业大麻纤维制成的方块"
+	],
+	dependencies: [
+		"34c478d5"
+	],
+	tasks: [{
+		uid: "e8fe2be0",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:stone_decoration",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "33e7e0c6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-火之誓约",
+	x: 3.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "bc5f78e0",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 194s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ba9311f7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

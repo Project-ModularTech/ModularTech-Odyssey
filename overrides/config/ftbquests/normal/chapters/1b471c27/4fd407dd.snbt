@@ -1,0 +1,29 @@
+{
+	x: 8.0d,
+	y: -10.5d,
+	text: [
+		"用于制作泰拉钢 需要半魔力池的魔力 一定要检查好哦",
+		"可以安装火花来加速凝聚",
+		"多个安装火花的魔力池可以为其加速 越多越快",
+		""
+	],
+	dependencies: [
+		"29599978",
+		"49df3821"
+	],
+	tasks: [{
+		uid: "753ef548",
+		type: "item",
+		items: [{
+			id: "botania:terraplate",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "667afe90",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

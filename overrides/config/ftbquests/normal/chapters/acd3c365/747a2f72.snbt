@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-熔毁大地",
+	x: -10.5d,
+	y: 47.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1e104425",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 366s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "692176ce",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

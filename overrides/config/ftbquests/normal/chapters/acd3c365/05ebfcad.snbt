@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-水晶地雷",
+	x: -12.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "af9b33fa",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 319s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8ecff9e8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

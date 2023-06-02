@@ -1,0 +1,41 @@
+{
+	x: -14.0d,
+	y: -7.5d,
+	text: [
+		"有了烈酒之后 你可以使用药水酿造机往烈酒注入烈焰之炙 获得火焰水"
+	],
+	dependencies: [
+		"c382c6a5"
+	],
+	tasks: [{
+		uid: "779470c8",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 12s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6cc6fe16",
+		type: "loot",
+		table: 3
+	}]
+}

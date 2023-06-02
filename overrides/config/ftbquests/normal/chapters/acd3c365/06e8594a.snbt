@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-饱食恢复",
+	x: -9.0d,
+	y: 35.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "609f0b2d",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 45s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ba9a2770",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

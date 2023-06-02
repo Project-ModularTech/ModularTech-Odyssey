@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-魔力流转",
+	x: -12.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2e85035d",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 266s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3f4c0831",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-羽落术",
+	x: -10.5d,
+	y: 28.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c5c9dec6",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 285s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cd52053c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

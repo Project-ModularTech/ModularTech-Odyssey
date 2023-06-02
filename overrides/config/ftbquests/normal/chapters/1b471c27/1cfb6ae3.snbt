@@ -1,0 +1,34 @@
+{
+	x: 2.0d,
+	y: -10.5d,
+	text: [
+		"森林法杖是植物魔法的绑定工具",
+		"先shift右键需要绑定的物品（如魔力发射器）之后再次右击接受魔力的物品（如魔力池）",
+		"绑定就成功了",
+		"shift空气右键会改为工作模式 它会让你的魔力发射器面朝和你视角一个方向"
+	],
+	dependencies: [
+		"acdefbd4"
+	],
+	tasks: [{
+		uid: "eb81ff61",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "29096ea4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

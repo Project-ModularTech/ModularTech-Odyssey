@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-毒液球",
+	x: -13.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9b6cf554",
+		type: "item",
+		items: [{
+			id: "mospells:mospells_spell_book",
+			Damage: 460s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0b988be1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

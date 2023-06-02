@@ -1,0 +1,27 @@
+{
+	x: -9.0d,
+	y: 3.5d,
+	shape: "hexagon",
+	text: [
+		"可以直接消耗半组原木 合成树脂板 也可以更节约树脂做成树脂板"
+	],
+	dependencies: [
+		"2c57c9a8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2e7597d0",
+		type: "item",
+		items: [{
+			id: "modularmachinery:factory_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "99a3a730",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

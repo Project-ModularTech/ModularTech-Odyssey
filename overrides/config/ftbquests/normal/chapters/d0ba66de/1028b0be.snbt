@@ -1,0 +1,27 @@
+{
+	x: -16.0d,
+	y: -7.0d,
+	dependencies: [
+		"8e3ba40d"
+	],
+	tasks: [{
+		uid: "786c3ee0",
+		type: "item",
+		items: [{
+			id: "astralsorcery:iteminfusedglass",
+			tag: {
+				astralsorcery: {}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d994f41",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

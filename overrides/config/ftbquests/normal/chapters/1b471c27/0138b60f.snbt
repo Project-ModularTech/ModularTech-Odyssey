@@ -1,0 +1,26 @@
+{
+	x: 12.0d,
+	y: -14.5d,
+	text: [
+		"血魔法的合成台其一 注意合成时需要的最低意识量 不足是不能合成的"
+	],
+	dependencies: [
+		"0485c77f"
+	],
+	tasks: [{
+		uid: "3607e0ea",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_forge",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8eee0e16",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

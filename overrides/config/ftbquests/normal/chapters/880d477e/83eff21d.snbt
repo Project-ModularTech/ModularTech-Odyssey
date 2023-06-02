@@ -1,0 +1,17 @@
+{
+	x: 20.5d,
+	y: -3.0d,
+	dependencies: [
+		"432a7472"
+	],
+	tasks: [{
+		uid: "d5f3c620",
+		type: "checkmark",
+		title: "合金窑"
+	}],
+	rewards: [{
+		uid: "a4743ce4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

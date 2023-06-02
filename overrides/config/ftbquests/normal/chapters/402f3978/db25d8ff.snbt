@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	dependencies: [
+		"f220d94a"
+	],
+	tasks: [{
+		uid: "1d9c43ac",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "也可以客串一下垃圾桶？",
+	x: -20.0d,
+	y: -5.0d,
+	dependencies: [
+		"6aca8380"
+	],
+	tasks: [{
+		uid: "92578a8f",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:condenser",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0808e4ca",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

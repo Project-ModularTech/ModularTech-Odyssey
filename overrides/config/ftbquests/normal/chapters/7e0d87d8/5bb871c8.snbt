@@ -1,0 +1,12 @@
+{
+	x: -13.5d,
+	y: -7.0d,
+	dependencies: [
+		"2af3657e"
+	],
+	tasks: [{
+		uid: "94674f45",
+		type: "checkmark",
+		title: "能源炉"
+	}]
+}

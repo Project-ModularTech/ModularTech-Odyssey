@@ -1,0 +1,18 @@
+{
+	x: -17.5d,
+	y: 0.5d,
+	shape: "gear",
+	dependencies: [
+		"c65b5d16"
+	],
+	tasks: [{
+		uid: "20d207c2",
+		type: "item",
+		items: [{
+			id: "contenttweaker:curseplate",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 6.0d,
+	y: -6.5d,
+	text: [
+		"有了白雏菊 就可以制作活石和活木了 这些都是植物魔法的基本材料"
+	],
+	dependencies: [
+		"5edec1ab"
+	],
+	tasks: [{
+		uid: "dd496d4c",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a6067449",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

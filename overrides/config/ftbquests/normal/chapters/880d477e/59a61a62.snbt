@@ -1,0 +1,26 @@
+{
+	x: 14.5d,
+	y: -1.0d,
+	text: [
+		"你的第一个铁板 可以用于合成很多东西"
+	],
+	dependencies: [
+		"5aabbd76"
+	],
+	tasks: [{
+		uid: "7c8c7593",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:material",
+			Damage: 32s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ab2a98be",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 16.5d,
+	y: -1.0d,
+	text: [
+		"工业挤压机能够把种子压榨成植物油，还能把 8 个焦煤粉压成高定向热解石墨粉"
+	],
+	dependencies: [
+		"59a61a62"
+	],
+	tasks: [{
+		uid: "08a0deef",
+		type: "checkmark",
+		title: "工业挤压机"
+	}],
+	rewards: [{
+		uid: "17f71f43",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

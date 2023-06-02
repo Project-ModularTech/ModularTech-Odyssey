@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-太阳光束",
+	x: -13.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "60aa3349",
+		type: "item",
+		items: [{
+			id: "mospells:mospells_spell_book",
+			Damage: 462s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ee765eb7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-献祭印记",
+	x: -7.5d,
+	y: 19.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4717b916",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 176s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ff9bf2bf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

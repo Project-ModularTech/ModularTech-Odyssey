@@ -1,0 +1,36 @@
+{
+	x: -20.0d,
+	y: -7.0d,
+	dependencies: [
+		"d4564bbe"
+	],
+	tasks: [{
+		uid: "358d9877",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				RSControl: 0b,
+				Energy: 0
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b81c5f5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

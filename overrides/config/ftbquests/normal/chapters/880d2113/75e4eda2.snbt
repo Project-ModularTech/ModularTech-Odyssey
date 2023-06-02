@@ -1,0 +1,35 @@
+{
+	title: "完成阶段一",
+	icon: {
+		id: "immersiveengineering:wooden_device0",
+		Damage: 2s,
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	x: -8.0d,
+	y: 3.0d,
+	dependencies: [
+		"880d477e"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "845ca622",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "bbabd48e",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "89a1c7ae",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "636bce8d",
+		type: "loot",
+		table: 1
+	}]
+}

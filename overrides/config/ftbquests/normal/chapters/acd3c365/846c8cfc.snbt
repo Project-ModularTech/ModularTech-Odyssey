@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-触发法术-溺水",
+	x: -12.0d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b00efae5",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 332s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c211f99d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

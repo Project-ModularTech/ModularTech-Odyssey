@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"将它放置在冶炼炉控制器的顶端即可自动激活，可以加快熔炼速度"
+	],
+	dependencies: [
+		"5c616d0a"
+	],
+	tasks: [{
+		uid: "6ba8a17b",
+		type: "item",
+		items: [{
+			id: "simplesmelteryaccelerator:smeltery_accelerator",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d545cdb1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

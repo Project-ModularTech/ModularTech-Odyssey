@@ -1,0 +1,22 @@
+{
+	x: 10.0d,
+	y: -5.5d,
+	dependencies: [
+		"30e11745"
+	],
+	tasks: [{
+		uid: "184b4bd4",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:block_depleted_curium",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4374d268",
+		type: "loot",
+		table: 4
+	}]
+}

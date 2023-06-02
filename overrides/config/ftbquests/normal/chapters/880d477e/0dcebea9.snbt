@@ -1,0 +1,28 @@
+{
+	x: 22.5d,
+	y: -5.0d,
+	text: [
+		"余烬的高级材料 用于制造很多的高级设备",
+		""
+	],
+	dependencies: [
+		"0f72ebb1",
+		"94b93202"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "230e5f4d",
+		type: "item",
+		items: [{
+			id: "embers:ingot_dawnstone",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cc240bb1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

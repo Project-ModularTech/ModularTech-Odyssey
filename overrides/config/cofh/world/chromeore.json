@@ -1,0 +1,32 @@
+{
+    "dependencies": "contenttweaker",
+    "populate": {
+        "Oceanore": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "contenttweaker:chrome_ore"
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 3
+            },
+            "cluster-count": 6,
+            "min-height": 0,
+            "max-height": 63,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0,
+                    10,
+                    11,
+                    12,
+                    13,
+                    22
+                ]
+            }
+        }
+    }
+}

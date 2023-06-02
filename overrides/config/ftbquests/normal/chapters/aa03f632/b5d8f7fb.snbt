@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"盖亚之魂需要击败盖亚守护者获得 具体请看植物魔法篇"
+	],
+	dependencies: [
+		"f8008f43",
+		"6367dc6c"
+	],
+	tasks: [{
+		uid: "5181e378",
+		type: "item",
+		items: [{
+			id: "botania:manaresource",
+			Damage: 14s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b8469e72",
+		type: "loot",
+		table: 3
+	}]
+}

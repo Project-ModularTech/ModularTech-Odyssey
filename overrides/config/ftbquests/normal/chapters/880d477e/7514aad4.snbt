@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: -5.0d,
+	shape: "hexagon",
+	text: [
+		"可以高速冷却的浇筑台，需要铸模",
+		"放置在浇筑口下方并右键浇筑口使炉子的液体进入智能输出端",
+		"你也可以用流体管道来输入流体",
+		"请不要直接挖掘 它会清除所有存储流体"
+	],
+	dependencies: [
+		"7bc38d09"
+	],
+	optional: true,
+	tasks: [{
+		uid: "421328e7",
+		type: "item",
+		items: [{
+			id: "tinker_io:smart_output",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fbe80662",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

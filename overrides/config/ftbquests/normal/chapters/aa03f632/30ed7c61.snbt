@@ -1,0 +1,38 @@
+{
+	title: "简易机器",
+	x: -18.0d,
+	y: -5.5d,
+	text: [
+		"这是end io的简易机械 它会漏电 但是不需要电容 "
+	],
+	dependencies: [
+		"1bf83ae2"
+	],
+	tasks: [{
+		uid: "d64d1dc8",
+		type: "item",
+		items: [{
+			id: "enderio:block_simple_alloy_smelter",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aebee908",
+		type: "item",
+		items: [{
+			id: "enderio:block_simple_sag_mill",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "36397034",
+		type: "loot",
+		table: 3
+	}]
+}

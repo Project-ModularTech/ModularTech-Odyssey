@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	dependencies: [
+		"d13197f0"
+	],
+	tasks: [{
+		uid: "66c2497c",
+		type: "item",
+		items: [{
+			id: "modularmachinery:research2_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3b4063c4",
+		type: "loot",
+		table: 5
+	}]
+}

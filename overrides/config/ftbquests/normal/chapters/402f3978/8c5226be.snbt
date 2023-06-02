@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: -11.5d,
+	dependencies: [
+		"06f02142"
+	],
+	tasks: [{
+		uid: "33aa450a",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:extraction_chamber",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31e9107c",
+		type: "loot",
+		table: 4
+	}]
+}

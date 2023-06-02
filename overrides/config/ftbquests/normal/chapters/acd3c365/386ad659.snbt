@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-Shock Zone",
+	x: -10.5d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6c03ebda",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 413s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0679ce5f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

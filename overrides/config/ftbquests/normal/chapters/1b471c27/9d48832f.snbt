@@ -1,0 +1,27 @@
+{
+	title: "大型电解池",
+	icon: "modularmachinery:large_electrolytic_cell_controller",
+	x: -4.0d,
+	y: 3.5d,
+	text: [
+		"电解池可以让你前期获得铬 做不锈钢的必要材料"
+	],
+	dependencies: [
+		"2c57c9a8"
+	],
+	tasks: [{
+		uid: "c0d518bd",
+		type: "item",
+		items: [{
+			id: "modularmachinery:large_electrolytic_cell_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1534fa5c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

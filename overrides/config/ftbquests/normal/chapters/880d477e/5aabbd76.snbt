@@ -1,0 +1,27 @@
+{
+	x: 12.5d,
+	y: -1.0d,
+	text: [
+		"将空白铸模投入粉碎机获取板铸模",
+		"在制作出金属冲压机之前你需要使用匠魂冶炼炉来制造金属板"
+	],
+	dependencies: [
+		"9e4070d6"
+	],
+	tasks: [{
+		uid: "6d827df5",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast_custom",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8c737637",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

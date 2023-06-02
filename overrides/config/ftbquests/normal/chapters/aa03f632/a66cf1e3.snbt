@@ -1,0 +1,28 @@
+{
+	x: -13.5d,
+	y: 0.5d,
+	shape: "hexagon",
+	text: [
+		"人类的本质是烧开水 工业蒸汽机可以稳定发电 来拯救缺电的你"
+	],
+	dependencies: [
+		"a0dfaeb9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f03e6979",
+		type: "item",
+		items: [{
+			id: "modularmachinery:water_fire_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a3cf8078",
+		type: "loot",
+		table: 3
+	}]
+}

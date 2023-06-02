@@ -1,0 +1,38 @@
+{
+	x: 10.5d,
+	y: -5.0d,
+	text: [
+		"用于加工空白模具",
+		"被加工过的也可以放上去重新加工"
+	],
+	dependencies: [
+		"c4e250d1"
+	],
+	tasks: [{
+		uid: "90f33a6c",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 1s,
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a93f700b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

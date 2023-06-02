@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 1.5d,
+	dependencies: [
+		"57f51f7b"
+	],
+	tasks: [{
+		uid: "653c31d3",
+		type: "item",
+		items: [{
+			id: "modularmachinery:combustion_engine_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

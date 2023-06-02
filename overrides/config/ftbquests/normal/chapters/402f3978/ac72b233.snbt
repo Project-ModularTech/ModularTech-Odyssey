@@ -1,0 +1,28 @@
+{
+	x: 6.0d,
+	y: -9.5d,
+	text: [
+		"你需要一点深溟矿来制作飞龙金属锭"
+	],
+	dependencies: [
+		"9608904e",
+		"c9bb7149",
+		"a5f29da9"
+	],
+	tasks: [{
+		uid: "5526b4b1",
+		type: "item",
+		items: [{
+			id: "environmentaltech:void_ore_miner_cont_3",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c18d42ea",
+		type: "loot",
+		table: 4
+	}]
+}

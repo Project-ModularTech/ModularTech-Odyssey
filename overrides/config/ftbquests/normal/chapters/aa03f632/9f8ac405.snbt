@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: -5.5d,
+	text: [
+		"先进组装机可以制作mek的钢制外壳 你马上就能体验到mek了",
+		""
+	],
+	dependencies: [
+		"3d04766b",
+		"aa0671a1"
+	],
+	tasks: [{
+		uid: "a6d9d559",
+		type: "item",
+		items: [{
+			id: "modularmachinery:advanced_assemble_machine_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d6be3fb",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -18.0d,
+	y: -9.0d,
+	dependencies: [
+		"6177989c"
+	],
+	tasks: [{
+		uid: "052d8431",
+		type: "item",
+		items: [{
+			id: "openglider:hang_glider_advanced",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "792a83a4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -11.5d,
+	y: 2.5d,
+	shape: "gear",
+	dependencies: [
+		"6b707d40",
+		"7f6d6294",
+		"6c9ccb31"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c11e9405",
+		type: "item",
+		items: [{
+			id: "avaritia:resource",
+			Damage: 5s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

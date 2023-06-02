@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-火球术",
+	x: -9.0d,
+	y: 43.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8c368340",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 13s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "57f60c6d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

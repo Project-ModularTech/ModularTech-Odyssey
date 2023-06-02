@@ -1,0 +1,27 @@
+{
+	x: 12.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"前期可以用这个东西产出蒸汽 可以配合工业蒸汽机发电"
+	],
+	dependencies: [
+		"5aabbd76"
+	],
+	optional: true,
+	tasks: [{
+		uid: "1794242e",
+		type: "item",
+		items: [{
+			id: "modularmachinery:large_boiler_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "68b8ffcf",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

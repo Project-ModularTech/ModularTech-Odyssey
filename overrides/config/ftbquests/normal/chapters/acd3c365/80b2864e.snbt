@@ -1,0 +1,24 @@
+{
+	title: "§a新手-鹰眼",
+	x: -20.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1829df52",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 311s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "23b1f826",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

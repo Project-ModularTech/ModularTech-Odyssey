@@ -1,0 +1,26 @@
+{
+	x: 16.0d,
+	y: -10.5d,
+	text: [
+		"野火核心可以用于合成龙之研究的灰聚合装置核心 也可以用于合成传出余烬能量的管道"
+	],
+	dependencies: [
+		"999e574c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "032a9016",
+		type: "item",
+		items: [{
+			id: "embers:wildfire_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "352d5de5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

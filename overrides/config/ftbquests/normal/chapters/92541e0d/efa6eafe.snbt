@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: -2.5d,
+	dependencies: [
+		"61703e80",
+		"b11893c9",
+		"30985cc6"
+	],
+	tasks: [{
+		uid: "4dc542f1",
+		type: "item",
+		items: [{
+			id: "contenttweaker:tech2",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8b1b25b",
+		type: "loot",
+		table: 5
+	}]
+}

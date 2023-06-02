@@ -1,0 +1,22 @@
+{
+	x: -15.0d,
+	y: -5.5d,
+	shape: "hexagon",
+	text: [
+		"野外的宝箱中可以刷新出一些奇妙名称的电容 它们可以为特殊机升级 非常好用"
+	],
+	dependencies: [
+		"175b19cc"
+	],
+	tasks: [{
+		uid: "26fdbed7",
+		type: "checkmark",
+		title: "题外话",
+		icon: {
+			id: "enderio:item_capacitor_grainy",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

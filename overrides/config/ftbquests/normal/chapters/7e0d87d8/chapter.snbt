@@ -1,0 +1,29 @@
+{
+	title: "热力机器",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	description: [
+		"总算有小一点的机器了"
+	],
+	always_invisible: false,
+	group: 457645095,
+	default_quest_shape: ""
+}

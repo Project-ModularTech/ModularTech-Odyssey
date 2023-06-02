@@ -1,0 +1,24 @@
+{
+	title: "§6大师-寒霜形态",
+	x: 10.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9fc7c1c9",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 201s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b65c1a7d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

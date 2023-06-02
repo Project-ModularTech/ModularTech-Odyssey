@@ -1,0 +1,24 @@
+{
+	title: "§6大师-绝对零度",
+	x: 10.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6e7cd8cc",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 189s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "938c0d12",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

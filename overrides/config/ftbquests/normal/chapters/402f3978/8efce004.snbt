@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -11.5d,
+	dependencies: [
+		"49c89b1c"
+	],
+	tasks: [{
+		uid: "bec3e80d",
+		type: "item",
+		items: [{
+			id: "tinymobfarm:diamond_farm",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	text: [
+		"魔力聚合装置可以方便你把物品浸泡魔力 凝聚泰拉钢 转换活石活木或者是与精灵交易"
+	],
+	dependencies: [
+		"b5d8f7fb"
+	],
+	tasks: [{
+		uid: "7783f2a5",
+		type: "item",
+		items: [{
+			id: "modularmachinery:mana_fusion_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8cf9af98",
+		type: "loot",
+		table: 3
+	}]
+}

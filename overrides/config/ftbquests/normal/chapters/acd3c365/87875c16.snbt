@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-火环",
+	x: 0.0d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "dbcb6d95",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 49s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f6e6bc18",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

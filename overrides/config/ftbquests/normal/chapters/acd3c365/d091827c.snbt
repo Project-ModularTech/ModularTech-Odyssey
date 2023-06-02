@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-甲胄更替",
+	x: -1.5d,
+	y: 38.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "70f0ee2d",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 280s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "241c9d4c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-飓风流弹",
+	x: -7.5d,
+	y: 17.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a7db9803",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 191s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "54f61a2b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

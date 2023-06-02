@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -2.5d,
+	dependencies: [
+		"57f51f7b"
+	],
+	tasks: [{
+		uid: "5aaf8f4f",
+		type: "item",
+		items: [{
+			id: "modularmachinery:temp_energy_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

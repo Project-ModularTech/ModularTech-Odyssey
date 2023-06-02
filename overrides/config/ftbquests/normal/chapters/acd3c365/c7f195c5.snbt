@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-效果转移",
+	x: -10.5d,
+	y: 37.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7a84ea5c",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 298s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3e8aad5a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

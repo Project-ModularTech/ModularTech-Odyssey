@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-召唤烈焰人",
+	x: 0.0d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "36a59c7f",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 48s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a559dd99",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

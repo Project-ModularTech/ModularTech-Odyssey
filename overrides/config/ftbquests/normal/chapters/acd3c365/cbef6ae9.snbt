@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-诅咒移除",
+	x: 1.5d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "adaee6ef",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 166s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "12569fd5",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-奥数增强",
+	x: -3.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5be4ec47",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 287s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "415ab07f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

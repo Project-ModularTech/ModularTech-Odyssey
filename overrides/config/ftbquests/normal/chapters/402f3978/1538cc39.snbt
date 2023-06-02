@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -0.5d,
+	shape: "hexagon",
+	dependencies: [
+		"9955e063"
+	],
+	optional: true,
+	tasks: [{
+		uid: "1bc00d3c",
+		type: "item",
+		items: [{
+			id: "modularmachinery:niu_niu_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9e1fc5c5",
+		type: "loot",
+		table: 4
+	}]
+}

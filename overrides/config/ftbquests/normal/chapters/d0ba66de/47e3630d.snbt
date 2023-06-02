@@ -1,0 +1,22 @@
+{
+	title: "寻找你要去的地方！",
+	x: -18.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "63edf7f8",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cf6fa8ee",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

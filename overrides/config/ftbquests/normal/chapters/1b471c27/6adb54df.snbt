@@ -1,0 +1,28 @@
+{
+	title: "微光活木",
+	x: 18.0d,
+	y: -12.5d,
+	text: [
+		"构建精灵门的必要材料 "
+	],
+	dependencies: [
+		"cc11d444"
+	],
+	tasks: [{
+		uid: "dfcb46fb",
+		type: "item",
+		items: [{
+			id: "botania:livingwood",
+			Damage: 5s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "47d56122",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

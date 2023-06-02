@@ -1,0 +1,21 @@
+{
+	x: -14.0d,
+	y: -1.5d,
+	text: [
+		"用于制作二级虚空采矿机 多做一些吧"
+	],
+	dependencies: [
+		"6c8e1835"
+	],
+	tasks: [{
+		uid: "a6774449",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:alloy",
+			Damage: 15s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

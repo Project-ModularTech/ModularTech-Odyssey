@@ -1,0 +1,20 @@
+{
+	x: -12.0d,
+	y: -9.0d,
+	tasks: [{
+		uid: "e33401c5",
+		type: "item",
+		items: [{
+			id: "ironchest:iron_chest",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "097c014e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

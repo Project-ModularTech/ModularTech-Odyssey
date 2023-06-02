@@ -1,0 +1,16 @@
+{
+	title: "阶段六  无尽时代",
+	icon: {
+		id: "avaritia:resource",
+		Damage: 5s,
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	description: [
+		"寰宇之力"
+	],
+	always_invisible: false,
+	group: -2012405485,
+	default_quest_shape: ""
+}

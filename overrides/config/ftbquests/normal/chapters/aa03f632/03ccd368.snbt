@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: -3.5d,
+	text: [
+		"马上就可以使用虚空矿机了 加油"
+	],
+	dependencies: [
+		"698550e0",
+		"bd810c0f"
+	],
+	tasks: [{
+		uid: "d5427d4b",
+		type: "item",
+		items: [{
+			id: "environmentaltech:structure_frame_1",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "331c869e",
+		type: "loot",
+		table: 3
+	}]
+}

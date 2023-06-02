@@ -1,0 +1,517 @@
+
+[
+  //觉醒龙络合物
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:draconic_block,4,0",
+    "catalyst": "draconicevolution:draconium_block,4,0"
+  },
+  {
+    "mode": "ADD",
+    "result": "contenttweaker:dragon_matter,4,0",
+    "catalyst": "draconicevolution:draconium_block,4,0",
+    "energy": 100000000,
+    "tier": 1,
+    "ingredients": [
+      "draconicevolution:draconic_core",
+      "draconicevolution:draconic_core",
+      "draconicevolution:draconic_core",
+      "draconicevolution:draconic_core",
+      "draconicevolution:draconic_core",
+      "draconicevolution:draconic_core",
+      "draconicevolution:dragon_heart"
+    ]
+  },
+  //双足飞龙核心
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:wyvern_core",
+    "catalyst": "minecraft:emerald_block"
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:wyvern_core,1,0",
+    "catalyst": "minecraft:nether_star,1,0",
+    "energy": 1000000,
+    "tier": 0,
+    "ingredients": [
+      "draconicevolution:draconic_core",
+      "draconicevolution:draconic_core",
+      "draconicevolution:draconic_core",
+      "draconicevolution:draconic_core",
+      "contenttweaker:stainless_ingot",
+      "contenttweaker:stainless_ingot",
+      "extendedcrafting:material,1,24",
+      "extendedcrafting:material,1,24"
+    ]
+  },
+  //觉醒核心
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:awakened_core",
+    "catalyst": "minecraft:nether_star"
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:awakened_core",
+    "catalyst": "minecraft:nether_star",
+    "energy": 12000000,
+    "tier": 1,
+    "ingredients": [
+      "draconicevolution:wyvern_core",
+      "draconicevolution:wyvern_core",
+      "draconicevolution:wyvern_core",
+      "draconicevolution:wyvern_core",
+      "draconicevolution:draconic_ingot",
+      "draconicevolution:draconic_ingot",
+      "draconicevolution:draconic_ingot",
+      "draconicevolution:draconic_ingot"
+    ]
+  },
+  //混沌核心
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:chaotic_core",
+    "catalyst": "draconicevolution:chaos_shard"
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:chaotic_core,1,0",
+    "catalyst": "draconicevolution:chaos_shard,1,0",
+    "energy": 200000000,
+    "tier": 2,
+    "ingredients": [
+      "draconicevolution:awakened_core",
+      "draconicevolution:draconic_ingot",
+      "draconicevolution:awakened_core",
+      "draconicevolution:draconic_ingot",
+      "draconicevolution:awakened_core",
+      "draconicevolution:draconic_ingot",
+      "draconicevolution:awakened_core",
+      "draconicevolution:draconic_ingot"
+    ]
+  },
+  //增强末影锭
+  {
+    "mode": "ADD",
+    "result": "extendedcrafting:material,1,48",
+    "catalyst": "extendedcrafting:material,1,40",
+    "energy": 10000000,
+    "tier": 2,
+    "ingredients": [
+      "extendedcrafting:material,1,36",
+      "extendedcrafting:material,1,36",
+      "extendedcrafting:material,1,36",
+      "extendedcrafting:material,1,36",
+      "extendedcrafting:material,1,36",
+      "extendedcrafting:material,1,36"
+    ]
+  },
+  //能量锭
+  {
+    "mode": "ADD",
+    "result": "contenttweaker:energy_ingot,3,0",
+    "catalyst": "tconevo:material,3,0",
+    "energy": 30000000,
+    "tier": 1,
+    "ingredients": [
+      "nuclearcraft:lithium_ion_cell,1,0",
+      "nuclearcraft:lithium_ion_cell,1,0",
+      "nuclearcraft:lithium_ion_cell,1,0",
+      "nuclearcraft:lithium_ion_cell,1,0",
+      "nuclearcraft:lithium_ion_cell,1,0",
+      "nuclearcraft:lithium_ion_cell,1,0",
+      "nuclearcraft:lithium_ion_cell,1,0",
+      "nuclearcraft:lithium_ion_cell,1,0"
+    ]
+  },
+  {
+    "mode": "ADD",
+    "result": "contenttweaker:energy_ingot,3,0",
+    "catalyst": "tconevo:material,3,0",
+    "energy": 30000000,
+    "tier": 1,
+    "ingredients": [
+      "contenttweaker:li_cell",
+      "contenttweaker:li_cell",
+      "contenttweaker:li_cell",
+      "contenttweaker:li_cell",
+      "contenttweaker:li_cell",
+      "contenttweaker:li_cell",
+      "contenttweaker:li_cell",
+      "contenttweaker:li_cell"
+    ]
+  },
+  //陨石
+  {
+    "mode": "ADD",
+    "result": "appliedenergistics2:sky_stone_block,16,0",
+    "catalyst": "extendedcrafting:storage,1,0",
+    "energy": 20000,
+    "tier": 0,
+    "ingredients": [
+      "astralsorcery:blockmarble",
+      "astralsorcery:blockmarble",
+      "astralsorcery:blockmarble",
+      "astralsorcery:blockmarble",
+      "astralsorcery:blockmarble",
+      "astralsorcery:blockmarble",
+      "astralsorcery:blockmarble",
+      "astralsorcery:blockmarble"
+    ]
+  },
+  //凋零骷髅头
+  {
+    "mode": "ADD",
+    "result": "minecraft:skull,1,1",
+    "catalyst": "minecraft:skull",
+    "energy": 800000,
+    "tier": 0,
+    "ingredients": [
+      "quark:black_ash",
+      "quark:black_ash",
+      "tconstruct:materials,1,17",
+      "tconstruct:materials,1,17",
+      "enderio:item_material,1,50",
+      "enderio:item_material,1,50",
+      "enderio:item_material,1,50",
+      "enderio:item_material,1,50"
+    ]
+  },
+  //下界之星
+  {
+    "mode": "ADD",
+    "result": "minecraft:nether_star",
+    "catalyst": "minecraft:skull,1,1",
+    "energy": 1600000,
+    "tier": 0,
+    "ingredients": [
+      "quark:black_ash",
+      "quark:black_ash",
+      "minecraft:soul_sand",
+      "minecraft:soul_sand",
+      "minecraft:ghast_tear",
+      "minecraft:ghast_tear",
+      "contenttweaker:mana_crystal2",
+      "contenttweaker:mana_crystal2"
+    ]
+  },
+   //龙芯
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:draconic_core",
+    "catalyst": "minecraft:diamond",
+    "energy": 80000,
+    "tier": 0,
+    "ingredients": [
+      "minecraft:gold_ingot",
+      "minecraft:gold_ingot",
+      "contenttweaker:stainless_ingot",
+      "contenttweaker:stainless_ingot",
+      "draconicevolution:draconium_ingot",
+      "draconicevolution:draconium_ingot",
+      "draconicevolution:draconium_ingot",
+      "draconicevolution:draconium_ingot"
+    ]
+  },
+  //终极工作台
+  {
+    "mode": "ADD",
+    "result": "avaritia:extreme_crafting_table,1,0",
+    "catalyst": "extendedcrafting:table_elite,1,0",
+    "energy": 80000000,
+    "tier": 1,
+    "ingredients": [
+      "avaritia:resource,1,1",
+      "avaritia:resource,1,1",
+      "extendedcrafting:material,1,10",
+      "extendedcrafting:material,1,10",
+      "mekanism:polyethene,1,2",
+      "mekanism:polyethene,1,2",
+      "avaritia:resource,1,1",
+      "avaritia:resource,1,1"
+    ]
+  },
+  //龙心
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:dragon_heart,1,0",
+    "catalyst": "deepmoblearning:glitch_heart,1,0",
+    "energy": 20000000,
+    "tier": 2,
+    "ingredients": [
+      "minecraft:dragon_egg",
+      "minecraft:dragon_egg",
+      "deepmoblearning:glitch_heart",
+      "deepmoblearning:glitch_heart",
+      "deepmoblearning:living_matter_extraterrestrial",
+      "deepmoblearning:living_matter_extraterrestrial",
+      "draconicevolution:draconic_core",
+      "draconicevolution:wyvern_energy_core"
+    ]
+  },
+  //神龙注入
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:crafting_injector,1,2",
+    "catalyst": "draconicevolution:crafting_injector,1,1"
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:crafting_injector,1,2",
+    "catalyst": "draconicevolution:crafting_injector,1,1",
+    "energy": 2000000,
+    "tier": 1,
+    "ingredients": [
+      "minecraft:dragon_egg",
+      "draconicevolution:awakened_core",
+      "mekanism:tierinstaller,1,3",
+      "mekanism:tierinstaller,1,3",
+      "draconicevolution:wyvern_core",
+      "draconicevolution:wyvern_core"
+    ]
+  },
+  //普雷蒂虚空核心
+  {
+    "mode": "ADD",
+    "result": "contenttweaker:crystal_4,2,0",
+    "catalyst": "draconicevolution:draconic_energy_core,1,0",
+    "energy": 12500000,
+    "tier": 2,
+    "ingredients": [
+      "enderio:block_infinity",
+      "enderio:block_infinity",
+      "threng:material,1,11",
+      "threng:material,1,11",
+      "environmentaltech:pladium_crystal",
+      "environmentaltech:pladium_crystal",
+      "environmentaltech:pladium_crystal",
+      "environmentaltech:pladium_crystal"
+    ]
+  },
+  //艾恩尼虚空核心
+  {
+    "mode": "ADD",
+    "result": "contenttweaker:crystal_5,4,0",
+    "catalyst": "avaritia:resource,1,5",
+    "energy": 100000000,
+    "tier": 3,
+    "ingredients": [
+      "enderio:block_infinity",
+      "enderio:block_infinity",
+      "contenttweaker:zl_block",
+      "contenttweaker:zl_block",
+      "threng:material,1,14",
+      "threng:material,1,14",
+      "draconicevolution:chaos_shard,1,1",
+      "draconicevolution:chaos_shard,1,1",
+      "environmentaltech:ionite_crystal",
+      "environmentaltech:ionite_crystal",
+      "environmentaltech:ionite_crystal",
+      "environmentaltech:ionite_crystal",
+      "environmentaltech:ionite_crystal",
+      "environmentaltech:ionite_crystal",
+      "environmentaltech:ionite_crystal",
+      "environmentaltech:ionite_crystal"
+    ]
+  },
+  //神龙镐
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:draconic_pick",
+    "catalyst": "draconicevolution:wyvern_pick"
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:draconic_pick",
+    "catalyst": "draconicevolution:wyvern_pick",
+    "energy": 12500000,
+    "tier": 2,
+    "ingredients": [
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "draconicevolution:draconic_energy_core",
+      "draconicevolution:draconic_energy_core"
+    ]
+  },
+  //神龙套
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:draconic_helm",
+    "catalyst": "draconicevolution:wyvern_helm"
+  },
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:draconic_chest",
+    "catalyst": "draconicevolution:wyvern_chest"
+  },
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:draconic_legs",
+    "catalyst": "draconicevolution:wyvern_legs"
+  },
+  {
+    "mode": "REMOVE",
+    "result": "draconicevolution:draconic_boots",
+    "catalyst": "draconicevolution:wyvern_boots"
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:draconic_helm",
+    "catalyst": "draconicevolution:wyvern_helm",
+    "energy": 12500000,
+    "tier": 2,
+    "ingredients": [
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "draconicevolution:draconic_energy_core",
+      "draconicevolution:draconic_energy_core"
+    ]
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:draconic_chest",
+    "catalyst": "draconicevolution:wyvern_chest",
+    "energy": 12500000,
+    "tier": 2,
+    "ingredients": [
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "draconicevolution:draconic_energy_core",
+      "draconicevolution:draconic_energy_core"
+    ]
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:draconic_legs",
+    "catalyst": "draconicevolution:wyvern_legs",
+    "energy": 12500000,
+    "tier": 2,
+    "ingredients": [
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "draconicevolution:draconic_energy_core",
+      "draconicevolution:draconic_energy_core"
+    ]
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicevolution:draconic_boots",
+    "catalyst": "draconicevolution:wyvern_boots",
+    "energy": 12500000,
+    "tier": 2,
+    "ingredients": [
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "tconevo:metal,1,5",
+      "draconicevolution:draconic_energy_core",
+      "draconicevolution:draconic_energy_core"
+    ]
+  },
+  //混沌套
+  {
+    "mode": "REMOVE",
+    "result": "draconicadditions:chaotic_helm",
+    "catalyst": "draconicevolution:draconic_helm"
+  },
+  {
+    "mode": "REMOVE",
+    "result": "draconicadditions:chaotic_chest",
+    "catalyst": "draconicevolution:draconic_chest"
+  },
+  {
+    "mode": "REMOVE",
+    "result": "draconicadditions:chaotic_legs",
+    "catalyst": "draconicevolution:draconic_legs"
+  },
+  {
+    "mode": "REMOVE",
+    "result": "draconicadditions:chaotic_boots",
+    "catalyst": "draconicevolution:draconic_boots"
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicadditions:chaotic_helm",
+    "catalyst": "draconicevolution:draconic_helm",
+    "energy": 50000000,
+    "tier": 3,
+    "ingredients": [
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "draconicadditions:chaotic_energy_core",
+      "draconicadditions:chaotic_energy_core"
+    ]
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicadditions:chaotic_chest",
+    "catalyst": "draconicevolution:draconic_chest",
+    "energy": 50000000,
+    "tier": 3,
+    "ingredients": [
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "draconicadditions:chaotic_energy_core",
+      "draconicadditions:chaotic_energy_core"
+    ]
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicadditions:chaotic_legs",
+    "catalyst": "draconicevolution:draconic_legs",
+    "energy": 50000000,
+    "tier": 3,
+    "ingredients": [
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "draconicadditions:chaotic_energy_core",
+      "draconicadditions:chaotic_energy_core"
+    ]
+  },
+  {
+    "mode": "ADD",
+    "result": "draconicadditions:chaotic_boots",
+    "catalyst": "draconicevolution:draconic_boots",
+    "energy": 50000000,
+    "tier": 3,
+    "ingredients": [
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "tconevo:metal,1,10",
+      "draconicadditions:chaotic_energy_core",
+      "draconicadditions:chaotic_energy_core"
+    ]
+  }
+]

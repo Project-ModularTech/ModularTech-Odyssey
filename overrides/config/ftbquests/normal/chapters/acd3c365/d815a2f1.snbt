@@ -1,0 +1,24 @@
+{
+	title: "§a新手-远眺术",
+	x: -20.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0e589718",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 318s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dee20260",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

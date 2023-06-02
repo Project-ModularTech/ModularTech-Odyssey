@@ -1,0 +1,24 @@
+{
+	title: "§a新手-Beanstalk",
+	x: -19.0d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2de6faba",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 403s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5eaa822f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

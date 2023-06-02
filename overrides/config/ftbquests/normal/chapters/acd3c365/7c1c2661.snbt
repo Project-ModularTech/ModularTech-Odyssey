@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-召唤孱弱守卫",
+	x: -12.0d,
+	y: 20.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8a96853e",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 348s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "abb20a8b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

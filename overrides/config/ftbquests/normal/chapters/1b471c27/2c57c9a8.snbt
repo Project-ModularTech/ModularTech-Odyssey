@@ -1,0 +1,27 @@
+{
+	x: -6.5d,
+	y: 3.5d,
+	shape: "gear",
+	text: [
+		"核电工艺的基础材料 你可以制造刷石机了"
+	],
+	dependencies: [
+		"3118a1ee"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7e405da3",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:part",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "abf65bad",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

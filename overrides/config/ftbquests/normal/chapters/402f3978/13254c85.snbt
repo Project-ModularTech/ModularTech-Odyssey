@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	dependencies: [
+		"dc0b8838"
+	],
+	tasks: [{
+		uid: "c8c60c97",
+		type: "item",
+		items: [{
+			id: "mekanism:controlcircuit",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

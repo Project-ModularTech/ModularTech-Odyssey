@@ -1,0 +1,17 @@
+{
+	x: -15.5d,
+	y: 2.5d,
+	dependencies: [
+		"4b9dcab1"
+	],
+	tasks: [{
+		uid: "58f73060",
+		type: "item",
+		items: [{
+			id: "eternalsingularity:eternal_singularity",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

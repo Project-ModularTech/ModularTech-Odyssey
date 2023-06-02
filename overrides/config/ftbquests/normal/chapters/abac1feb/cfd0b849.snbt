@@ -1,0 +1,19 @@
+{
+	x: -9.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "cd4d4237",
+		type: "item",
+		items: [{
+			id: "contenttweaker:ibicir",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a96163d4",
+		type: "loot",
+		table: 6
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -22.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "2c0581ee",
+		type: "item",
+		items: [{
+			id: "farmingforblockheads:market",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "41744c54",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

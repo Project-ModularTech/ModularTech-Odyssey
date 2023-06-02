@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-奥数猎手",
+	x: -12.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ef34b490",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 301s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "25db583d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

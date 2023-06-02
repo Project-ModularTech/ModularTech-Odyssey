@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-幽冥盔甲",
+	x: 1.5d,
+	y: 40.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "14ea7d90",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 133s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "962520d4",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

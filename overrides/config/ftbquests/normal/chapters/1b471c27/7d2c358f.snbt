@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	shape: "hexagon",
+	text: [
+		"虽然不能挖掘其他矿物 但是用来挖掘基础金属矿和晶体矿是不错的"
+	],
+	dependencies: [
+		"04dd2918"
+	],
+	tasks: [{
+		uid: "b07de047",
+		type: "item",
+		items: [{
+			id: "modularmachinery:vein_miner_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7b7c9905",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

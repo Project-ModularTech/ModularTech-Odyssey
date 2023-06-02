@@ -1,0 +1,22 @@
+{
+	x: -13.5d,
+	y: 2.5d,
+	shape: "hexagon",
+	text: [
+		"用于支持合成拓展的工作台自动合成"
+	],
+	dependencies: [
+		"a0dfaeb9"
+	],
+	tasks: [{
+		uid: "e94c27e3",
+		type: "item",
+		items: [{
+			id: "extendedcrafting:interface",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

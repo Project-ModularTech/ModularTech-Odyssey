@@ -1,0 +1,24 @@
+{
+	title: "§6大师-衰弱诅咒",
+	x: 10.5d,
+	y: 41.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "cb1ae98e",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 168s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "59aaa655",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

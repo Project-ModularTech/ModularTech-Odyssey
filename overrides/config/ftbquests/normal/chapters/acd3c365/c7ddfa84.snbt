@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-娜迦姿态",
+	x: -4.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ce1b4d48",
+		type: "item",
+		items: [{
+			id: "mospells:mospells_spell_book",
+			Damage: 458s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "241e550e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

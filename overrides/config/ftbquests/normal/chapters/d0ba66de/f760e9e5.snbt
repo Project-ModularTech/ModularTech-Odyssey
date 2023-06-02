@@ -1,0 +1,49 @@
+{
+	title: "物品拾取",
+	x: -20.0d,
+	y: 3.0d,
+	dependencies: [
+		"5da316b1"
+	],
+	tasks: [{
+		uid: "95230362",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			Damage: 12s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "enderio:block_vacuum_chest",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "embers:vacuum",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "25e1c4b7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

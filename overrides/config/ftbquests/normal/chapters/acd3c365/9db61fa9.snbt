@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-生命汲取",
+	x: -9.0d,
+	y: 23.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9d40c2c4",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 28s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b904d220",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

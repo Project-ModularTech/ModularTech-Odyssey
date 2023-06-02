@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	text: [
+		"艾洛蒂水晶 环境科技的二级水晶 你可以准备制作二级设备了"
+	],
+	dependencies: [
+		"6bb5eadc"
+	],
+	tasks: [{
+		uid: "37286152",
+		type: "item",
+		items: [{
+			id: "environmentaltech:erodium_crystal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

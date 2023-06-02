@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: -7.5d,
+	dependencies: [
+		"a26d7dc0",
+		"ee0acf4b"
+	],
+	tasks: [{
+		uid: "95eb97e2",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:data_model_blank",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

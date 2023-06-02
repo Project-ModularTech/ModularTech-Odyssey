@@ -1,0 +1,24 @@
+{
+	x: -6.5d,
+	y: 1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"649e64e7"
+	],
+	optional: true,
+	tasks: [{
+		uid: "31c63abe",
+		type: "item",
+		items: [{
+			id: "modularmachinery:parallel_computer_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "418799f1",
+		type: "loot",
+		table: 5
+	}]
+}

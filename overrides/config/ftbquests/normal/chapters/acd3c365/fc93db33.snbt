@@ -1,0 +1,24 @@
+{
+	title: "§a新手-点燃",
+	x: -17.5d,
+	y: 22.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c748948b",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ed312fce",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

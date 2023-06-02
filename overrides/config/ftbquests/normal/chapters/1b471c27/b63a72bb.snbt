@@ -1,0 +1,28 @@
+{
+	x: 20.5d,
+	y: -12.5d,
+	shape: "gear",
+	text: [
+		"有了精灵门核心 你就可以制造精灵门了",
+		"你需要在精灵门核心11*11范围内放两个上方带有自然水晶的魔力池"
+	],
+	dependencies: [
+		"6adb54df"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "572c9254",
+		type: "item",
+		items: [{
+			id: "botania:alfheimportal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2f0d733b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

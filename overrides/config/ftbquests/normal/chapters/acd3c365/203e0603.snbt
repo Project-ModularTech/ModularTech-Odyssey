@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-解绑言术",
+	x: -3.0d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "998ec3a1",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 345s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "335d4468",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

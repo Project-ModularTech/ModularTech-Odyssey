@@ -1,0 +1,27 @@
+{
+	x: 4.5d,
+	y: -3.0d,
+	text: [
+		"可以做一些热力的设备 如虚空箱子",
+		""
+	],
+	dependencies: [
+		"d553cadf"
+	],
+	tasks: [{
+		uid: "dfadee72",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:frame",
+			Damage: 64s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ec06f70e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

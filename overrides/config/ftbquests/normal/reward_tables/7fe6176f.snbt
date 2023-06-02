@@ -1,0 +1,542 @@
+{
+	title: "一级奖励箱",
+	icon: "contenttweaker:box1",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "minecraft:diamond_block"
+	},
+	{
+		item: "minecraft:iron_block"
+	},
+	{
+		item: "minecraft:gold_block"
+	},
+	{
+		item: "tconstruct:metal 1 2"
+	},
+	{
+		item: "tconstruct:slime_congealed"
+	},
+	{
+		item: "thermalfoundation:storage 1 1"
+	},
+	{
+		item: "thermalfoundation:storage"
+	},
+	{
+		item: "minecraft:lapis_block"
+	},
+	{
+		item: "minecraft:redstone_block"
+	},
+	{
+		item: "minecraft:diamond_pickaxe"
+	},
+	{
+		item: "minecraft:diamond_shovel"
+	},
+	{
+		item: "minecraft:diamond_sword"
+	},
+	{
+		item: "minecraft:diamond_axe"
+	},
+	{
+		item: "thermalfoundation:tool.hammer_diamond"
+	},
+	{
+		item: "thermalfoundation:tool.excavator_diamond"
+	},
+	{
+		item: "thermalfoundation:tool.fishing_rod_diamond"
+	},
+	{
+		item: "thermalfoundation:tool.sickle_diamond"
+	},
+	{
+		item: "minecraft:diamond_helmet"
+	},
+	{
+		item: "minecraft:diamond_chestplate"
+	},
+	{
+		item: "minecraft:diamond_leggings"
+	},
+	{
+		item: "minecraft:diamond_boots"
+	},
+	{
+		item: "minecraft:diamond_horse_armor"
+	},
+	{
+		item: "thermalfoundation:tool.shears_diamond"
+	},
+	{
+		item: "betterbuilderswands:wanddiamond"
+	},
+	{
+		item: "minecraft:iron_shovel"
+	},
+	{
+		item: "minecraft:iron_pickaxe"
+	},
+	{
+		item: "minecraft:iron_axe"
+	},
+	{
+		item: "minecraft:iron_sword"
+	},
+	{
+		item: "minecraft:iron_hoe"
+	},
+	{
+		item: "minecraft:iron_helmet"
+	},
+	{
+		item: "minecraft:iron_chestplate"
+	},
+	{
+		item: "minecraft:iron_leggings"
+	},
+	{
+		item: "minecraft:iron_boots"
+	},
+	{
+		item: "minecraft:iron_horse_armor"
+	},
+	{
+		item: "minecraft:anvil 1 1"
+	},
+	{
+		item: "thermalfoundation:tool.excavator_iron"
+	},
+	{
+		item: "thermalfoundation:tool.hammer_iron"
+	},
+	{
+		item: "thermalfoundation:tool.sickle_iron"
+	},
+	{
+		item: "thermalfoundation:tool.fishing_rod_iron"
+	},
+	{
+		item: "minecraft:glowstone"
+	},
+	{
+		item: "tinker_io:what_a_beautiful_block"
+	},
+	{
+		item: "minecraft:sticky_piston"
+	},
+	{
+		item: "nuclearcraft:rtg_uranium"
+	},
+	{
+		item: "immersiveengineering:metal_device1 1 2"
+	},
+	{
+		item: "immersiveengineering:metal_device1 1 3"
+	},
+	{
+		item: "nuclearcraft:solar_panel_basic"
+	},
+	{
+		item: "minecraft:furnace"
+	},
+	{
+		item: "enderutilities:machine_0"
+	},
+	{
+		item: "tconstruct:materials 1 14"
+	},
+	{
+		item: "conarm:resist_mat_proj"
+	},
+	{
+		item: "conarm:resist_mat"
+	},
+	{
+		item: "conarm:resist_mat_blast"
+	},
+	{
+		item: "conarm:resist_mat_fire"
+	},
+	{
+		item: "minecraft:log",
+		count: 16
+	},
+	{
+		item: "minecraft:stone",
+		count: 16
+	},
+	{
+		item: "minecraft:wool",
+		count: 16
+	},
+	{
+		item: "minecraft:brick_block",
+		count: 16
+	},
+	{
+		item: "minecraft:sponge"
+	},
+	{
+		item: "minecraft:bookshelf",
+		count: 4
+	},
+	{
+		item: "minecraft:enchanting_table"
+	},
+	{
+		item: "minecraft:obsidian",
+		count: 4
+	},
+	{
+		item: "minecraft:sea_lantern"
+	},
+	{
+		item: "quark:lit_lamp"
+	},
+	{
+		item: "quark:blaze_lantern"
+	},
+	{
+		item: "quark:archaeologist_hat"
+	},
+	{
+		item: "quark:golden_frog_leg"
+	},
+	{
+		item: "waystones:warp_stone"
+	},
+	{
+		item: "minecraft:cake"
+	},
+	{
+		item: "telepastries:nether_cake"
+	},
+	{
+		item: "telepastries:end_cake"
+	},
+	{
+		item: "telepastries:overworld_cake"
+	},
+	{
+		item: "immersiveengineering:material 1 2",
+		count: 16
+	},
+	{
+		item: "embers:ancient_motive_core"
+	},
+	{
+		item: "immersiveengineering:wooden_device0"
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "oeintegration:excavatemodifier"
+	},
+	{
+		item: "minecraft:dye 1 15",
+		count: 32
+	},
+	{
+		item: "minecraft:enchanting_table"
+	},
+	{
+		item: "immersiveengineering:metal_decoration1 1 1",
+		count: 2
+	},
+	{
+		item: "enderutilities:ender_elevator",
+		count: 2
+	},
+	{
+		item: "ironchest:iron_chest 1 2"
+	},
+	{
+		item: {
+			id: "thermalexpansion:device",
+			Damage: 12s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				RSControl: 0b,
+				Energy: 0
+			}
+		}
+	},
+	{
+		item: "minecraft:skull 1 1"
+	},
+	{
+		item: "minecraft:skull 1 2"
+	},
+	{
+		item: "minecraft:skull 1 4"
+	},
+	{
+		item: "minecraft:skull"
+	},
+	{
+		item: "enderio:block_enderman_skull"
+	},
+	{
+		item: "immersiveengineering:skyhook"
+	},
+	{
+		item: "immersiveengineering:wooden_device1 1 1"
+	},
+	{
+		item: "immersiveengineering:wooden_device1"
+	},
+	{
+		item: "immersiveengineering:material 1 12",
+		count: 8
+	},
+	{
+		item: "embers:crystal_ember",
+		count: 8
+	},
+	{
+		item: "embers:ember_receiver",
+		count: 2
+	},
+	{
+		item: "embers:ember_emitter",
+		count: 2
+	},
+	{
+		item: "embers:ember_gauge",
+		count: 4
+	},
+	{
+		item: "minecraft:ender_chest"
+	},
+	{
+		item: "immersiveengineering:wooden_device0 1 1",
+		count: 4
+	},
+	{
+		item: "minecraft:jukebox"
+	},
+	{
+		item: "ebwizardry:magic_wand"
+	},
+	{
+		item: "ebwizardry:ring_condensing"
+	},
+	{
+		item: "ebwizardry:novice_fire_wand"
+	},
+	{
+		item: "ebwizardry:novice_ice_wand"
+	},
+	{
+		item: "ebwizardry:novice_lightning_wand"
+	},
+	{
+		item: "ebwizardry:novice_necromancy_wand"
+	},
+	{
+		item: "ebwizardry:novice_earth_wand"
+	},
+	{
+		item: "ebwizardry:novice_sorcery_wand"
+	},
+	{
+		item: "ebwizardry:large_mana_flask",
+		count: 2
+	},
+	{
+		item: "ebwizardry:identification_scroll",
+		count: 4
+	},
+	{
+		item: "ebwizardry:astral_diamond"
+	},
+	{
+		item: "ebwizardry:ring_battlemage"
+	},
+	{
+		item: "ebwizardry:charm_spell_discovery"
+	},
+	{
+		item: "ebwizardry:charm_experience_tome"
+	},
+	{
+		item: "ebwizardry:charm_haggler"
+	},
+	{
+		item: "contenttweaker:box2"
+	},
+	{
+		item: "rftools:timer_block",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:storage_alloy"
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 2"
+	},
+	{
+		item: "touhou_little_maid:marisa_broom"
+	},
+	{
+		item: "modularmachinery:machine_projector"
+	},
+	{
+		item: {
+			id: "harvestcraft:soymilkitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:beefjerkyitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:gherkinitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:marshmellowsitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:applefritteritem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:beetsoupitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:coleslawitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:chocolatecaramelfudgeitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:apricotglazedporkitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:brownieitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:asparagussoupitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:gingersnapsitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:damperitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:pralinesitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:applecideritem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "harvestcraft:chorizoitem",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -3.5d,
+	y: 3.0d,
+	text: [
+		"用于献祭自己的鲜血"
+	],
+	dependencies: [
+		"77730b56"
+	],
+	tasks: [{
+		uid: "da2bbf31",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "306f5dfd",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

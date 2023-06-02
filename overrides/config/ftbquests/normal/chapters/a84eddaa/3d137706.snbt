@@ -1,0 +1,17 @@
+{
+	x: -9.5d,
+	y: 0.5d,
+	dependencies: [
+		"a47b23b6"
+	],
+	tasks: [{
+		uid: "2a8845e1",
+		type: "item",
+		items: [{
+			id: "environmentaltech:structure_frame_5",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

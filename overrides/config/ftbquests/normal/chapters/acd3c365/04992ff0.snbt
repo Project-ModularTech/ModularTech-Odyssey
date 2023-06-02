@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-召唤水源",
+	x: -10.5d,
+	y: 55.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1cb9314f",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 238s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1f36efc0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

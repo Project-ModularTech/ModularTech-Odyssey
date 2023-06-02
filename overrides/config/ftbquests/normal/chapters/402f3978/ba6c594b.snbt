@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: -7.5d,
+	shape: "gear",
+	dependencies: [
+		"ea147dc6"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b4b35639",
+		type: "item",
+		items: [{
+			id: "modularmachinery:large_chemical_reactor_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "部件加工台",
+	x: 8.5d,
+	y: -5.0d,
+	text: [
+		"用于制造基础部件 ",
+		"基础部件可以用于制造铸模"
+	],
+	dependencies: [
+		"f1bf58f4"
+	],
+	tasks: [{
+		uid: "68092782",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 2s,
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9c397d9d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

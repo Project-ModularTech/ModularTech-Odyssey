@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: -1.0d,
+	text: [
+		"有了灰烬晶体之后你就可以继续发展余烬了",
+		"是余烬能量的必要燃料"
+	],
+	dependencies: [
+		"4025206f"
+	],
+	tasks: [{
+		uid: "6c915d06",
+		type: "item",
+		items: [{
+			id: "embers:crystal_ember",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3f6ff26b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-焦灼火球",
+	x: -7.5d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "75141380",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 198s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e556e2da",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

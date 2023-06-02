@@ -1,0 +1,30 @@
+{
+	x: 14.5d,
+	y: -3.0d,
+	text: [
+		"你的基础物流系统",
+		"绝缘版本可以防止玩家拿到东西"
+	],
+	dependencies: [
+		"59a61a62"
+	],
+	tasks: [{
+		uid: "d4666691",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9bcfe116",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

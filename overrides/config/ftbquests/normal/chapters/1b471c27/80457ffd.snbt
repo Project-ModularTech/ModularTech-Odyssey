@@ -1,0 +1,26 @@
+{
+	x: -15.0d,
+	y: -6.5d,
+	text: [
+		"你需要在基础工作台上合成大理石",
+		"星辉魔法的全部自然生成均已关闭"
+	],
+	dependencies: [
+		"f4b1fdc5"
+	],
+	tasks: [{
+		uid: "9f0ef514",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockmarble",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cf494907",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

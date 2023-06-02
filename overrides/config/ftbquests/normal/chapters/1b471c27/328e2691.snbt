@@ -1,0 +1,35 @@
+{
+	title: "星光合成",
+	x: -13.0d,
+	y: -6.5d,
+	text: [
+		"星辉工作台 有了它你就可以发展星辉了"
+	],
+	dependencies: [
+		"80457ffd",
+		"34cacc03"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "e048e4f4",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a00fec23",
+		type: "command",
+		command: "/astralsorcery research @p BASIC_CRAFT"
+	},
+	{
+		uid: "1717e347",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

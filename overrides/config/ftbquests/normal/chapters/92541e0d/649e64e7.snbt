@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: 1.5d,
+	dependencies: [
+		"d13197f0"
+	],
+	tasks: [{
+		uid: "240a83c0",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockparallelcontroller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

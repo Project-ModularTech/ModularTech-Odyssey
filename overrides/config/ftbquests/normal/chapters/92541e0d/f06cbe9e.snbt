@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -2.5d,
+	shape: "gear",
+	dependencies: [
+		"5f1a826d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b70ad230",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:glitch_infused_ingot",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	x: -13.0d,
+	y: -4.5d,
+	text: [
+		"如果找不到暴雪人 这是你获得暴雪粉的不错选择",
+		"用经验灌输在雪球里就是暴雪粉辣",
+		"你也可以挖永冻石磨粉"
+	],
+	dependencies: [
+		"68bf0237"
+	],
+	tasks: [{
+		uid: "0a89b8d8",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 8s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "47d2124a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

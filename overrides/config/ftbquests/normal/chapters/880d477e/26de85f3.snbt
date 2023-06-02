@@ -1,0 +1,26 @@
+{
+	x: -11.5d,
+	y: 3.0d,
+	text: [
+		"使用在焦炉制作焦炭产生的杂酚油制作防腐木板。"
+	],
+	dependencies: [
+		"2a56aedf"
+	],
+	tasks: [{
+		uid: "06b51de0",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:treated_wood",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3087cc5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

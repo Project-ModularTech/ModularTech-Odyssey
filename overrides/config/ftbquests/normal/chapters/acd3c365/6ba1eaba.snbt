@@ -1,0 +1,24 @@
+{
+	title: "§6大师-召唤铁傀儡",
+	x: 10.5d,
+	y: 26.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6758f4eb",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 107s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "31c48156",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

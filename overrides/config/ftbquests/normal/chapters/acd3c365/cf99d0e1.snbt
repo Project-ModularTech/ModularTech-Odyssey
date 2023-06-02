@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-崩裂狂风",
+	x: -1.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "40aa426a",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 371s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bee9b72a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

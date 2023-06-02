@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-闪电射线",
+	x: -9.0d,
+	y: 49.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6dccf91a",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 23s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ddf7e051",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

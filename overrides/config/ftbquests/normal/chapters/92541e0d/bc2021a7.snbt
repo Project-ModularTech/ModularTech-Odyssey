@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: -6.5d,
+	shape: "hexagon",
+	dependencies: [
+		"cdef54b5"
+	],
+	tasks: [{
+		uid: "ffc0229a",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:fusion_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

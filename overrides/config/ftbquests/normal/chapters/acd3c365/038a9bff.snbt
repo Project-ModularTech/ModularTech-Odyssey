@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-魔法地雷",
+	x: 1.5d,
+	y: 46.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e6546a2d",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 153s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3fad9758",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 16.0d,
+	y: -9.5d,
+	text: [
+		"你可以建立苦难之井意识来获取大量LP"
+	],
+	dependencies: [
+		"31c42a16",
+		"5efe9138"
+	],
+	tasks: [{
+		uid: "76a0f9fe",
+		type: "checkmark",
+		title: "苦难之井"
+	}]
+}

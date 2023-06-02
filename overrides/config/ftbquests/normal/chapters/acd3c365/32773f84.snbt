@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-黑暗视觉",
+	x: -7.5d,
+	y: 38.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0e1e329c",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 118s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "64ce73d8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

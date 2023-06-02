@@ -1,0 +1,27 @@
+{
+	x: -17.0d,
+	y: -0.5d,
+	text: [
+		"强化的机械外壳  有一些爆炸抗性",
+		"用于摆放接下来的多方块机械"
+	],
+	dependencies: [
+		"e94f3e21"
+	],
+	tasks: [{
+		uid: "c8748d23",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockcasing",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dfd80b08",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

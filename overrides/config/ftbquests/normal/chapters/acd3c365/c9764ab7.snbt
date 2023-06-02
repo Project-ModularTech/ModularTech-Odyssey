@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-团体治疗",
+	x: 1.5d,
+	y: 43.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "bd03468e",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 135s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "213c3c9f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

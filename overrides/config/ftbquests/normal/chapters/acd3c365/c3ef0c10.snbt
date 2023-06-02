@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-维度锚",
+	x: -3.0d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9ea1183b",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 347s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "29723481",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

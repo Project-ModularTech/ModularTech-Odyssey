@@ -1,0 +1,22 @@
+{
+	x: -5.5d,
+	y: -3.0d,
+	text: [
+		"可爱的吉祥物"
+	],
+	tasks: [{
+		uid: "b7ea8ec7",
+		type: "item",
+		items: [{
+			id: "contenttweaker:xb_asuna",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "290d7880",
+		type: "loot",
+		table: 6
+	}]
+}

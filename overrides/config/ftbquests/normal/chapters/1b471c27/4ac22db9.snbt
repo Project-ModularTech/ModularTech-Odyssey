@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	text: [
+		"YABBA的抽屉连接设备 好用就完事了"
+	],
+	dependencies: [
+		"04dd2918"
+	],
+	optional: true,
+	tasks: [{
+		uid: "03791487",
+		type: "item",
+		items: [{
+			id: "yabba:item_barrel_connector",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e5bc4dfe",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

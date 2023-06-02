@@ -1,0 +1,29 @@
+{
+	x: 12.0d,
+	y: -8.5d,
+	shape: "gear",
+	text: [
+		"龙之研究的基本 现在都是用聚合的啦",
+		"给聚合器导电就可以为其充能"
+	],
+	dependencies: [
+		"bf5b4e67",
+		"b39aa698"
+	],
+	tasks: [{
+		uid: "1fd0e1d8",
+		type: "item",
+		items: [{
+			id: "draconicevolution:crafting_injector",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff4013b1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

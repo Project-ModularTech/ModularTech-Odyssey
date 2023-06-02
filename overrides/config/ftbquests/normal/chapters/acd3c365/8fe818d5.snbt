@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-巫师之光",
+	x: -3.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9a45fa5d",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 270s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e1e08e00",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

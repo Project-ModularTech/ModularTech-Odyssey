@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-沉默魔符",
+	x: -12.0d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "652df307",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 295s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2e73f0ac",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

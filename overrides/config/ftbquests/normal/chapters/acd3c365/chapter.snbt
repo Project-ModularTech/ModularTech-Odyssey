@@ -1,0 +1,12 @@
+{
+	title: "法术图书馆",
+	icon: {
+		id: "ebwizardry:wizard_handbook",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

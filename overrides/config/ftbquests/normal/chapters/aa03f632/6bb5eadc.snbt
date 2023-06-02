@@ -1,0 +1,48 @@
+{
+	x: -2.0d,
+	y: -3.5d,
+	text: [
+		"一级虚空采矿机 可以挖掘艾洛蒂水晶和其他矿物 但是效率很低"
+	],
+	dependencies: [
+		"03ccd368"
+	],
+	tasks: [{
+		uid: "7263277c",
+		type: "item",
+		items: [{
+			id: "environmentaltech:void_ore_miner_cont_1",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "115a0036",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "6796dab2",
+		type: "item",
+		team_reward: false,
+		item: {
+			id: "environmentaltech:laser_lens_crystal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		uid: "2054076e",
+		type: "item",
+		item: {
+			id: "environmentaltech:laser_lens_colored",
+			Damage: 10s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

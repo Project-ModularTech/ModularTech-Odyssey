@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: -5.5d,
+	dependencies: [
+		"b66c0fe6"
+	],
+	tasks: [{
+		uid: "c662ac81",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock",
+			Damage: 14s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

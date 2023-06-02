@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: -3.5d,
+	dependencies: [
+		"17301760"
+	],
+	tasks: [{
+		uid: "93e6310e",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:fission_controller_new_fixed",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

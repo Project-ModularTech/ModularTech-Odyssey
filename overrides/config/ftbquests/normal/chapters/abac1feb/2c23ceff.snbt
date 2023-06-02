@@ -1,0 +1,22 @@
+{
+	x: -11.5d,
+	y: -3.0d,
+	text: [
+		"shadow_zl提供了大量整合包自定义物品材质及模块化机械结构"
+	],
+	tasks: [{
+		uid: "45aa491a",
+		type: "item",
+		items: [{
+			id: "contenttweaker:shadow_zl",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bbede3da",
+		type: "loot",
+		table: 6
+	}]
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <var>username</var>
+            <var>white</var><str> | </str>
+            <var>yellow</var><str>FPS</str><var>white</var><str>:</str>
+            <operation>
+                <str>GE</str>
+                <var>fps</var>
+                     <num>90</num>
+                     <num>30</num>
+                     <num>0</num>
+                         <str>§a{fps}</str>
+                         <str>§b{fps}</str>
+                         <str>§c{fps}</str>
+            </operation>
+            <var>white</var><str> | </str>
+            <var>yellow</var><str>时间</str><var>white</var><str>:</str><var>aqua</var><var>rltime24</var>
+            <var>white</var><str> | </str>
+            <var>yellow</var><str>MEM</str><var>white</var><str>:</str>
+            <round>
+                <div>
+                    <var>memused</var>
+                    <num>1048576</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>MB</str><str>/</str>
+            <round>
+                <div>
+                    <var>memmax</var>
+                    <num>1048576</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>MB</str>
+        </line>
+        <line>
+            <var>aqua</var><str>X</str><var>white</var><str>:</str><var>yellow</var><var>xi</var>
+            <str>  </str>
+            <var>aqua</var><str>Y</str><var>white</var><str>:</str><var>yellow</var><var>yi</var>
+            <str>  </str>
+            <var>aqua</var><str>Z</str><var>white</var><str>:</str><var>yellow</var><var>zi</var>
+        </line>
+        <line>
+            <str>{aqua}已加载实体</str><str>{white}:</str><var>yellow</var><var>entitiestotal</var>
+            <str> </str>
+            <str>{aqua}月相</str><str>{white}:</str><var>yellow</var>
+            <op>
+                <str>le</str>
+                <var>moonphase</var>
+                <num>0</num>
+                <num>1</num>
+                <num>2</num>
+                <num>3</num>
+                <num>4</num>
+                <num>5</num>
+                <num>6</num>
+                <num>7</num>
+                <str>满月</str>
+                <str>亏凸</str>
+                <str>下弦月</str>
+                <str>残月</str>
+                <str>新月</str>
+                <str>娥眉月</str>
+                <str>上弦月</str>
+                <str>盈凸</str>
+            </op>
+        </line>
+    </lines>
+    <lines at="bottomleft">
+        <line>
+            <str>主手:</str>
+            <if>
+                <equal>
+                    <var>mainhandquantity</var>
+                    <num>0</num>
+                </equal>
+                <str>无</str>
+                <str>{mainhandlargeicon}{mainhandname}</str>
+            </if>
+        </line>
+        <line><str> </str></line>
+        <line>
+            <str>副手:</str>
+            <if>
+                <equal>
+                    <var>offhandquantity</var>
+                    <num>0</num>
+                </equal>
+                <str>无</str>
+                <str>{offhandlargeicon}{offhandname}</str>
+            </if>
+        </line>
+    </lines>
+    <lines at="bottomright">
+        <line><str>{helmetlargeicon} {helmetdamageleft}/{helmetmaxdamage}</str></line>
+        <line><str> </str></line>
+        <line><str>{chestplatelargeicon} {chestplatedamageleft}/{chestplatemaxdamage}</str></line>
+        <line><str> </str></line>
+        <line><str>{leggingslargeicon} {leggingsdamageleft}/{leggingsmaxdamage}</str></line>
+        <line><str> </str></line>
+        <line><str>{bootslargeicon} {bootsdamageleft}/{bootsmaxdamage}</str></line>
+    </lines>
+</config>

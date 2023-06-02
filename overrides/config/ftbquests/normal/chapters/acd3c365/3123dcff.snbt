@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-熔岩视界",
+	x: -10.5d,
+	y: 22.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "247a32c3",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 258s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6f16468c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

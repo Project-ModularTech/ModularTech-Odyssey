@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: -8.5d,
+	text: [
+		"把任何原木丢入星能液中都可以获得聚星木 可以用于白雏净化成为活木 也是一个美观的建筑材料"
+	],
+	dependencies: [
+		"c4ab9e89"
+	],
+	tasks: [{
+		uid: "af1b3aeb",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockinfusedwood",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cf19fb6f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

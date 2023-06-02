@@ -1,0 +1,19 @@
+{
+	x: -24.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "c33b4003",
+		type: "item",
+		items: [{
+			id: "rftools:modular_storage",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6f7c9a5c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

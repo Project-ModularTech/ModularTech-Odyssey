@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-寒冬之风",
+	x: -13.5d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "3dd76572",
+		type: "item",
+		items: [{
+			id: "mospells:mospells_spell_book",
+			Damage: 471s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "62760687",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

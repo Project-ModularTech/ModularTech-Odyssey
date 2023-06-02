@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: -2.5d,
+	dependencies: [
+		"f06cbe9e"
+	],
+	tasks: [{
+		uid: "fbc825f9",
+		type: "item",
+		items: [{
+			id: "contenttweaker:mastercircuitplate",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: -9.0d,
+	y: -4.5d,
+	shape: "hexagon",
+	text: [
+		"贴着自然生长的树木的根部可以产出树脂或树汁，贴着巨型蘑菇底部产出液态蘑菇煲",
+		"自己种的树也可以，但是通过搭建仿制的树不会被识别",
+		"当多个树汁提取器贴着同一棵树的时候会降低采集效率",
+		"§e推荐采集云杉木来大量获取树脂"
+	],
+	dependencies: [
+		"41332365",
+		"4742afc5"
+	],
+	tasks: [{
+		uid: "d5c7a55a",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			Damage: 3s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e135110a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

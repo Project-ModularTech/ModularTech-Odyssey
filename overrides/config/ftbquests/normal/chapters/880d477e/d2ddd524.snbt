@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: -9.0d,
+	dependencies: [
+		"09886289"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2b3ded0f",
+		type: "item",
+		items: [{
+			id: "waterstrainer:strainer_survivalist",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b9af36e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

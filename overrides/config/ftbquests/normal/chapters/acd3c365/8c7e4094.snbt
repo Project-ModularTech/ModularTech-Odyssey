@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-诅咒盔甲",
+	x: -1.5d,
+	y: 20.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "856f4040",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 247s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "24c69b96",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

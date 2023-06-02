@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-幽冥镐",
+	x: -9.0d,
+	y: 19.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6d8b7db8",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 41s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1722c860",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

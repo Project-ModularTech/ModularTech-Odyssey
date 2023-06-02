@@ -1,0 +1,23 @@
+{
+	x: 16.5d,
+	y: -3.0d,
+	text: [
+		"灌装机可以用于制造血染机械核心",
+		"一种制造机械核心非常便捷的方式"
+	],
+	dependencies: [
+		"163d70f1",
+		"ba8c6deb"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ca365471",
+		type: "checkmark",
+		title: "灌装机"
+	}],
+	rewards: [{
+		uid: "3ad94215",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

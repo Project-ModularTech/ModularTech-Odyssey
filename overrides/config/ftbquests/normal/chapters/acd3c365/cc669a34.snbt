@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-Reveal Undead",
+	x: -10.5d,
+	y: 52.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "71bc243d",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 396s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e62c6dcf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

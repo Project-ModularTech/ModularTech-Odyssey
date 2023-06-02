@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-召唤锚定",
+	x: -1.5d,
+	y: 29.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "cfee1514",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 260s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a8c7d5c2",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

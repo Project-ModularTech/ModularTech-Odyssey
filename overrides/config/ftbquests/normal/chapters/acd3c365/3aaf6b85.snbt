@@ -1,0 +1,24 @@
+{
+	title: "§6大师-召唤骷髅军团",
+	x: 10.5d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "15b6f9b2",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 100s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2fa480d6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

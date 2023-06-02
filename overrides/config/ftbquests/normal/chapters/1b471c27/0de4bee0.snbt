@@ -1,0 +1,25 @@
+{
+	x: -15.0d,
+	y: -8.5d,
+	text: [
+		"通过小型筛矿机获取海蓝宝石砂岩"
+	],
+	dependencies: [
+		"96157cba"
+	],
+	tasks: [{
+		uid: "78f2fcd3",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockcustomsandore",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b63d45ee",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

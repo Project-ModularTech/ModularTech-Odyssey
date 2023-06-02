@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-深海爆破",
+	x: -7.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f9287c3f",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 214s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "951b3280",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

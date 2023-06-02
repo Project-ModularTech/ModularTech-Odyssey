@@ -1,0 +1,26 @@
+{
+	x: 10.0d,
+	y: -12.5d,
+	text: [
+		"三级石板 需要泰拉钢粒和二级石板合成注血"
+	],
+	dependencies: [
+		"0d7b98ad"
+	],
+	tasks: [{
+		uid: "629cbee6",
+		type: "item",
+		items: [{
+			id: "bloodmagic:slate",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b0763b78",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

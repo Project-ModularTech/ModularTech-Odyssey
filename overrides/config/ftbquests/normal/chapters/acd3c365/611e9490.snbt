@@ -1,0 +1,24 @@
+{
+	title: "§6大师-传送门",
+	x: 9.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "318540b4",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 254s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cf28766a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

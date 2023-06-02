@@ -1,0 +1,27 @@
+{
+	x: -9.5d,
+	y: 3.0d,
+	shape: "hexagon",
+	text: [
+		"木质储存箱是一种特殊的箱子，拥有 27 格存储空间，它在被打破时物品不会掉落，而是跟着箱子一起移动"
+	],
+	dependencies: [
+		"26de85f3"
+	],
+	tasks: [{
+		uid: "9bce25a0",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:wooden_device0",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2555c9c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

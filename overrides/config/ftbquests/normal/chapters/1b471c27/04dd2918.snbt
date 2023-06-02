@@ -1,0 +1,25 @@
+{
+	x: -4.0d,
+	y: 0.5d,
+	text: [
+		"连接器可以合成必要的互联方块 也可以合成接下来的装配机"
+	],
+	dependencies: [
+		"3118a1ee"
+	],
+	tasks: [{
+		uid: "bc3cb4ec",
+		type: "item",
+		items: [{
+			id: "environmentaltech:connector",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "83673925",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

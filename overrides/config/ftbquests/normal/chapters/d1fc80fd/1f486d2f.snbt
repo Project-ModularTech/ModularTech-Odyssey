@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "efb3f55e",
+		type: "item",
+		items: [{
+			id: "contenttweaker:box8",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

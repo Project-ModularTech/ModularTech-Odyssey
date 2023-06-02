@@ -1,0 +1,41 @@
+{
+	title: "压缩灌注",
+	x: -6.0d,
+	y: 0.5d,
+	text: [
+		"压缩后的煤炭红石钻石和黑曜石 放入冶金灌注机能获得80单位 节约了不少"
+	],
+	dependencies: [
+		"cc1dd50b"
+	],
+	tasks: [{
+		uid: "28959106",
+		type: "item",
+		items: [{
+			id: "mekanism:compressedcarbon",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	},
+	{
+		uid: "c87dd7a9",
+		type: "item",
+		items: [{
+			id: "mekanism:compressedredstone",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	},
+	{
+		uid: "2417808c",
+		type: "item",
+		items: [{
+			id: "mekanism:compressedobsidian",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

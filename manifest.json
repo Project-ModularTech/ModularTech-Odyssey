@@ -1,0 +1,18 @@
+{
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "模块化科技：探索",
+  "version": "1.05alpha5-fix2",
+  "author": "ohxihh",
+  "overrides": "overrides",
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2860",
+        "primary": true
+      }
+    ]
+  },
+  "files": []
+}

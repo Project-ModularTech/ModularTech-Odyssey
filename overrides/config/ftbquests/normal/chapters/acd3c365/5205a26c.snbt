@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-火之陷阱",
+	x: -9.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "516a027b",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 16s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "13164fd3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

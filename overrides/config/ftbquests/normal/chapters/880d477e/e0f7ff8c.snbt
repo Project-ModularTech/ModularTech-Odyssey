@@ -1,0 +1,27 @@
+{
+	x: 8.5d,
+	y: -1.0d,
+	text: [
+		"沉浸多方块必备的轻型工程块",
+		""
+	],
+	dependencies: [
+		"76bbc888"
+	],
+	tasks: [{
+		uid: "84a78388",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d024bf48",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

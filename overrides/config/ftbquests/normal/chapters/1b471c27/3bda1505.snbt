@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: -8.5d,
+	text: [
+		"来自白雏菊转化 是植物魔法的主要材料"
+	],
+	dependencies: [
+		"9b2ddb5d",
+		"3fafdc81"
+	],
+	tasks: [{
+		uid: "0f4bf38b",
+		type: "item",
+		items: [{
+			id: "botania:livingwood",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ebaa98d4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

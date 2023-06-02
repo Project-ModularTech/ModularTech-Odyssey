@@ -1,0 +1,27 @@
+{
+	x: -14.0d,
+	y: 1.0d,
+	text: [
+		"戴上它，你破坏的方块会变为灰烬"
+	],
+	dependencies: [
+		"14734763"
+	],
+	tasks: [{
+		uid: "691419fa",
+		type: "item",
+		items: [{
+			id: "embers:ashen_amulet",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "832ab8c6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

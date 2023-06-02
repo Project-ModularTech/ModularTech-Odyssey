@@ -1,0 +1,27 @@
+{
+	x: -14.0d,
+	y: -5.5d,
+	shape: "hexagon",
+	text: [
+		"增加物品/流体导管的抽取速率  这是前期为数不多的好用的物流系统"
+	],
+	dependencies: [
+		"2793b640"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4ea0a228",
+		type: "item",
+		items: [{
+			id: "enderio:item_extract_speed_upgrade",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "036f85ab",
+		type: "loot",
+		table: 3
+	}]
+}

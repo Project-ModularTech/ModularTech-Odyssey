@@ -1,0 +1,24 @@
+{
+	title: "§6大师-召唤凤凰",
+	x: 12.0d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f6a5e4ff",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 93s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8dd4297e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

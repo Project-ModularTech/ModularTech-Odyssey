@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-Withdraw Life",
+	x: -10.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "fa46dcc9",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 402s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "797a4e97",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: -6.5d,
+	text: [
+		"接下来你会用到一些 它可以合成大规模合成并行处理器",
+		"也可以用来升级你的星辉工作台"
+	],
+	dependencies: [
+		"b794eb89"
+	],
+	tasks: [{
+		uid: "661c8e87",
+		type: "item",
+		items: [{
+			id: "threng:material",
+			Damage: 5s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b5ef3c81",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -15.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "f53f07c4",
+		type: "item",
+		items: [{
+			id: "contenttweaker:xiaoyu",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9d45a4b3",
+		type: "loot",
+		table: 6
+	}]
+}

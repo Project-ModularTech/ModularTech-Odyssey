@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-恐吓",
+	x: -7.5d,
+	y: 43.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b15678b5",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 115s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fd4656b4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

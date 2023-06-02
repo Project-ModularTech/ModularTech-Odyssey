@@ -1,0 +1,41 @@
+{
+	title: "灰烬能量的传输",
+	x: 18.5d,
+	y: -7.0d,
+	text: [
+		"放置于可以输出灰烬能量的机器上，需要和灰烬能量接收器配合绑定使用，用铁匠锤潜行右键接收器后再右键发射器绑定",
+		"自身有200灰烬能量缓存，接受红石信号开始传输灰烬能量",
+		"每次最多传输40灰烬能量，如果与接收器距离过远则会损失灰烬能量。",
+		"如果接收器已满则多余部分的灰烬能量会被浪费，并产生烟雾粒子"
+	],
+	dependencies: [
+		"f7b819a4"
+	],
+	tasks: [{
+		uid: "7431c2ad",
+		type: "item",
+		items: [{
+			id: "embers:ember_emitter",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c00cc6bb",
+		type: "item",
+		items: [{
+			id: "embers:ember_receiver",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce5ccef9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

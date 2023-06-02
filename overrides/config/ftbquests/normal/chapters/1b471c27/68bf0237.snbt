@@ -1,0 +1,26 @@
+{
+	x: -15.0d,
+	y: -4.5d,
+	text: [
+		"热力的机械框架",
+		"你可以准备制作热力膨胀的一系列机器了"
+	],
+	dependencies: [
+		"e94f3e21"
+	],
+	tasks: [{
+		uid: "8585e3d0",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:frame",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "890a2971",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

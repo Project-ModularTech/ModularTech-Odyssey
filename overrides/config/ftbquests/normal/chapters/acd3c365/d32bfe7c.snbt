@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-敏捷",
+	x: -9.0d,
+	y: 25.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "3791d45b",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 39s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ccc64e64",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

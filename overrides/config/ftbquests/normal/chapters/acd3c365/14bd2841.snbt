@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-召唤原始人灵魂",
+	x: -13.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "90c5d29d",
+		type: "item",
+		items: [{
+			id: "mospells:mospells_spell_book",
+			Damage: 464s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3a4c36d9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

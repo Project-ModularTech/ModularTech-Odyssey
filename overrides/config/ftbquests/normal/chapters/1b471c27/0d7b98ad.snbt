@@ -1,0 +1,26 @@
+{
+	x: 10.0d,
+	y: -10.5d,
+	text: [
+		"绿油油的泰拉钢锭 你可以用来制作精灵门 和精灵门交易"
+	],
+	dependencies: [
+		"4fd407dd"
+	],
+	tasks: [{
+		uid: "ea4dcbf4",
+		type: "item",
+		items: [{
+			id: "botania:manaresource",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "15419ebc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

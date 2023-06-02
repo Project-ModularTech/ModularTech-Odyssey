@@ -1,0 +1,15 @@
+{
+	title: "阶段三  合金时代",
+	icon: {
+		id: "enderio:block_alloy_smelter",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	description: [
+		"复杂合金"
+	],
+	always_invisible: false,
+	group: -2012405485,
+	default_quest_shape: ""
+}

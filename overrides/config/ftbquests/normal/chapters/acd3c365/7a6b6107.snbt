@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-冰盾",
+	x: -1.5d,
+	y: 37.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ec79b01c",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 278s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "894df838",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

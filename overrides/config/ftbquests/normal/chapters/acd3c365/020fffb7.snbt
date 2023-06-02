@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-精灵之环",
+	x: -1.5d,
+	y: 49.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8514b7d2",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 350s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4e1bc33e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

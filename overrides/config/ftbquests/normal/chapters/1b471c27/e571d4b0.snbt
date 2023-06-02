@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: -2.5d,
+	text: [
+		"沉浸的电路板 你觉得不太行 需要升个级"
+	],
+	dependencies: [
+		"558bbfff",
+		"3a236225"
+	],
+	tasks: [{
+		uid: "c43fdd54",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:material",
+			Damage: 27s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "eb08a73d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

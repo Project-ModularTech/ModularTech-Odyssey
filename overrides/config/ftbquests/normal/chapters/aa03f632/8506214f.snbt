@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 0.5d,
+	text: [
+		"有了蕴魔水晶就可以着手于制作凯罗尼结构方块了"
+	],
+	dependencies: [
+		"5ed5255c"
+	],
+	tasks: [{
+		uid: "9ec06e10",
+		type: "item",
+		items: [{
+			id: "contenttweaker:mana_crystal1",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

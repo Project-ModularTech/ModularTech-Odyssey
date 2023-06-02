@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: -10.5d,
+	text: [
+		"你的基础魔力传输设备",
+		"当然它只是给符文祭坛这中不吃火花的物件"
+	],
+	dependencies: [
+		"3bda1505"
+	],
+	tasks: [{
+		uid: "26be338a",
+		type: "item",
+		items: [{
+			id: "botania:spreader",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

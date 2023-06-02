@@ -1,0 +1,23 @@
+{
+	title: "电梯！",
+	x: -18.0d,
+	y: 3.0d,
+	dependencies: [
+		"9dd62b58"
+	],
+	tasks: [{
+		uid: "136686be",
+		type: "item",
+		items: [{
+			id: "enderutilities:ender_elevator",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "142f3ea0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

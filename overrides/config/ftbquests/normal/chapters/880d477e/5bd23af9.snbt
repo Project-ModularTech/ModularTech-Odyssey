@@ -1,0 +1,29 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"可以用来给消耗rf的物品充能",
+		"右键与该方块交互"
+	],
+	dependencies: [
+		"d553cadf"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6293f233",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:metal_device1",
+			Damage: 5s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fcd278a2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

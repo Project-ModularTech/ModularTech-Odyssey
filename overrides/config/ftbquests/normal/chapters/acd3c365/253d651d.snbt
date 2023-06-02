@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-解除高等法术",
+	x: -3.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "aed8feb6",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 274s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "aab91d73",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

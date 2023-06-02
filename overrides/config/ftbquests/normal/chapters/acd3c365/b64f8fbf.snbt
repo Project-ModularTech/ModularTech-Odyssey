@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-炫目闪光",
+	x: -7.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8a1e70c4",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 174s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "74079377",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

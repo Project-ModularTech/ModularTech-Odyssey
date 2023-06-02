@@ -1,0 +1,30 @@
+{
+	x: -6.5d,
+	y: -2.5d,
+	shape: "gear",
+	text: [
+		"你的第一块电路板 如果可以建议写自动化",
+		"毕竟需要用到好多"
+	],
+	dependencies: [
+		"e571d4b0",
+		"c43fdd54",
+		"4742afc5"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ea147dc6",
+		type: "item",
+		items: [{
+			id: "contenttweaker:basiccircuit",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "47cf01fa",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

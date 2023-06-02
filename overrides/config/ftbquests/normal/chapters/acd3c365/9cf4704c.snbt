@@ -1,0 +1,24 @@
+{
+	title: "§6大师-召唤暗影幽灵",
+	x: 10.5d,
+	y: 17.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "aa8f3b58",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 101s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2d1c1daa",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

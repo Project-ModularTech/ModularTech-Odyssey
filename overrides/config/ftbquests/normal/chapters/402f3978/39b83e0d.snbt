@@ -1,0 +1,16 @@
+{
+	title: "测试密钥备注",
+	x: -6.0d,
+	y: -10.5d,
+	text: [
+		"不同的测试密钥等级会带来不同的最终物品",
+		"§6Self-Aware§d等级的密钥是怪物波数最多的且会给故障灌注心脏"
+	],
+	dependencies: [
+		"7db126a9"
+	],
+	tasks: [{
+		uid: "257de3b8",
+		type: "checkmark"
+	}]
+}

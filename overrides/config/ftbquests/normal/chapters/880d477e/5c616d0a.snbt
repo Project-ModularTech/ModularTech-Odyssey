@@ -1,0 +1,27 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	text: [
+		"击杀太古魔像获得，你也可以通过合成来获得它",
+		"如果你有暗夜粉的话，不妨试试运气",
+		"你也可以通过女仆祭坛来召唤，召唤配方为：2灰烬晶体，2古代砖块，1岩浆膏"
+	],
+	dependencies: [
+		"8aa32d3b"
+	],
+	tasks: [{
+		uid: "ec904b57",
+		type: "item",
+		items: [{
+			id: "embers:ancient_motive_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9d870306",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

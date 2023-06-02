@@ -1,0 +1,23 @@
+{
+	x: -6.0d,
+	y: -3.5d,
+	dependencies: [
+		"80cd004b"
+	],
+	tasks: [{
+		uid: "377c803b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:distillation_tower_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3da9fcca",
+		type: "loot",
+		table: 4
+	}]
+}

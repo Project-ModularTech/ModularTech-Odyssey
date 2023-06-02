@@ -1,0 +1,26 @@
+{
+	x: -14.0d,
+	y: -9.0d,
+	dependencies: [
+		"deb964cc",
+		"22977fd4"
+	],
+	tasks: [{
+		uid: "1f97c08e",
+		type: "item",
+		items: [{
+			id: "draconicevolution:dislocator_advanced",
+			tag: {},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5e5e51f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

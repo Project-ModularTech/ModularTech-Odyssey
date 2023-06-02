@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-岩浆之墙",
+	x: -10.5d,
+	y: 43.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "da4c6dde",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 365s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "419cbae3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

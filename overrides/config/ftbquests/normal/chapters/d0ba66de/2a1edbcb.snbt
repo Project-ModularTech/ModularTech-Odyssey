@@ -1,0 +1,23 @@
+{
+	title: "星辉之力",
+	x: -22.0d,
+	y: 5.0d,
+	dependencies: [
+		"97f33223"
+	],
+	tasks: [{
+		uid: "87861009",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockritualpedestal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2531129b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

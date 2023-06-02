@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-Corpse Bomb",
+	x: -10.5d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b42dc901",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 415s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "96a14283",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

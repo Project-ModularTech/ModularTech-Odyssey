@@ -1,0 +1,26 @@
+{
+	x: -5.5d,
+	y: 3.0d,
+	text: [
+		"手持献祭匕首在血之祭坛附近右键持续放血给祭坛补充生命源质"
+	],
+	dependencies: [
+		"e2987d02"
+	],
+	tasks: [{
+		uid: "143d1905",
+		type: "item",
+		items: [{
+			id: "bloodmagic:altar",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6d28726",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

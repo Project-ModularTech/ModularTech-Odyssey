@@ -1,0 +1,21 @@
+{
+	x: -18.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "8429da80",
+		type: "item",
+		items: [{
+			id: "magicfeather:magicfeather",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a9cac4b5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

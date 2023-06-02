@@ -1,0 +1,24 @@
+{
+	title: "§6大师-时光扭结",
+	x: 9.0d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "08fddfc2",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 281s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "32fddb8e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

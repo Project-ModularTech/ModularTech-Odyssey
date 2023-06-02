@@ -1,0 +1,26 @@
+{
+	x: -9.5d,
+	y: 1.0d,
+	text: [
+		"通过在焦炉中烧制煤炭获取，是一种十分高效的燃料，可以烧制16个物品，也可以在高炉中烧制一个钢锭"
+	],
+	dependencies: [
+		"2a56aedf"
+	],
+	tasks: [{
+		uid: "306abb0e",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:material",
+			Damage: 6s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7121763c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

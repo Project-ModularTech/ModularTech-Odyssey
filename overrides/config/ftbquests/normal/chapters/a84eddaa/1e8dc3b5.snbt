@@ -1,0 +1,23 @@
+{
+	x: -19.5d,
+	y: 0.5d,
+	shape: "hexagon",
+	text: [
+		"继承炼金台的所有配方，合成过程中不会产出炼金失败物，100%合成成功",
+		"需要输入灰烬能和灰烬，内部可缓存2000灰烬能和8192个灰烬，每次合成消耗400灰烬能和X+1个灰烬",
+		"§e炼金台处理仓不需要炼金术基座、元素象征与光束炮，放入物品和给予灰烬能量即可无序合成，支持不稳定灰烬能量管道传输灰烬能量"
+	],
+	dependencies: [
+		"7fa925d4"
+	],
+	tasks: [{
+		uid: "a69abdca",
+		type: "item",
+		items: [{
+			id: "chambers:alchemy_chamber",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

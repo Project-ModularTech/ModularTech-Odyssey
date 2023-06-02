@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -9.5d,
+	dependencies: [
+		"1e55da00",
+		"1b90f0ef"
+	],
+	tasks: [{
+		uid: "df682d3f",
+		type: "item",
+		items: [{
+			id: "modularmachinery:mob_model_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83fbdbae",
+		type: "loot",
+		table: 4
+	}]
+}

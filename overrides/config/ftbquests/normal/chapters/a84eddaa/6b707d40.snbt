@@ -1,0 +1,19 @@
+{
+	x: -13.5d,
+	y: 0.5d,
+	shape: "gear",
+	dependencies: [
+		"bba5971c"
+	],
+	tasks: [{
+		uid: "02f12cc6",
+		type: "item",
+		items: [{
+			id: "bloodmagic:decorative_brick",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

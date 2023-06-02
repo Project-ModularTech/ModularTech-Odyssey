@@ -1,0 +1,24 @@
+{
+	title: "§a新手-烟雾弹",
+	x: -17.5d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6be26722",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 111s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b561e042",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: -6.5d,
+	text: [
+		"二阶的祭坛 它需要多方块结构来收集星能"
+	],
+	dependencies: [
+		"db84014e",
+		"c4ab9e89"
+	],
+	tasks: [{
+		uid: "d5e72434",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84ad98c7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

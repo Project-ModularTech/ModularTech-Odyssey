@@ -1,0 +1,26 @@
+{
+	x: 6.5d,
+	y: -1.0d,
+	text: [
+		"铁制机械部件的制作或许有些麻烦，在这一阶段，你只能通过浇筑铜齿轮来制造"
+	],
+	dependencies: [
+		"d553cadf"
+	],
+	tasks: [{
+		uid: "2668bddc",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:material",
+			Damage: 8s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4c618df0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

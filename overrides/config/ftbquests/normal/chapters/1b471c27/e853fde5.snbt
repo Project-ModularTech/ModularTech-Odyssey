@@ -1,0 +1,26 @@
+{
+	x: 14.0d,
+	y: -14.5d,
+	text: [
+		"有了感知锭你就可以合成感知之剑了 更方便获得恶魔意识"
+	],
+	dependencies: [
+		"0138b60f"
+	],
+	tasks: [{
+		uid: "5fe9d12b",
+		type: "item",
+		items: [{
+			id: "tconevo:metal",
+			Damage: 30s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e748c31c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

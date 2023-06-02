@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"0610ac03"
+	],
+	tasks: [{
+		uid: "c94fa577",
+		type: "item",
+		items: [{
+			id: "extendedcrafting:material",
+			Damage: 24s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

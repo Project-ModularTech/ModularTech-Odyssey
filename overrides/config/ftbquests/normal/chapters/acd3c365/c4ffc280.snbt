@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-激怒",
+	x: -7.5d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8e559f62",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 175s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f2108052",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

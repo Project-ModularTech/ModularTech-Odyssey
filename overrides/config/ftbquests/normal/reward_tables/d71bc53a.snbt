@@ -1,0 +1,223 @@
+{
+	title: "饰品前缀抽奖箱",
+	icon: {
+		id: "bountifulbaubles:modifierbook",
+		tag: {
+			baubleModifier: "menacing"
+		},
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "quick"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "jagged"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "brisk"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "wild"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "spiked"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "menacing"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "rash"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "violent"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "hasty"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "hearty"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "half_hearted"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "angry"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "warding"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "armored"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "guarding"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "none"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "fleeting"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "hard"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:modifierbook",
+			tag: {
+				baubleModifier: "intrepid"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

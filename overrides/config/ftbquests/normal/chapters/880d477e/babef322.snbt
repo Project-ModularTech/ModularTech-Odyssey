@@ -1,0 +1,59 @@
+{
+	title: "进阶组装",
+	x: 4.5d,
+	y: -5.0d,
+	text: [
+		"制作一个工具锻造台来强化你的匠魂工具，并制作更多种类的工具与武器",
+		"任意材质均可"
+	],
+	dependencies: [
+		"e1ec715c"
+	],
+	tasks: [{
+		uid: "1c0cdf4e",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e894418",
+		type: "item",
+		items: [{
+			id: "conarm:armorforge",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d36ddf16",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "你想变大还是变小？",
+	x: -20.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "3a9b7588",
+		type: "item",
+		items: [{
+			id: "resize:shrinking_bauble",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "resize:growth_bauble",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3dc5ed47",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

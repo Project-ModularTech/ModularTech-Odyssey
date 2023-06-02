@@ -1,0 +1,18 @@
+{
+	x: -11.5d,
+	y: 0.5d,
+	shape: "gear",
+	dependencies: [
+		"5e39c604"
+	],
+	tasks: [{
+		uid: "5b8c99ac",
+		type: "item",
+		items: [{
+			id: "avaritia:endest_pearl",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

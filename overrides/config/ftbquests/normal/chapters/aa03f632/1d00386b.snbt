@@ -1,0 +1,27 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	text: [
+		"这个装配杆是用于组装环境科技的多方块结构的主要工具。你只要按照正确的顺序摆放多方块结构，它就会自动完成组装机器。",
+		"    右键单击控制器组装多方块结构；",
+		"    生存模式下潜行+右键单击破坏整个多方块结构；",
+		"    左键单击控制器获取该多方块结构所需要的材料（方块）列表。"
+	],
+	dependencies: [
+		"6bb5eadc"
+	],
+	tasks: [{
+		uid: "bebebd36",
+		type: "item",
+		items: [{
+			id: "environmentaltech:tool_multiblock_assembler",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

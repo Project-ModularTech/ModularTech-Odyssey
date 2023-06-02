@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: -4.5d,
+	text: [
+		"用于制造你的第一块电路板 "
+	],
+	dependencies: [
+		"4b82be1d"
+	],
+	tasks: [{
+		uid: "5f96ca58",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:material",
+			Damage: 26s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fe95ebdc",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

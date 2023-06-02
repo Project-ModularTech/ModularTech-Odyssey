@@ -1,0 +1,24 @@
+{
+	title: "§a新手-轻伤治愈",
+	x: -17.5d,
+	y: 31.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "99d8e00a",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 12s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e27f0b1c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

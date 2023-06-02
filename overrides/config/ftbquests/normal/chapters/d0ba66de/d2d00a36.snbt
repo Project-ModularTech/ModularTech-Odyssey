@@ -1,0 +1,22 @@
+{
+	x: -14.0d,
+	y: 3.0d,
+	dependencies: [
+		"de0873d1"
+	],
+	tasks: [{
+		uid: "ef6d3118",
+		type: "item",
+		items: [{
+			id: "draconicevolution:celestial_manipulator",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6f9d07b6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

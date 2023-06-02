@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-裂地",
+	x: -4.5d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0b5cc9fb",
+		type: "item",
+		items: [{
+			id: "mospells:mospells_spell_book",
+			Damage: 461s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f4f7ff19",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

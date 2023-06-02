@@ -1,0 +1,28 @@
+{
+	x: -4.0d,
+	y: -11.0d,
+	shape: "gear",
+	text: [
+		"做莱泽尔结构方块必要道具",
+		"当然 你现在只能用它组装成简易机械框架"
+	],
+	dependencies: [
+		"420285bd"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1ecd3f19",
+		type: "item",
+		items: [{
+			id: "contenttweaker:crystal_1",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1f6c66e0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -18.0d,
+	y: -14.0d,
+	shape: "octagon",
+	tasks: [{
+		uid: "898a4adb",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:upgrade",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

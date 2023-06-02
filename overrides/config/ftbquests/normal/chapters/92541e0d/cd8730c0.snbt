@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: -0.5d,
+	dependencies: [
+		"81a7fb73"
+	],
+	tasks: [{
+		uid: "03fe6014",
+		type: "item",
+		items: [{
+			id: "modularmachinery:chemical_factory_mk1_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

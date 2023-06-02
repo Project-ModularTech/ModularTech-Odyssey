@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	dependencies: [
+		"863f1c11",
+		"fee92257"
+	],
+	tasks: [{
+		uid: "c80272b7",
+		type: "item",
+		items: [{
+			id: "modularmachinery:neutron_collector_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "153624b9",
+		type: "loot",
+		table: 5
+	}]
+}

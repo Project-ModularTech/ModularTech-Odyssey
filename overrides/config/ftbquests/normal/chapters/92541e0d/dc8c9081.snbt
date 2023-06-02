@@ -1,0 +1,24 @@
+{
+	x: 5.5d,
+	y: -6.5d,
+	shape: "hexagon",
+	dependencies: [
+		"84aa8b59"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e0999367",
+		type: "item",
+		items: [{
+			id: "modularmachinery:peiyang_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "52bb1ff0",
+		type: "loot",
+		table: 5
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -20.0d,
+	y: -7.5d,
+	shape: "gear",
+	text: [
+		"激活了就可以和精灵兑换物品了 但是不要给精灵们送面包"
+	],
+	dependencies: [
+		"572c9254"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d333ccf5",
+		type: "item",
+		items: [{
+			id: "botania:alfheimportal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

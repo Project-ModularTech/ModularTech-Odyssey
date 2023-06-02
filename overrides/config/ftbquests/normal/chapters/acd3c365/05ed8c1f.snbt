@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-鼓舞之心",
+	x: -7.5d,
+	y: 32.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d1644bf5",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 122s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "14b59a52",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

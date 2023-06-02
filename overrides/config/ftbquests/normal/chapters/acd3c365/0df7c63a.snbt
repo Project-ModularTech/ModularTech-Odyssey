@@ -1,0 +1,24 @@
+{
+	title: "§6大师-烈火陨星",
+	x: 12.0d,
+	y: 19.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6cc89ae6",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 91s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1498f29c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

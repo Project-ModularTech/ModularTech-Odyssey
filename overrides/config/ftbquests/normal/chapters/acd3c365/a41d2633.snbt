@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-末影诅咒",
+	x: -1.5d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4050fbfe",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 237s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8dd78f41",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"末影接口的开端 简易机械框架"
+	],
+	dependencies: [
+		"4bcd8555",
+		"698550e0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e8685bd0",
+		type: "item",
+		items: [{
+			id: "enderio:item_material",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "03d698d5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

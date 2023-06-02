@@ -1,0 +1,32 @@
+{
+	x: 14.0d,
+	y: -12.5d,
+	text: [
+		"有耐久的光源 右击放置 ",
+		"当然 我想你一定会拿去合成微光活木"
+	],
+	dependencies: [
+		"73c5a21d",
+		"1fe459ad",
+		"0138b60f"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "95caee7e",
+		type: "item",
+		items: [{
+			id: "embers:glimmer_shard",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4af6e791",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

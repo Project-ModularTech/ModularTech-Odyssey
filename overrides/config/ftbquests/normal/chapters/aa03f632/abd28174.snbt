@@ -1,0 +1,27 @@
+{
+	x: -16.0d,
+	y: -7.5d,
+	text: [
+		"没想到吧，本整合包不能烧基岩获得基岩粉，你只能通过往精灵尘中注入火焰水获得，在获取足够多的基岩粉后，你就可以开始发展末影接口了"
+	],
+	dependencies: [
+		"48bb58d9",
+		"1140a28e"
+	],
+	tasks: [{
+		uid: "c683ba52",
+		type: "item",
+		items: [{
+			id: "enderio:item_material",
+			Damage: 20s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cbd8dc0a",
+		type: "loot",
+		table: 3
+	}]
+}

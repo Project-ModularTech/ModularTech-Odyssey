@@ -1,0 +1,18 @@
+{
+	x: -5.5d,
+	y: 4.5d,
+	dependencies: [
+		"56d5ac0b"
+	],
+	tasks: [{
+		uid: "5ec48a08",
+		type: "item",
+		items: [{
+			id: "tconstruct:materials",
+			Damage: 50s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: -7.5d,
+	dependencies: [
+		"4b7b02da"
+	],
+	tasks: [{
+		uid: "5a78c138",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:compound",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

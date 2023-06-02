@@ -1,0 +1,28 @@
+{
+	x: 7.0d,
+	y: -8.5d,
+	shape: "hexagon",
+	text: [
+		"你可以使用YABBA了 这是一个不错的存储系统",
+		"至少不会太卡（"
+	],
+	dependencies: [
+		"3bda1505"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b2b7054e",
+		type: "item",
+		items: [{
+			id: "yabba:item_barrel",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "04eda360",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

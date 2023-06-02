@@ -1,0 +1,24 @@
+{
+	title: "§6大师-黑暗瘟疫",
+	x: 10.5d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "621cd043",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 99s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6c0f55d2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

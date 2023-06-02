@@ -1,0 +1,24 @@
+{
+	title: "§6大师-冰雹风暴",
+	x: 10.5d,
+	y: 32.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1a6acc61",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 136s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1d5da0f6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

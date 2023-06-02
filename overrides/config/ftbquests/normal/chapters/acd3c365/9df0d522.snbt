@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-触发法术-生命垂危",
+	x: -3.0d,
+	y: 17.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "fccfb37a",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 330s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1f28577c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

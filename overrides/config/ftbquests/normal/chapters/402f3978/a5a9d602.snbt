@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: -10.5d,
+	shape: "hexagon",
+	dependencies: [
+		"1b90f0ef"
+	],
+	tasks: [{
+		uid: "f0df3ca5",
+		type: "item",
+		items: [{
+			id: "modularmachinery:mana_creation_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71c055bd",
+		type: "loot",
+		table: 4
+	}]
+}

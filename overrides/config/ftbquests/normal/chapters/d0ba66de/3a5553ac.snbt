@@ -1,0 +1,19 @@
+{
+	x: -14.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "e674be25",
+		type: "item",
+		items: [{
+			id: "modularrouters:item_router",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5bd1317c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

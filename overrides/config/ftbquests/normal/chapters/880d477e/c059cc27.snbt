@@ -1,0 +1,27 @@
+{
+	x: 15.5d,
+	y: -6.0d,
+	text: [
+		"有了冲压机之后就可以做献祭符文了",
+		"通过放置在有效的多结构（层级）中才可以发生作用，若没有放全一层则无实际作用；每一个献祭符文增加生物/怪物献祭时获得的生命源质数量10%(累加计算)"
+	],
+	dependencies: [
+		"e132cff3"
+	],
+	tasks: [{
+		uid: "73f8be2d",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_rune",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6a38ba9e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

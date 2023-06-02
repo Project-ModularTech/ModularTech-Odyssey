@@ -1,0 +1,19 @@
+{
+	x: -14.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "dabb990b",
+		type: "item",
+		items: [{
+			id: "ebwizardry:arcane_workbench",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3c1e3bc7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

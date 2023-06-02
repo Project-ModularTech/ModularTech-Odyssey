@@ -1,0 +1,29 @@
+{
+	x: -5.5d,
+	y: 5.0d,
+	shape: "hexagon",
+	text: [
+		"用于指示血之祭坛建造的书籍",
+		""
+	],
+	dependencies: [
+		"77730b56"
+	],
+	tasks: [{
+		uid: "feb7c9a8",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sanguine_book",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "599a1188",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -22.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "8a991d79",
+		type: "item",
+		items: [{
+			id: "ae2utilities:enhanced_interface_tier3",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e9bfdec0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

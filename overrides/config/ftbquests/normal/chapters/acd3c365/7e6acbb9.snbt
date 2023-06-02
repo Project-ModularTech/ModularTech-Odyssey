@@ -1,0 +1,24 @@
+{
+	title: "§6大师-灭世火球",
+	x: 10.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6a62c994",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 206s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ea058d0a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

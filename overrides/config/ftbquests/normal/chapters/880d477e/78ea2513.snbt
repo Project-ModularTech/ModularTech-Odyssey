@@ -1,0 +1,27 @@
+{
+	x: 6.5d,
+	y: -3.0d,
+	text: [
+		"比铁制机械零件硬一些",
+		"由于不能手搓铁杆 所以你只能用它来制作钢栅栏"
+	],
+	dependencies: [
+		"76bbc888"
+	],
+	tasks: [{
+		uid: "301ce33a",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:material",
+			Damage: 9s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9cd34d1b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

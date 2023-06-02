@@ -1,0 +1,16 @@
+{
+	title: "阶段一  沉浸时代",
+	icon: {
+		id: "immersiveengineering:wooden_device0",
+		Damage: 2s,
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	description: [
+		"轰轰作响"
+	],
+	always_invisible: false,
+	group: -2012405485,
+	default_quest_shape: ""
+}

@@ -1,0 +1,24 @@
+{
+	title: "§6大师-沼泽",
+	x: 9.0d,
+	y: 23.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c6a8a046",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 364s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3063a574",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

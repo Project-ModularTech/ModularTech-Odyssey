@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: -5.5d,
+	text: [
+		"还记的上一阶段的聚合装置么 用它来聚合一些龙芯吧"
+	],
+	dependencies: [
+		"e55fee33",
+		"5339dbea",
+		"a4d73fbc"
+	],
+	tasks: [{
+		uid: "0d31c48c",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9c7373c5",
+		type: "loot",
+		table: 3
+	}]
+}

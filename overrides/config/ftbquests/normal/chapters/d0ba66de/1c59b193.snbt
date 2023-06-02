@@ -1,0 +1,17 @@
+{
+	x: -12.0d,
+	y: -11.0d,
+	dependencies: [
+		"47c52d5a"
+	],
+	tasks: [{
+		uid: "637e187d",
+		type: "item",
+		items: [{
+			id: "tinymobfarm:inferno_farm",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

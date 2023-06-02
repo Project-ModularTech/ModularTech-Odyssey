@@ -1,0 +1,22 @@
+{
+	x: 14.0d,
+	y: -9.5d,
+	dependencies: [
+		"82c43c16"
+	],
+	tasks: [{
+		uid: "17810020",
+		type: "item",
+		items: [{
+			id: "bloodmagic:ritual_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1befd083",
+		type: "loot",
+		table: 4
+	}]
+}

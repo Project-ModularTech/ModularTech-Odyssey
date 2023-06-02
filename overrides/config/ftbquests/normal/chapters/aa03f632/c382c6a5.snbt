@@ -1,0 +1,42 @@
+{
+	x: -12.0d,
+	y: -7.5d,
+	text: [
+		"因为还没有酿液桶 所以只能通过流体精炼机来获得烈酒"
+	],
+	dependencies: [
+		"ea147dc6",
+		"b24e9579"
+	],
+	tasks: [{
+		uid: "53f7c2c4",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 7s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					2b,
+					3b,
+					3b,
+					3b,
+					3b
+				],
+				Level: 0b
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9727bcc",
+		type: "loot",
+		table: 3
+	}]
+}

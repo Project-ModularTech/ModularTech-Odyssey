@@ -1,0 +1,26 @@
+{
+	x: -12.0d,
+	y: -3.5d,
+	text: [
+		"制作出末影钢机械框架之后 你可以选择制作强化机械框架 也可以选择制作一级虚空采矿机"
+	],
+	dependencies: [
+		"2793b640"
+	],
+	tasks: [{
+		uid: "529ff6a5",
+		type: "item",
+		items: [{
+			id: "enderio:item_material",
+			Damage: 66s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f4ec8c26",
+		type: "loot",
+		table: 3
+	}]
+}

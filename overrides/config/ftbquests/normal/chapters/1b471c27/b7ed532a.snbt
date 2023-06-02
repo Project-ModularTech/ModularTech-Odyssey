@@ -1,0 +1,27 @@
+{
+	x: -19.5d,
+	y: -2.5d,
+	shape: "gear",
+	text: [
+		"你需要先完成任务线——沉浸时代的“黑铁锭”任务"
+	],
+	dependencies: [
+		"db4679fc"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f3e565f2",
+		type: "item",
+		items: [{
+			id: "extendedcrafting:table_basic",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8ad25bbe",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

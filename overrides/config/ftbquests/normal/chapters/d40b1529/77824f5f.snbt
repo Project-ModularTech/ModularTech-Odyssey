@@ -1,0 +1,21 @@
+{
+	title: "JEI使用指南",
+	x: -7.5d,
+	y: -1.0d,
+	text: [
+		"对着物品按U可查询其可用于制作的配方，按R可查询该物品配方，按A可添加至配方书签方便下一次翻阅",
+		"在背包界面ctrl+o可以关闭/打开JEI界面"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "d827809e",
+		type: "checkmark",
+		title: "HEI的使用",
+		icon: {
+			id: "minecraft:crafting_table",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§6大师-芬布尔之冬",
+	x: 9.0d,
+	y: 20.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "31594751",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 338s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fdecc5b7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

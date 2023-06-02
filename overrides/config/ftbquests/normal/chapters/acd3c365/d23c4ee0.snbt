@@ -1,0 +1,24 @@
+{
+	title: "§a新手-Force Strike",
+	x: -19.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "3c79fcda",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 414s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "964c068c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

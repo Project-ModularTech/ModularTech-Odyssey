@@ -1,0 +1,26 @@
+{
+	x: -22.0d,
+	y: -5.0d,
+	dependencies: [
+		"a1e135e0",
+		"fe440da3"
+	],
+	tasks: [{
+		uid: "78f552ba",
+		type: "item",
+		items: [{
+			id: "enderutilities:handybag",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dd3e4341",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

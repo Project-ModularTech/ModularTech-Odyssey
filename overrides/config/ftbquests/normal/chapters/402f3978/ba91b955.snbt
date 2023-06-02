@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 2.5d,
+	dependencies: [
+		"cc1dd50b"
+	],
+	tasks: [{
+		uid: "26157c9c",
+		type: "item",
+		items: [{
+			id: "mekanism:compresseddiamond",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

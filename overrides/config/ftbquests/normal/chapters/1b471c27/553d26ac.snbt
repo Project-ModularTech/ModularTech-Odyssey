@@ -1,0 +1,26 @@
+{
+	x: 18.0d,
+	y: -10.5d,
+	text: [
+		"用红石控制 输入端不需要红石信号 输出端需要红石信号 如果两端都向管道输入了灰烬能量则会爆炸"
+	],
+	dependencies: [
+		"6d0cfbb1"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e644c1df",
+		type: "item",
+		items: [{
+			id: "embers:ember_pipe",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5a9806be",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

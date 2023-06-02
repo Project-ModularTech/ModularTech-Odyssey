@@ -1,0 +1,21 @@
+{
+	x: -22.0d,
+	y: -3.5d,
+	text: [
+		"可以制作z-逻辑控制器 z-逻辑控制器是制作更高级过滤升级的材料"
+	],
+	dependencies: [
+		"6e46e675"
+	],
+	tasks: [{
+		uid: "03f72d55",
+		type: "item",
+		items: [{
+			id: "enderio:block_soul_binder",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

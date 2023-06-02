@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-驱逐",
+	x: -7.5d,
+	y: 41.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "43d66b53",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 116s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7946806f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

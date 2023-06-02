@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: -11.5d,
+	text: [
+		"聚合矩阵的批量合成"
+	],
+	dependencies: [
+		"ff268174",
+		"9dac8cdb"
+	],
+	tasks: [{
+		uid: "e1aec02f",
+		type: "item",
+		items: [{
+			id: "tconevo:material",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e4cd0229",
+		type: "loot",
+		table: 4
+	}]
+}

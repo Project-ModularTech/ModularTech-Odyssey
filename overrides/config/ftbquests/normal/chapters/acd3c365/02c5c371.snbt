@@ -1,0 +1,24 @@
+{
+	title: "§6大师-召唤风暴元素",
+	x: 10.5d,
+	y: 35.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "53f07771",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 138s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b45bb895",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

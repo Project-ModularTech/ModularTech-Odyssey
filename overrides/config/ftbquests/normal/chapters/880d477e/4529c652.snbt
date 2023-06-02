@@ -1,0 +1,30 @@
+{
+	x: -3.5d,
+	y: -6.0d,
+	shape: "hexagon",
+	text: [
+		"能搜索一定范围内的方块、流体和实体",
+		"§e需要安装扫描模块"
+	],
+	dependencies: [
+		"7bc38d09"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ae9b6ec8",
+		type: "item",
+		items: [{
+			id: "scannable:scanner",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81bb43cb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

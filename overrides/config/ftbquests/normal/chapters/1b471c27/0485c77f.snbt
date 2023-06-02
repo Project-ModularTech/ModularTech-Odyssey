@@ -1,0 +1,26 @@
+{
+	x: 10.0d,
+	y: -14.5d,
+	text: [
+		"如注释一样 丢到怪物身上发出白色粒子效果后击杀就可以获得恶魔意识"
+	],
+	dependencies: [
+		"b1517720"
+	],
+	tasks: [{
+		uid: "4c8ade9b",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_snare",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ff0f2a3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-火墙",
+	x: -10.5d,
+	y: 35.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d32c12b9",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 299s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5bb1e68b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

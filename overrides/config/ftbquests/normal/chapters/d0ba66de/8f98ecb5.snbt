@@ -1,0 +1,23 @@
+{
+	title: "大范围buff！",
+	x: -12.0d,
+	y: 3.0d,
+	dependencies: [
+		"8c77bf95"
+	],
+	tasks: [{
+		uid: "db910215",
+		type: "item",
+		items: [{
+			id: "rftools:environmental_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7381d1de",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

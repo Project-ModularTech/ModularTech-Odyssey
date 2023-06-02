@@ -1,0 +1,25 @@
+{
+	x: 15.5d,
+	y: -4.0d,
+	text: [
+		"血淋淋的 但是省去了不少麻烦"
+	],
+	dependencies: [
+		"c059cc27"
+	],
+	tasks: [{
+		uid: "fdf87263",
+		type: "item",
+		items: [{
+			id: "contenttweaker:blood_machine_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fbb47d29",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

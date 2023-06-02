@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -6.5d,
+	text: [
+		"有了福鲁伊克斯聚合器 就非常方便做福鲁伊克斯锭了"
+	],
+	dependencies: [
+		"4b82be1d"
+	],
+	tasks: [{
+		uid: "b28ebcdd",
+		type: "item",
+		items: [{
+			id: "threng:machine",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "54220037",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

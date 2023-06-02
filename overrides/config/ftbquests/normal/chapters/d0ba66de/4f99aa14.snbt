@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -9.0d,
+	dependencies: [
+		"f7b24d96"
+	],
+	tasks: [{
+		uid: "74a13542",
+		type: "item",
+		items: [{
+			id: "avaritiaddons:avaritiaddons_chest",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "911f45d3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

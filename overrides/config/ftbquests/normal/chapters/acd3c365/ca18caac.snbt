@@ -1,0 +1,29 @@
+{
+	title: "§6大师-寒冰之塔",
+	x: 9.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "438eff0b",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 244s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "34df4aa1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "1eaa0036",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

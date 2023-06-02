@@ -1,0 +1,21 @@
+{
+	x: -16.0d,
+	y: -9.0d,
+	tasks: [{
+		uid: "d7a17847",
+		type: "item",
+		items: [{
+			id: "draconicevolution:dislocator",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8c8673b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

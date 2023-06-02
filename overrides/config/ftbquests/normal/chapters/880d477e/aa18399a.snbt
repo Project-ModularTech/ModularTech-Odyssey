@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: -7.0d,
+	dependencies: [
+		"92ad4c71"
+	],
+	tasks: [{
+		uid: "2ca01968",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:turbine_dynamo_coil",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e06a1c85",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

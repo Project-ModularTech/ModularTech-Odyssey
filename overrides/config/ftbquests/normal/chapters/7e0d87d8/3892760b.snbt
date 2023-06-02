@@ -1,0 +1,18 @@
+{
+	x: -41.5d,
+	y: -4.0d,
+	dependencies: [
+		"08151c44"
+	],
+	tasks: [{
+		uid: "77de1517",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:augment",
+			Damage: 448s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

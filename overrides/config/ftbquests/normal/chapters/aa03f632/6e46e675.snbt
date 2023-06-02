@@ -1,0 +1,21 @@
+{
+	x: -20.0d,
+	y: -3.5d,
+	text: [
+		"本整合包不能获得破损刷怪笼 但是可以用灵魂机械框架来制作灵魂绑定器"
+	],
+	dependencies: [
+		"1bf83ae2"
+	],
+	tasks: [{
+		uid: "60e9fbfd",
+		type: "item",
+		items: [{
+			id: "enderio:item_material",
+			Damage: 53s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

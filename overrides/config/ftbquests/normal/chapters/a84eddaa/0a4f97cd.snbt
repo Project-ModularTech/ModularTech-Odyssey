@@ -1,0 +1,17 @@
+{
+	x: -23.5d,
+	y: 2.5d,
+	dependencies: [
+		"6998e73d"
+	],
+	tasks: [{
+		uid: "c9187ab9",
+		type: "item",
+		items: [{
+			id: "modularmachinery:assembly_line_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-史莱姆",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "781e4d32",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 77s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6a44f9fa",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

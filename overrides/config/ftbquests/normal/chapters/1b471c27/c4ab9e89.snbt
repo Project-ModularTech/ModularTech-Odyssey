@@ -1,0 +1,32 @@
+{
+	x: 2.0d,
+	y: -8.5d,
+	text: [
+		"桶装星能 它的流速非常快",
+		"与水在一起生成冰块"
+	],
+	dependencies: [
+		"d9fca8cb"
+	],
+	tasks: [{
+		uid: "3d4258ca",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "astralsorcery.liquidstarlight",
+				Amount: 1000
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35e42191",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

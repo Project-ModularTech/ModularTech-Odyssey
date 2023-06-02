@@ -1,0 +1,21 @@
+{
+	x: -8.0d,
+	y: -11.5d,
+	text: [
+		"手持未激活末影核心（高级）右键末地的末影水晶获取"
+	],
+	dependencies: [
+		"c399b559"
+	],
+	tasks: [{
+		uid: "a1e135e0",
+		type: "item",
+		items: [{
+			id: "enderutilities:enderpart",
+			Damage: 17s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

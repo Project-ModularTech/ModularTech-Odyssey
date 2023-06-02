@@ -1,0 +1,23 @@
+{
+	x: -8.0d,
+	y: -0.5d,
+	text: [
+		"在完成粉碎机后，你可以制作动能发电机"
+	],
+	tasks: [{
+		uid: "5a5397e1",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

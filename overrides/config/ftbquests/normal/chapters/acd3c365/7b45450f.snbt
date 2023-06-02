@@ -1,0 +1,24 @@
+{
+	title: "§6大师-心脏骤停",
+	x: 10.5d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "15e9a1c3",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 210s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8e504cea",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

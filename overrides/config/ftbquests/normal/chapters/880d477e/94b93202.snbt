@@ -1,0 +1,25 @@
+{
+	x: 22.5d,
+	y: -3.0d,
+	text: [
+		"用于血魔法路线制作黎明石锭"
+	],
+	dependencies: [
+		"83eff21d"
+	],
+	tasks: [{
+		uid: "a1055061",
+		type: "item",
+		items: [{
+			id: "contenttweaker:gold_copper_ingot",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3a18cf06",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

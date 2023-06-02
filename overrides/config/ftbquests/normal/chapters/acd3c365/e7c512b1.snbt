@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-Hunger",
+	x: -10.5d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "89377460",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 398s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c94bd56c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

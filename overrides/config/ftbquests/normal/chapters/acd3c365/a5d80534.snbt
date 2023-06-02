@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-收割",
+	x: -10.5d,
+	y: 34.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6a205c5d",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 300s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7bb08e73",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

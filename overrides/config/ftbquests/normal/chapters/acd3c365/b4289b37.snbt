@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-精神控制",
+	x: 0.0d,
+	y: 40.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a9ad72bf",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 65s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e3fa3664",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

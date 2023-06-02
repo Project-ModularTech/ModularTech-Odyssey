@@ -1,0 +1,33 @@
+{
+	x: -5.5d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"一种工业的基础金属，是大型机器的必备原料之一。",
+		"§e注意：血魔法和余烬任务线为二选一，在进入无尽时代前选择其中一条完成即可"
+	],
+	dependencies: [
+		"ecb2c948"
+	],
+	tasks: [{
+		uid: "84e1c595",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:material",
+			Damage: 160s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	},
+	{
+		uid: "a823f270",
+		type: "checkmark",
+		title: "在无尽阶段前，血魔法和余烬二选一完成即可"
+	}],
+	rewards: [{
+		uid: "9e91c2ac",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

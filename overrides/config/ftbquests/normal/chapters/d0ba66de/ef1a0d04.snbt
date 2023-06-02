@@ -1,0 +1,24 @@
+{
+	x: -14.0d,
+	y: -5.0d,
+	dependencies: [
+		"5c5667cf",
+		"fb7ba818"
+	],
+	tasks: [{
+		uid: "d378d237",
+		type: "item",
+		items: [{
+			id: "yabba:upgrade_star_tier",
+			ForgeCaps: {
+				Parent: {},
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5fddcdaa",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

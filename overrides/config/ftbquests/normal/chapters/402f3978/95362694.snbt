@@ -1,0 +1,39 @@
+{
+	icon: {
+		id: "bloodmagic:bound_sword",
+		tag: {
+			Unbreakable: 1b,
+			activated: 1b,
+			binding: {
+				id: {
+					M: 1816893968260870384L,
+					L: -5468348246407920885L
+				},
+				name: "ohxihh"
+			}
+		},
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	x: 14.0d,
+	y: -11.5d,
+	dependencies: [
+		"b1be65a2"
+	],
+	tasks: [{
+		uid: "77ed3eb9",
+		type: "item",
+		items: [{
+			id: "bloodmagic:bound_sword",
+			tag: {
+				Unbreakable: 1b
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

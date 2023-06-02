@@ -1,0 +1,25 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	text: [
+		"你需要将这台机器放置在高度Y=7以下的位置，从中心方块的上下两个面输入燃料并输出灰烬晶体，你可以使用管道或者漏斗来协助传输"
+	],
+	dependencies: [
+		"765a4f51"
+	],
+	tasks: [{
+		uid: "1893a212",
+		type: "item",
+		items: [{
+			id: "embers:ember_bore",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "237d92c9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

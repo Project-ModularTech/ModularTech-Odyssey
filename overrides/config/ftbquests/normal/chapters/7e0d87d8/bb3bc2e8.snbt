@@ -1,0 +1,18 @@
+{
+	x: -9.0d,
+	y: -14.0d,
+	dependencies: [
+		"da184f22"
+	],
+	tasks: [{
+		uid: "467d7cfa",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:upgrade",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

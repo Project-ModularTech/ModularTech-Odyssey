@@ -1,0 +1,24 @@
+{
+	x: -22.0d,
+	y: -9.0d,
+	dependencies: [
+		"34ceeef9"
+	],
+	tasks: [{
+		uid: "1aa71bb7",
+		type: "item",
+		items: [{
+			id: "bountifulbaubles:wormholemirror",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f92ef5c1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

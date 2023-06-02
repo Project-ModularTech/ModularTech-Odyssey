@@ -1,0 +1,28 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"太古电路可以用作铜齿轮和青铜齿轮的铸模，在浇筑过程中不会被消耗",
+		"§e在制作献祭符文的时候也不会消耗"
+	],
+	dependencies: [
+		"5c616d0a",
+		"284b83ac"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "6066b2d3",
+		type: "item",
+		items: [{
+			id: "embers:archaic_circuit",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cb367951",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

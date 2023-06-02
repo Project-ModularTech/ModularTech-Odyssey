@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	text: [
+		"有了电路板后 你就可以制作小型组装机了"
+	],
+	dependencies: [
+		"04dd2918",
+		"e571d4b0"
+	],
+	tasks: [{
+		uid: "b02b691f",
+		type: "item",
+		items: [{
+			id: "modularmachinery:mini_assemble_machine_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ab9b0f3b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

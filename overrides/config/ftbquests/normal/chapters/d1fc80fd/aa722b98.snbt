@@ -1,0 +1,22 @@
+{
+	x: -12.5d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "5b724734",
+		type: "item",
+		items: [{
+			id: "contenttweaker:box3",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "868aa467",
+		type: "loot",
+		team_reward: false,
+		table: 3
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "星之所在",
+	x: -13.0d,
+	y: -8.5d,
+	text: [
+		"这是驱动星辉的必要道具",
+		"到了五彩祭坛阶段你可以为其升级",
+		"每个效果都不同"
+	],
+	dependencies: [
+		"0de4bee0"
+	],
+	tasks: [{
+		uid: "5a7ddfad",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ea1757f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

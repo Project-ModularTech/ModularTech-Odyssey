@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: -0.5d,
+	dependencies: [
+		"c9a69e02"
+	],
+	tasks: [{
+		uid: "0fd6bd92",
+		type: "item",
+		items: [{
+			id: "contenttweaker:protect2",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

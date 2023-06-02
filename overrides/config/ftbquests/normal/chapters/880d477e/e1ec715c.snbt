@@ -1,0 +1,41 @@
+{
+	title: "基础组装",
+	x: 6.5d,
+	y: -5.0d,
+	text: [
+		"有了部件 必须得组装起来啊",
+		"本整合包加入了匠魂盔甲 可以做一些强力的装备",
+		"组装台可以用于替换部件 工具升级 工具修复"
+	],
+	dependencies: [
+		"ef2d414b"
+	],
+	tasks: [{
+		uid: "0124e595",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cc7c60bb",
+		type: "item",
+		items: [{
+			id: "conarm:armorstation",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "24bc6989",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

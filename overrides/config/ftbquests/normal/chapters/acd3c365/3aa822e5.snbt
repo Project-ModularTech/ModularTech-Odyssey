@@ -1,0 +1,24 @@
+{
+	title: "§a新手-泥土壁垒",
+	x: -19.0d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "84c43451",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 370s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "52b7ed35",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

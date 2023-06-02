@@ -1,0 +1,24 @@
+{
+	title: "§a新手-召唤僵尸",
+	x: -17.5d,
+	y: 29.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "29ad5551",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 7s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1f54bb4c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

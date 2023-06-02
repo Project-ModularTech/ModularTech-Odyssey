@@ -1,0 +1,23 @@
+{
+	x: 6.0d,
+	y: 0.5d,
+	dependencies: [
+		"dc78ed59"
+	],
+	tasks: [{
+		uid: "6fe60bc7",
+		type: "item",
+		items: [{
+			id: "avaritia:neutron_collector",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76e8ab23",
+		type: "loot",
+		table: 4
+	}]
+}

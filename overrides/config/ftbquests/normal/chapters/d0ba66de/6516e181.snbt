@@ -1,0 +1,25 @@
+{
+	title: "随身携带的小型仓库",
+	x: -10.0d,
+	y: -5.0d,
+	dependencies: [
+		"5e39c604",
+		"9ea87581"
+	],
+	tasks: [{
+		uid: "ca7eeb35",
+		type: "item",
+		items: [{
+			id: "enderutilities:enderpart",
+			Damage: 54s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2fc2878c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

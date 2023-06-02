@@ -1,0 +1,28 @@
+{
+	x: 28.5d,
+	y: -1.0d,
+	shape: "hexagon",
+	text: [
+		"右键添加升级 可以升级容量"
+	],
+	dependencies: [
+		"91ba0777"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3d6ea767",
+		type: "item",
+		items: [{
+			id: "enderutilities:enderpart",
+			Damage: 72s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4c5ae043",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

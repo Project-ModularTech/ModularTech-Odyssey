@@ -1,0 +1,21 @@
+{
+	x: -20.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "2cd13a5d",
+		type: "item",
+		items: [{
+			id: "extendedcrafting:handheld_table",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a17ae26",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

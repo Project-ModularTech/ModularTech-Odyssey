@@ -1,0 +1,23 @@
+{
+	x: -9.5d,
+	y: -4.5d,
+	dependencies: [
+		"4c8b2b23",
+		"d20c4d3e"
+	],
+	tasks: [{
+		uid: "d3b6866b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:star_alloy_furance_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e43e2bc1",
+		type: "loot",
+		table: 5
+	}]
+}

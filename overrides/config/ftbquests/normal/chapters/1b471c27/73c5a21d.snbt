@@ -1,0 +1,28 @@
+{
+	x: 12.0d,
+	y: -12.5d,
+	text: [
+		"合成法阵物品的基础 右击方块放置一个法阵 再次右击添加物品",
+		"转动了就是开始工作了"
+	],
+	dependencies: [
+		"b1517720"
+	],
+	tasks: [{
+		uid: "b1be65a2",
+		type: "item",
+		items: [{
+			id: "bloodmagic:arcane_ashes",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "28ee0036",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

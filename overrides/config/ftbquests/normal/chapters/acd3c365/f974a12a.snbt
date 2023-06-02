@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-方块编织",
+	x: -12.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5dc7bad6",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 263s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b560d383",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-藤曼钩爪",
+	x: -7.5d,
+	y: 23.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "80ba392d",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 149s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b79cc08b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

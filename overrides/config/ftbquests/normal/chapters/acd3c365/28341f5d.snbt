@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-追踪闪电",
+	x: -9.0d,
+	y: 52.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "bddd48b9",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 25s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "de12b63a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

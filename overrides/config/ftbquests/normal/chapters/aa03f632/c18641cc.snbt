@@ -1,0 +1,27 @@
+{
+	x: -18.0d,
+	y: 0.5d,
+	text: [
+		"小制造机可以非常快速的打粉 也可以1：1 煤粉换成石墨粉"
+	],
+	dependencies: [
+		"6d8e6c5b",
+		"9d48832f"
+	],
+	tasks: [{
+		uid: "5bd26389",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:manufactory_idle",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "93379823",
+		type: "loot",
+		table: 3
+	}]
+}

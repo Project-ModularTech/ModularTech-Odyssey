@@ -1,0 +1,27 @@
+{
+	x: -13.0d,
+	y: -2.5d,
+	text: [
+		"凝固树脂 你就可以获得树脂板",
+		"当然 它还不能用于制作电路基板"
+	],
+	dependencies: [
+		"fd944cb1",
+		"5aabbd76"
+	],
+	tasks: [{
+		uid: "ff23bb2e",
+		type: "item",
+		items: [{
+			id: "contenttweaker:resinplate",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4d2d8f81",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

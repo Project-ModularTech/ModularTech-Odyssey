@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-暗黑雷电",
+	x: -9.0d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0fe8e6ef",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 232s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "24e59dda",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

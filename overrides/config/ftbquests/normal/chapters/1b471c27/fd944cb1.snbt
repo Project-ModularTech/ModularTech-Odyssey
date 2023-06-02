@@ -1,0 +1,86 @@
+{
+	title: "树脂分离",
+	icon: {
+		id: "thermalexpansion:machine",
+		Damage: 2s,
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		}
+	},
+	x: -15.0d,
+	y: -2.5d,
+	text: [
+		"这是你目前唯一一种获得树脂的方式",
+		"插入升级之后放入云杉木就可以了",
+		"还能赚两个木板"
+	],
+	dependencies: [
+		"68bf0237"
+	],
+	tasks: [{
+		uid: "38dac338",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 2s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bef3f482",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:augment",
+			Damage: 288s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "273311ca",
+		type: "item",
+		item: {
+			id: "minecraft:sapling",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "4cf2bea4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

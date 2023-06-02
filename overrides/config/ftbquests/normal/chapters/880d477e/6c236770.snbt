@@ -1,0 +1,29 @@
+{
+	x: 28.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"存储不可堆叠的物品",
+		"刷怪塔垃圾的剑有家了"
+	],
+	dependencies: [
+		"fd8b5dd1"
+	],
+	optional: true,
+	tasks: [{
+		uid: "13463309",
+		type: "item",
+		items: [{
+			id: "enderutilities:storage_0",
+			Damage: 7s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bb1f2f8f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

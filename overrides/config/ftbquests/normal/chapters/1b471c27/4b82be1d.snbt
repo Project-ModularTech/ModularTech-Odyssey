@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: -6.5d,
+	text: [
+		"这个铁锭蕴含了福鲁伊克斯 你可以用它合成真空管制作电路板 也可以制作福鲁伊克斯聚合器继续发展魔法",
+		""
+	],
+	dependencies: [
+		"b4c80ec9"
+	],
+	tasks: [{
+		uid: "adcbe3aa",
+		type: "item",
+		items: [{
+			id: "threng:material",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "16910ca1",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

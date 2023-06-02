@@ -1,0 +1,13 @@
+{
+	title: "主线流程",
+	icon: {
+		id: "ftbquests:book",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

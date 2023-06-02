@@ -1,0 +1,17 @@
+{
+	x: -12.5d,
+	y: -2.5d,
+	dependencies: [
+		"cd00715e"
+	],
+	tasks: [{
+		uid: "c620d8a1",
+		type: "item",
+		items: [{
+			id: "contenttweaker:nova",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

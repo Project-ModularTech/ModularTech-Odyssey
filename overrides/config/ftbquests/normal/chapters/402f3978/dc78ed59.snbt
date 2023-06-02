@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	shape: "gear",
+	dependencies: [
+		"2cf7ef4e",
+		"20035146",
+		"9955e063"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "52501278",
+		type: "item",
+		items: [{
+			id: "avaritia:extreme_crafting_table",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02f3886a",
+		type: "loot",
+		table: 4
+	}]
+}

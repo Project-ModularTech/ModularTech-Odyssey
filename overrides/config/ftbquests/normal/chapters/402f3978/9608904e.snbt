@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: -9.5d,
+	dependencies: [
+		"97951e00",
+		"316ed121"
+	],
+	tasks: [{
+		uid: "aacd5325",
+		type: "item",
+		items: [{
+			id: "environmentaltech:structure_frame_3",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "307d2de3",
+		type: "loot",
+		table: 4
+	}]
+}

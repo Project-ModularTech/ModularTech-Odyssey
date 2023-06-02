@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: -8.5d,
+	text: [
+		"植物魔法所有符文都可以用此制作",
+		"符文合成符文的情况下 符文不消耗"
+	],
+	dependencies: [
+		"fa4e0c5f"
+	],
+	tasks: [{
+		uid: "462a5920",
+		type: "item",
+		items: [{
+			id: "botania:runealtar",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "37939e73",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

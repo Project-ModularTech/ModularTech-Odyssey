@@ -1,0 +1,20 @@
+{
+	title: "强光火把",
+	x: -10.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "2a61d6cf",
+		type: "item",
+		items: [{
+			id: "glaretorch:itemglaretorchlarge2",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4dda4937",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

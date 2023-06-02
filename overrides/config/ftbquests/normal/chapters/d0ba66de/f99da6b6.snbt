@@ -1,0 +1,21 @@
+{
+	x: -22.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "46968d78",
+		type: "item",
+		items: [{
+			id: "betterbuilderswands:wandunbreakable",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f217e4db",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

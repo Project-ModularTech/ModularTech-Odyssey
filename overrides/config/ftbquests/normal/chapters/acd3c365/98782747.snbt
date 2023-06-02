@@ -1,0 +1,24 @@
+{
+	title: "§a新手-挖掘魔法",
+	x: -17.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a7f0c7ba",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 141s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "421f655a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

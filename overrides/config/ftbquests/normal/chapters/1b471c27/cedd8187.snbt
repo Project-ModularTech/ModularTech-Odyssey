@@ -1,0 +1,29 @@
+{
+	x: 14.0d,
+	y: -6.5d,
+	shape: "hexagon",
+	text: [
+		"好东西 自己看描述吧"
+	],
+	dependencies: [
+		"bf5b4e67"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8281665c",
+		type: "item",
+		items: [{
+			id: "enderutilities:handybag",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8046bf7b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

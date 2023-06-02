@@ -1,0 +1,28 @@
+{
+	title: "HAMMA!",
+	x: -11.5d,
+	y: -1.0d,
+	text: [
+		"可以用成型沉浸工程的机械结构",
+		"§e注意！你需要敲击结构中特定方块才能使结构成型"
+	],
+	dependencies: [
+		"46cfa382"
+	],
+	tasks: [{
+		uid: "47284990",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:tool",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2892b3f1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -18.0d,
+	y: -7.0d,
+	dependencies: [
+		"b0c96217",
+		"7e405da3"
+	],
+	tasks: [{
+		uid: "e6970f11",
+		type: "item",
+		items: [{
+			id: "cookingforblockheads:sink",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7a8fdcce",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

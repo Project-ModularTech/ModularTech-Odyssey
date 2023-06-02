@@ -1,0 +1,25 @@
+{
+	x: -8.0d,
+	y: -3.5d,
+	text: [
+		"是制作矿机/太阳能/纳米信标/避雷针控制器的必要材料 也是制作结构镶板的材料"
+	],
+	dependencies: [
+		"9d682f83"
+	],
+	tasks: [{
+		uid: "992eb6e5",
+		type: "item",
+		items: [{
+			id: "environmentaltech:interconnect",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5e663f04",
+		type: "loot",
+		table: 3
+	}]
+}

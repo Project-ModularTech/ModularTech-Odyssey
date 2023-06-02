@@ -1,0 +1,22 @@
+{
+	x: -18.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "ee3f2d35",
+		type: "item",
+		items: [{
+			id: "extrabotany:silenteternity",
+			tag: {},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ab6336db",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

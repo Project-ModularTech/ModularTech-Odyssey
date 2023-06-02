@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: -4.5d,
+	text: [
+		"聚集了星能的铁矿石 是星辉的高阶材料",
+		""
+	],
+	dependencies: [
+		"d66c97d3"
+	],
+	tasks: [{
+		uid: "3f3aaa46",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockcustomore",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "51142499",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

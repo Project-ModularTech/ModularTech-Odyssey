@@ -1,0 +1,22 @@
+{
+	x: -13.5d,
+	y: -1.0d,
+	text: [
+		"感谢ionite对任务描述的补全"
+	],
+	tasks: [{
+		uid: "ece5dfc5",
+		type: "item",
+		items: [{
+			id: "contenttweaker:ionite",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c46f6427",
+		type: "loot",
+		table: 6
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "兑换中心",
+	icon: {
+		id: "contenttweaker:box1",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

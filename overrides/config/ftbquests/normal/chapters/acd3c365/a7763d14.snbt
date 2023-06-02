@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-凋零头颅",
+	x: 0.0d,
+	y: 44.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "950121ac",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 68s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "54803ce0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

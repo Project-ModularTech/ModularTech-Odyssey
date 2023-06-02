@@ -1,0 +1,21 @@
+{
+	x: -11.5d,
+	y: -1.0d,
+	text: [
+		"输入配方所需流体"
+	],
+	dependencies: [
+		"63bd2cb3",
+		"2bff0041"
+	],
+	tasks: [{
+		uid: "30506662",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockfluidinputhatch",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

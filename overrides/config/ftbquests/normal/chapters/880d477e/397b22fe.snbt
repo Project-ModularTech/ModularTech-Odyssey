@@ -1,0 +1,37 @@
+{
+	title: "初始的存储卡",
+	x: 24.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"相当于便捷箱子的前置",
+		"没有它便捷箱子就是一摆件"
+	],
+	dependencies: [
+		"bcdf7786"
+	],
+	tasks: [{
+		uid: "8a85ad0a",
+		type: "item",
+		items: [{
+			id: "enderutilities:enderpart",
+			Damage: 51s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "enderutilities:enderpart",
+			Damage: 52s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0521147c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

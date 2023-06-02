@@ -1,0 +1,28 @@
+{
+	x: -6.0d,
+	y: -3.5d,
+	text: [
+		"结构镶板可以制做一级结构方块 也是搭建多方块结构的必要材料"
+	],
+	dependencies: [
+		"ffa9ccec"
+	],
+	tasks: [{
+		uid: "cb563607",
+		type: "item",
+		title: "结构镶板",
+		items: [{
+			id: "environmentaltech:structure_panel",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "environmentaltech:structure_panel_clear",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

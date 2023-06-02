@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-再生",
+	x: -10.5d,
+	y: 31.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4c8a4162",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 307s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e47ea7d8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

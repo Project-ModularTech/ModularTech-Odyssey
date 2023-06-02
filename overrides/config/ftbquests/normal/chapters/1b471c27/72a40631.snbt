@@ -1,0 +1,31 @@
+{
+	x: 14.0d,
+	y: -16.5d,
+	shape: "hexagon",
+	text: [
+		"可以使用抢夺增加恶魔意识的掉落",
+		"用其击杀怪物会使他们掉落对应种类的‘恶魔意志’.同时身上意志数量大于1000时，丢出武器会消耗100点意志使武器变成一个类似于狼的友方生物，拥有独立的血条，半血以后生命恢复翻倍，对着武器Shift加右键可以使武器重新变回原状玩家身上持有意志魂石时可以通过右键来改变感知之剑的能力"
+	],
+	dependencies: [
+		"e853fde5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ace9a00c",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sentient_sword",
+			tag: {},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3273e45b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

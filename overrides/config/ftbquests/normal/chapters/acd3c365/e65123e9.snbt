@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-第六感",
+	x: -7.5d,
+	y: 40.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8b29b04a",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 117s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c169e389",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

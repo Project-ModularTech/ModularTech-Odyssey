@@ -1,0 +1,24 @@
+{
+	title: "§6大师-时之紊乱",
+	x: 9.0d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e062974f",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 282s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "92e0fcd7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

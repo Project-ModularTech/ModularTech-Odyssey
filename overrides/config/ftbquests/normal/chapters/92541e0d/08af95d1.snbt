@@ -1,0 +1,30 @@
+{
+	x: 11.5d,
+	y: -4.5d,
+	shape: "gear",
+	dependencies: [
+		"d1058137",
+		"4e0dcf0f",
+		"1ee086a5",
+		"f4ba1b6d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "cc14d7bf",
+		type: "item",
+		items: [{
+			id: "contenttweaker:tech3",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "637a6dd6",
+		type: "loot",
+		table: 5
+	}]
+}

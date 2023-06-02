@@ -1,0 +1,12 @@
+{
+	title: "发电机",
+	icon: {
+		id: "nuclearcraft:solar_panel_elite",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

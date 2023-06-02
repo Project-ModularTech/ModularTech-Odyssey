@@ -1,0 +1,24 @@
+{
+	x: -9.0d,
+	y: -4.5d,
+	dependencies: [
+		"5bb871c8"
+	],
+	tasks: [{
+		uid: "e3f9fe62",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 4s,
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

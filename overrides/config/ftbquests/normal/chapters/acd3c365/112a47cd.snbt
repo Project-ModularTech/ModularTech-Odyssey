@@ -1,0 +1,24 @@
+{
+	title: "§6大师-幽冥兵团",
+	x: 9.0d,
+	y: 25.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "729ac250",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 369s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e56d4b84",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

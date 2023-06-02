@@ -1,0 +1,20 @@
+{
+	x: -18.0d,
+	y: 2.5d,
+	text: [
+		"要比纯树脂制作的电路基板好一些 可以用来制作进阶集成电路"
+	],
+	dependencies: [
+		"c18641cc"
+	],
+	tasks: [{
+		uid: "0c2d90ab",
+		type: "item",
+		items: [{
+			id: "contenttweaker:advancedcircuitplate",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

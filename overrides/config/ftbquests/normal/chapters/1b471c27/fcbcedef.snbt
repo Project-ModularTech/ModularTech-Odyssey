@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 3.5d,
+	text: [
+		"这个不是304不锈钢 是201不锈钢 它遇水不会生锈..."
+	],
+	dependencies: [
+		"f38eacd7"
+	],
+	tasks: [{
+		uid: "d7408d51",
+		type: "item",
+		items: [{
+			id: "contenttweaker:stainless_steel_dust",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b18faf97",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -16.0d,
+	y: 5.0d,
+	dependencies: [
+		"9756ad59"
+	],
+	tasks: [{
+		uid: "d9a3866e",
+		type: "item",
+		items: [{
+			id: "contenttweaker:crystal_flower",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0a3abca9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

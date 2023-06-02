@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: -6.5d,
+	dependencies: [
+		"3d8fa64b",
+		"78cfe2ed"
+	],
+	tasks: [{
+		uid: "6f0e69fa",
+		type: "item",
+		items: [{
+			id: "contenttweaker:crystal_4",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"上一阶段你制造的蕴含大量星能的海蓝宝石"
+	],
+	dependencies: [
+		"8e3ba40d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1fd3d9b6",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemcraftingcomponent",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

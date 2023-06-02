@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-Power Siphon",
+	x: -1.5d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0b18b6e5",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 399s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8e9dbb4b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

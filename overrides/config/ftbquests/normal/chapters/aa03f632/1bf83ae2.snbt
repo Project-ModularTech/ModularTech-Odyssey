@@ -1,0 +1,22 @@
+{
+	x: -20.0d,
+	y: -5.5d,
+	shape: "gear",
+	text: [
+		"上一阶段你制作的简易机械框架 接下来你会好好利用它们的"
+	],
+	dependencies: [
+		"e8685bd0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e374d460",
+		type: "item",
+		items: [{
+			id: "enderio:item_material",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

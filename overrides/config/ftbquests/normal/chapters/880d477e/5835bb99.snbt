@@ -1,0 +1,32 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"可以用来加速机器运行,需要放在背包充能",
+		"§4对模块化机械无效"
+	],
+	dependencies: [
+		"e2987d02"
+	],
+	tasks: [{
+		uid: "d488e4bf",
+		type: "item",
+		items: [{
+			id: "tiab:timeinabottle",
+			tag: {
+				timeData: {}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5e15dd97",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

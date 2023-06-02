@@ -1,0 +1,27 @@
+{
+	x: -6.5d,
+	y: -6.5d,
+	text: [
+		"基础的压印机 它每次合成只能放一个物品",
+		"可以用加速卡升级"
+	],
+	dependencies: [
+		"9eef7609"
+	],
+	tasks: [{
+		uid: "8151f146",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:inscriber",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4b898a69",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

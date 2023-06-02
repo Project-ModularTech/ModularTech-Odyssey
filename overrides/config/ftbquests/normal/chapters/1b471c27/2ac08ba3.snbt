@@ -1,0 +1,27 @@
+{
+	x: -9.0d,
+	y: 0.5d,
+	shape: "hexagon",
+	text: [
+		"有很多冰和铀？为何不试试大型温差发电机呢"
+	],
+	dependencies: [
+		"3118a1ee"
+	],
+	optional: true,
+	tasks: [{
+		uid: "76ad50cf",
+		type: "item",
+		items: [{
+			id: "modularmachinery:temp_energy_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5bac8b90",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

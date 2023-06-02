@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-Empowering Link",
+	x: -10.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "71af27e7",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 401s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "101e6cd6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

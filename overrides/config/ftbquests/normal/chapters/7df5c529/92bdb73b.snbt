@@ -1,0 +1,21 @@
+{
+	x: -11.5d,
+	y: -5.0d,
+	text: [
+		"放入配方所需原料..."
+	],
+	dependencies: [
+		"63bd2cb3",
+		"2bff0041"
+	],
+	tasks: [{
+		uid: "14f603bf",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockinputbus",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-冰霜冲击",
+	x: 0.0d,
+	y: 28.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "73ffa50d",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 57s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fa4803eb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

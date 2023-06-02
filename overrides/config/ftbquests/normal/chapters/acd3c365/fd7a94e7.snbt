@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-祈雨",
+	x: 0.0d,
+	y: 31.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b2f8419a",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 59s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e14c6257",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

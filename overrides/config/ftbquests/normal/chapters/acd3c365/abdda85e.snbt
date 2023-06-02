@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-幽冥鱼竿",
+	x: -10.5d,
+	y: 26.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "78f273f2",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 275s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cf2ab086",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

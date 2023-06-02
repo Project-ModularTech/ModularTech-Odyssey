@@ -1,0 +1,16 @@
+{
+	title: "阶段七  航天时代",
+	icon: {
+		id: "advancedrocketry:rocketbuilder",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		Count: 1b
+	},
+	description: [
+		"繁星门阶"
+	],
+	always_invisible: false,
+	group: -2012405485,
+	default_quest_shape: ""
+}

@@ -1,0 +1,28 @@
+{
+	x: 2.5d,
+	y: -3.0d,
+	text: [
+		"用来制作沉浸的粉碎机 当然它可以用来当梯子",
+		""
+	],
+	dependencies: [
+		"42e9fdd8"
+	],
+	tasks: [{
+		uid: "173e8dcf",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:metal_decoration1",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "37a2079f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

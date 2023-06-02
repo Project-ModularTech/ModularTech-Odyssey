@@ -1,0 +1,22 @@
+{
+	x: -12.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "d6323b76",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter_obsidian",
+			tag: {},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82b29b47",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

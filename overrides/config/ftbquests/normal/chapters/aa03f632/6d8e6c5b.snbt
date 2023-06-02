@@ -1,0 +1,27 @@
+{
+	x: -18.0d,
+	y: -1.5d,
+	text: [
+		"核电工艺的机械框架 可以制作一些好用的机器"
+	],
+	dependencies: [
+		"8b8a8278"
+	],
+	tasks: [{
+		uid: "75f44038",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:part",
+			Damage: 10s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5d141030",
+		type: "loot",
+		table: 3
+	}]
+}

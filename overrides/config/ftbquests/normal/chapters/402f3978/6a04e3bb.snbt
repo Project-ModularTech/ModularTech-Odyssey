@@ -1,0 +1,23 @@
+{
+	x: 12.0d,
+	y: -7.5d,
+	dependencies: [
+		"5d9f3991"
+	],
+	tasks: [{
+		uid: "4af5f21b",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:part",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0a3a76a9",
+		type: "loot",
+		table: 4
+	}]
+}

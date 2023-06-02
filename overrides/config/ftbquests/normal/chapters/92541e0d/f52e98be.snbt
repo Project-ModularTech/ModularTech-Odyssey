@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: -8.5d,
+	dependencies: [
+		"ed592742"
+	],
+	tasks: [{
+		uid: "7f67caec",
+		type: "item",
+		items: [{
+			id: "tconevo:metal",
+			Damage: 5s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

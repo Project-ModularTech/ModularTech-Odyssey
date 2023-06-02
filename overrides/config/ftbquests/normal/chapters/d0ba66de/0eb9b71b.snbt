@@ -1,0 +1,22 @@
+{
+	x: -24.0d,
+	y: 5.0d,
+	dependencies: [
+		"7e405da3"
+	],
+	tasks: [{
+		uid: "bd0736fc",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:cobblestone_generator",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "961d392b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

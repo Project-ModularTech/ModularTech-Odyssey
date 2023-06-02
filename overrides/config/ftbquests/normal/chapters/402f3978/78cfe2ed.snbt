@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: -9.5d,
+	dependencies: [
+		"ac72b233"
+	],
+	tasks: [{
+		uid: "73962e91",
+		type: "item",
+		items: [{
+			id: "environmentaltech:pladium_crystal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

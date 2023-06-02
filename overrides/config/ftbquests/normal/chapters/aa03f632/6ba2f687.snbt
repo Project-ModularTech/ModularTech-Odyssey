@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: -5.5d,
+	text: [
+		"你通过虚空矿机的力量获得了一些蕴含了龙力的矿石 但是它坚硬无比"
+	],
+	dependencies: [
+		"6bb5eadc"
+	],
+	tasks: [{
+		uid: "d5d254f4",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconium_ore",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "阶段八  量子时代",
+	icon: "contenttweaker:quantumcircuit",
+	description: [
+		"操控量子"
+	],
+	always_invisible: false,
+	group: -2012405485,
+	default_quest_shape: ""
+}

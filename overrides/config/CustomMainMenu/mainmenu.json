@@ -1,0 +1,198 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "image:mainmenu/title.png",
+            "posX" : -420,
+            "posY" : -150,
+            "width" : 800,
+            "height" : 480,
+            "alignment" : "top_center"
+        }
+    },
+        "edition":
+        {
+            "image" : "custommainmenu:textures/gui/edition.png",
+            "posX" : -49,
+            "posY" : 67,
+            "width" : 128,
+            "height" : 16,
+            "alignment" : "top_center"
+        },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "�nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        "background": 
+        {
+            "image": "",
+            "mode": "fill",
+            "slideshow": {
+                "images": [
+                "image:mainmenu/01.png",
+                "image:mainmenu/02.png",
+                "image:mainmenu/03.png",
+                "image:mainmenu/04.png",
+                "image:mainmenu/05.png",
+                "image:mainmenu/06.png",
+                "image:mainmenu/07.png",
+                "image:mainmenu/08.png",
+                "image:mainmenu/09.png",
+                "image:mainmenu/10.png",
+                "image:mainmenu/11.png",
+                "image:mainmenu/12.png",
+                "image:mainmenu/13.png",
+                "image:mainmenu/14.png",
+                "image:mainmenu/15.png",
+                "image:mainmenu/16.png",
+                "image:mainmenu/17.png",
+                "image:mainmenu/18.png",
+                "image:mainmenu/19.png",
+                "image:mainmenu/20.png",
+                "image:mainmenu/21.png",
+                "image:mainmenu/22.png",
+                "image:mainmenu/23.png"
+            ],
+            "shuffle": true,
+            "displayDuration": 90,
+            "fadeDuration": 40,
+            "sync": true
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-尸变",
+	x: -10.5d,
+	y: 19.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f3c2460d",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 250s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6e6822bd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

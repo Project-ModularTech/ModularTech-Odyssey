@@ -1,0 +1,21 @@
+{
+	x: -17.0d,
+	y: -5.5d,
+	shape: "hexagon",
+	text: [
+		"要来升级YABBA储物桶了"
+	],
+	dependencies: [
+		"30ed7c61"
+	],
+	tasks: [{
+		uid: "fb7ba818",
+		type: "item",
+		items: [{
+			id: "yabba:upgrade_blank",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

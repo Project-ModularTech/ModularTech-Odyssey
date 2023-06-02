@@ -1,0 +1,15 @@
+{
+	title: "模块化机械",
+	icon: {
+		id: "modularmachinery:blockcontroller",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	description: [
+		"一些复杂的大型原创机器"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,28 @@
+{
+	x: -17.0d,
+	y: -6.5d,
+	text: [
+		"磨粉羊毛是最好的获得来源",
+		"不损耗线 所以你可以想办法让他自动合成之后再磨粉",
+		""
+	],
+	dependencies: [
+		"f4f0699d"
+	],
+	tasks: [{
+		uid: "8e8e3ca5",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:dye",
+			Damage: 15s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e3919145",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

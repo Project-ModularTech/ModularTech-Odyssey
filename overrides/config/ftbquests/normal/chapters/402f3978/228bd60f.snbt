@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: 2.5d,
+	shape: "hexagon",
+	dependencies: [
+		"44cae80e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c6cd632e",
+		type: "item",
+		items: [{
+			id: "modularmachinery:compressed_speeder_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1068834f",
+		type: "loot",
+		table: 4
+	}]
+}

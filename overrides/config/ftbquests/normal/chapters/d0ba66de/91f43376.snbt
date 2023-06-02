@@ -1,0 +1,22 @@
+{
+	x: -22.0d,
+	y: -11.0d,
+	dependencies: [
+		"7abebd43"
+	],
+	tasks: [{
+		uid: "6e6bc7a7",
+		type: "item",
+		items: [{
+			id: "tinymobfarm:stone_farm",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5a5f19b1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

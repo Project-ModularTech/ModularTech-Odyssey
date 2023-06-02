@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-炉石回返",
+	x: 1.5d,
+	y: 25.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1bda3bc2",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 233s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a88a6ca2",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

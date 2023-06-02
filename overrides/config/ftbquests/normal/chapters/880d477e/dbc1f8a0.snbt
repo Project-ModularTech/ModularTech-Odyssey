@@ -1,0 +1,25 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	text: [
+		"匠魂的基础材料，用于搭建各种结构"
+	],
+	dependencies: [
+		"c452304f"
+	],
+	tasks: [{
+		uid: "725fb065",
+		type: "item",
+		items: [{
+			id: "tconstruct:materials",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "467a1104",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "压印模板",
+	x: -17.0d,
+	y: -8.5d,
+	text: [
+		"有了这些你就可以开始搞ae2了",
+		"压印模板用于做各种处理器"
+	],
+	dependencies: [
+		"0de4bee0"
+	],
+	tasks: [{
+		uid: "e3023694",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:material",
+			Damage: 13s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	},
+	{
+		uid: "876ea2ac",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:material",
+			Damage: 14s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	},
+	{
+		uid: "744d63ba",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:material",
+			Damage: 15s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	},
+	{
+		uid: "d0f84d0c",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:material",
+			Damage: 19s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "280f53b8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

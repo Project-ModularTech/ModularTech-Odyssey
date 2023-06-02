@@ -1,0 +1,29 @@
+{
+	title: "粗制高炉",
+	x: -7.5d,
+	y: 1.0d,
+	text: [
+		"使用 27 个高炉砖搭建出 3x3x3 的结构，然后用工程师锤右击任意侧面的中央方块，用于炼制钢锭，还会产生副产物矿渣。",
+		"一个焦煤或四个木炭可把一个铁锭烧成钢锭，而一个焦煤块则是 10 个。"
+	],
+	dependencies: [
+		"8dc01937"
+	],
+	tasks: [{
+		uid: "882d24f4",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:stone_decoration",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "6277081c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

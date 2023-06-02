@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: -8.5d,
+	text: [
+		"莱泽尔水晶 环境科技的一级水晶 也是魔法的好伙伴",
+		""
+	],
+	dependencies: [
+		"53a3fca2"
+	],
+	tasks: [{
+		uid: "ef000aee",
+		type: "item",
+		items: [{
+			id: "environmentaltech:litherite_crystal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e21b03e7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

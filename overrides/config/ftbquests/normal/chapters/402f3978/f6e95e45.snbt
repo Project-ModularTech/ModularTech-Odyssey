@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -7.5d,
+	dependencies: [
+		"4bf9422e"
+	],
+	tasks: [{
+		uid: "7f069c47",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_energy_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1354db9d",
+		type: "loot",
+		table: 4
+	}]
+}

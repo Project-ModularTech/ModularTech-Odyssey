@@ -1,0 +1,12 @@
+{
+	title: "一些实用的物品",
+	icon: {
+		id: "tconstruct:smeltery_controller",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

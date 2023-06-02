@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-超魔-单射物",
+	x: -3.0d,
+	y: 23.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d5c8aec9",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 335s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7f055641",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

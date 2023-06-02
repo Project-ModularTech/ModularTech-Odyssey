@@ -1,0 +1,30 @@
+{
+	x: 24.5d,
+	y: -7.0d,
+	shape: "hexagon",
+	text: [
+		"这是一个可以存储很多很多灰烬能量的方块",
+		"你可以在它的中心下方放一个机械方块来输入/输出灰烬能量",
+		"它可以升级 升满级需要56个灰烬晶体",
+		"通过漏斗输入哟"
+	],
+	dependencies: [
+		"0dcebea9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "648e810c",
+		type: "item",
+		items: [{
+			id: "embers:crystal_cell",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c9cc0020",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

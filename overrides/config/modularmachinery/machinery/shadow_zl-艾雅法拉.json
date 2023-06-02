@@ -1,0 +1,2094 @@
+{   "registryname": "zl2",
+    "localizedname": "艾雅法拉",
+    "color": "d2afa0",
+    "failure-action": "still",
+    "parts": [
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "quark:spruce_trapdoor@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:spruce_door@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "quark:spruce_trapdoor@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:spruce_door@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:spruce_door@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:spruce_door@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_hardened_clay@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": -2,
+            "elements": [
+                "minecraft:wooden_slab@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "quark:spruce_trapdoor@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "quark:spruce_trapdoor@15"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "minecraft:spruce_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "minecraft:wooden_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "quark:spruce_trapdoor@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "quark:spruce_trapdoor@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "botania:quartzstairsblaze@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "botania:quartzstairsblaze@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "botania:quartzstairsblaze@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "botania:quartzstairsblaze@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "minecraft:spruce_stairs@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "botania:quartzstairsblaze@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "minecraft:redstone_wire@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "botania:quartzstairsblaze@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "minecraft:redstone_wire@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:spruce_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@14"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "botania:quartzstairsblaze@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "minecraft:redstone_wire@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "minecraft:redstone_wire@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "botania:quartzstairsblaze@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:spruce_stairs@1"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "botania:quartzstairsblaze@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:spruce_stairs@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:hopper@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:hopper@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:spruce_stairs@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "botania:quartzstairsblaze@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:spruce_stairs@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:spruce_stairs@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:carpet@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:carpet@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:carpet@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "minecraft:stained_hardened_clay@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:carpet@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:spruce_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:hopper@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:spruce_stairs@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:spruce_stairs@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_hardened_clay@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:spruce_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:spruce_stairs@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:spruce_stairs@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:spruce_stairs@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:planks@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:spruce_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:wool@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        }
+    ]}

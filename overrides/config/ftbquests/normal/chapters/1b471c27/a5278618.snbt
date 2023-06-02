@@ -1,0 +1,40 @@
+{
+	x: 6.0d,
+	y: -4.5d,
+	text: [
+		"在一格星能液中丢入水晶石和星尘就可以变为天体水晶簇",
+		"它需要很久很久才能生长完成",
+		"你可以在下方提前放好星辉矿来提升最后成品的纯度",
+		"开启f3对着天体水晶簇在右下角可以看到一个stage 当stage＝4的时候就可以挖掘了"
+	],
+	dependencies: [
+		"2cbe49d3"
+	],
+	tasks: [{
+		uid: "485d4274",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					}
+				}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9221e55",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

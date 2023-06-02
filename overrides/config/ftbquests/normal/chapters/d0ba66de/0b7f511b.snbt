@@ -1,0 +1,23 @@
+{
+	x: -20.0d,
+	y: -11.0d,
+	dependencies: [
+		"91f43376",
+		"ea147dc6"
+	],
+	tasks: [{
+		uid: "78c0c73c",
+		type: "item",
+		items: [{
+			id: "tinymobfarm:iron_farm",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "81c3c512",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

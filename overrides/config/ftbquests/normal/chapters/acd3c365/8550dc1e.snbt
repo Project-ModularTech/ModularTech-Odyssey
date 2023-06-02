@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-电击弹",
+	x: -9.0d,
+	y: 50.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f8f08311",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 24s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e8de4943",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-Cursed Touch",
+	x: -1.5d,
+	y: 56.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d4ca1d4e",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 418s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2c8b67a0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: -7.0d,
+	dependencies: [
+		"aa18399a"
+	],
+	tasks: [{
+		uid: "19b86743",
+		type: "item",
+		items: [{
+			id: "modularmachinery:electric_blast_furnacemk2_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8d2de543",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

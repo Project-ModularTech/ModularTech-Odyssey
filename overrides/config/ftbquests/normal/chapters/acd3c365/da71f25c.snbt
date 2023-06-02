@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-冲锋",
+	x: -7.5d,
+	y: 20.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8ff66e94",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 147s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b5709d68",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 13.5d,
+	y: -0.5d,
+	dependencies: [
+		"ec1f0422"
+	],
+	tasks: [{
+		uid: "fdc9554a",
+		type: "item",
+		items: [{
+			id: "environmentaltech:ionite_crystal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

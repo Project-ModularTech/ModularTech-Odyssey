@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: -5.5d,
+	shape: "gear",
+	text: [
+		"上一阶段制作的莱泽尔虚空核心 在这一阶段可以合一级结构方块"
+	],
+	dependencies: [
+		"1ecd3f19"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "215dd30a",
+		type: "item",
+		items: [{
+			id: "contenttweaker:crystal_1",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

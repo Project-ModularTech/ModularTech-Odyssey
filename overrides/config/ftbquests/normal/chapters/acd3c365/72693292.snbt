@@ -1,0 +1,24 @@
+{
+	title: "§6大师-电网",
+	x: 10.5d,
+	y: 34.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a841adf4",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 137s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3444da03",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

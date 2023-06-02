@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-反制立场",
+	x: -3.0d,
+	y: 34.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "28c83478",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 296s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "19892501",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

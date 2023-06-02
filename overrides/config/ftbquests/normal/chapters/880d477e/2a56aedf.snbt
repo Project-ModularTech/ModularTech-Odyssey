@@ -1,0 +1,28 @@
+{
+	title: "焦炉",
+	x: -11.5d,
+	y: 1.0d,
+	text: [
+		"焦炉是获取焦煤或焦煤块的多方块结构，同时也是开始发展沉浸工程的第一个多方块结构",
+		"搭建一个焦炉，首先需要 27 个焦炉砖，搭建出一个 3x3x3 的实心正方体结构，之后用工程师锤右击侧面的中心来完成建造"
+	],
+	dependencies: [
+		"1670f5c3"
+	],
+	tasks: [{
+		uid: "e63e4923",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:stone_decoration",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "724a717c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

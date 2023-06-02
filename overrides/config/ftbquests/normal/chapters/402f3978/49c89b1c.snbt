@@ -1,0 +1,18 @@
+{
+	title: "主世界物质",
+	x: 2.0d,
+	y: -11.5d,
+	dependencies: [
+		"a7b0864e"
+	],
+	tasks: [{
+		uid: "4e8f94e8",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:living_matter_overworldian",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

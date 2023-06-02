@@ -1,0 +1,31 @@
+{
+	x: -11.0d,
+	y: -8.5d,
+	text: [
+		"手持它在夜晚中可以看到区域星能的多少",
+		"粒子效果越多的地方星能就越多"
+	],
+	dependencies: [
+		"328e2691"
+	],
+	tasks: [{
+		uid: "c6f75d0d",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1441b1a9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

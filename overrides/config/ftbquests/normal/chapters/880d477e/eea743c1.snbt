@@ -1,0 +1,27 @@
+{
+	x: 22.5d,
+	y: -7.0d,
+	shape: "hexagon",
+	text: [
+		"想要连锁吗？那就试试这个吧！将挖掘强化强化至你的匠魂工具，每把工具可强化三次，总共消耗一个强化槽，强化可提升连锁距离与范围"
+	],
+	dependencies: [
+		"5209aa38",
+		"0dcebea9"
+	],
+	tasks: [{
+		uid: "ee505f0f",
+		type: "item",
+		items: [{
+			id: "oeintegration:excavatemodifier",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "32dc5309",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

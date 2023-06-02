@@ -1,0 +1,27 @@
+{
+	x: -9.5d,
+	y: -3.0d,
+	text: [
+		"工业大麻的产物，你会需要它的"
+	],
+	dependencies: [
+		"34dce02f"
+	],
+	tasks: [{
+		uid: "24e75d7b",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:material",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aa0e1204",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

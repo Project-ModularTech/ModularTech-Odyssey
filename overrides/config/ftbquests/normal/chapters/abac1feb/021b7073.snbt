@@ -1,0 +1,19 @@
+{
+	x: -13.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "8bcb6528",
+		type: "item",
+		items: [{
+			id: "contenttweaker:msk",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "00d504a8",
+		type: "loot",
+		table: 6
+	}]
+}

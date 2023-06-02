@@ -1,0 +1,30 @@
+{
+	title: "通量传输",
+	x: -24.0d,
+	y: -7.0d,
+	tasks: [{
+		uid: "05a96f13",
+		type: "item",
+		items: [{
+			id: "fluxnetworks:fluxpoint",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	},
+	{
+		uid: "fdf1af89",
+		type: "item",
+		items: [{
+			id: "fluxnetworks:fluxplug",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1eebcc1f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

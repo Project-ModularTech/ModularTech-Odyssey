@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: -0.5d,
+	dependencies: [
+		"e995ba3c"
+	],
+	tasks: [{
+		uid: "7b2ff9d6",
+		type: "item",
+		items: [{
+			id: "environmentaltech:solar_cont_6",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

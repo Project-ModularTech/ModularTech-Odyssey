@@ -1,0 +1,22 @@
+{
+	x: -12.0d,
+	y: -1.0d,
+	text: [
+		"对于部分配方，你需要构建一条生产线来自动化生产，材料应统一发配至产线并在产线内部分配，产线中的机器应当只用于目标产物的生产而不参与其他配方"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "000c0b74",
+		type: "checkmark",
+		title: "产线",
+		icon: {
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

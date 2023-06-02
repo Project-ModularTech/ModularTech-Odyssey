@@ -1,0 +1,20 @@
+{
+	x: 10.0d,
+	y: 2.5d,
+	shape: "hexagon",
+	dependencies: [
+		"0d003f59"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f9b90ecd",
+		type: "item",
+		items: [{
+			id: "modularmachinery:speeder_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

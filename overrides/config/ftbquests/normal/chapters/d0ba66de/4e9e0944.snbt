@@ -1,0 +1,19 @@
+{
+	x: -16.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "c40e6a78",
+		type: "item",
+		items: [{
+			id: "bountifulbaubles:reforger",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "840a8906",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

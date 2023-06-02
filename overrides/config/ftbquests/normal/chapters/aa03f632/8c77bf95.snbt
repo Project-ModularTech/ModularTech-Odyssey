@@ -1,0 +1,26 @@
+{
+	x: -22.0d,
+	y: -5.5d,
+	shape: "hexagon",
+	text: [
+		"rftools是一款不错的自动化mod 你可以通过mc百科来查阅资料"
+	],
+	dependencies: [
+		"1bf83ae2"
+	],
+	tasks: [{
+		uid: "75200285",
+		type: "item",
+		items: [{
+			id: "rftools:machine_frame",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0643458b",
+		type: "loot",
+		table: 3
+	}]
+}

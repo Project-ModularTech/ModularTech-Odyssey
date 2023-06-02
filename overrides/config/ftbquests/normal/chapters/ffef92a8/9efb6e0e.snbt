@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: 3.5d,
+	dependencies: [
+		"df9c5d9e"
+	],
+	tasks: [{
+		uid: "4d4ad7d9",
+		type: "item",
+		items: [{
+			id: "modularmachinery:fast-decay_reactor_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

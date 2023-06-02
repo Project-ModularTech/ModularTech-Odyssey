@@ -1,0 +1,24 @@
+{
+	title: "§a新手-跳跃",
+	x: -17.5d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a0f86ef2",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 113s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "16fc6b75",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

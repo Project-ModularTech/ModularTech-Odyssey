@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-飓风守护",
+	x: 3.0d,
+	y: 34.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6b03d39d",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 192s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "abcdb85f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

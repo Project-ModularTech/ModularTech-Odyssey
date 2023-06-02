@@ -1,0 +1,23 @@
+{
+	title: "掌握星辰",
+	x: -14.0d,
+	y: -7.0d,
+	dependencies: [
+		"1028b0be"
+	],
+	tasks: [{
+		uid: "6c056e6c",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockmapdrawingtable",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "656a14f1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

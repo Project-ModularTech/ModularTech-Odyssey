@@ -1,0 +1,42 @@
+{
+	title: "计量表",
+	x: 14.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"灰烬能量计量表可以用于勘察灰烬能量",
+		"直接右键放在能存储ember的方块上就好了",
+		"流体计量表同理 但只接受embers的流体系统",
+		""
+	],
+	dependencies: [
+		"59a61a62"
+	],
+	tasks: [{
+		uid: "f4e6d59e",
+		type: "item",
+		items: [{
+			id: "embers:ember_gauge",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f943bff3",
+		type: "item",
+		items: [{
+			id: "embers:fluid_gauge",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "075a8a18",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

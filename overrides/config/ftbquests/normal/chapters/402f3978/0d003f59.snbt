@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: 2.5d,
+	shape: "gear",
+	dependencies: [
+		"5a08cc7e"
+	],
+	tasks: [{
+		uid: "de0873d1",
+		type: "item",
+		items: [{
+			id: "draconicevolution:awakened_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2bd83dcb",
+		type: "loot",
+		table: 4
+	}]
+}

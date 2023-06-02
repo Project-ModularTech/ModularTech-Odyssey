@@ -1,0 +1,24 @@
+{
+	title: "§6大师-邪恶盟友",
+	x: 9.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d1c5bd91",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 253s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "78a8634e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-灵魂灼烬",
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0af57e1c",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 363s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "43d67a73",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

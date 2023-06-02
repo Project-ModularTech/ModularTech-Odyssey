@@ -1,0 +1,36 @@
+{
+	title: "简易齿轮",
+	x: 4.5d,
+	y: -1.0d,
+	text: [
+		"通过浇筑太古电路来制作你的第一批齿轮，太古电路不会被消耗"
+	],
+	dependencies: [
+		"809dba1a"
+	],
+	tasks: [{
+		uid: "4e4894d1",
+		type: "item",
+		title: "青铜/铜齿轮",
+		items: [{
+			id: "thermalfoundation:material",
+			Damage: 291s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "thermalfoundation:material",
+			Damage: 256s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "7ed0c6fd",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

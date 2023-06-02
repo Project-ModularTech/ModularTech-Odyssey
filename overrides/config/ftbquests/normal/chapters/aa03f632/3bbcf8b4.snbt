@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	text: [
+		"杀死盖亚守护者三可以获得英雄勋章来制作奥里哈刚 这是大部分圣遗物的必要材料 推荐做一把百中弓"
+	],
+	dependencies: [
+		"5ed5255c"
+	],
+	tasks: [{
+		uid: "ddc9eeba",
+		type: "item",
+		items: [{
+			id: "extrabotany:material",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a106204b",
+		type: "loot",
+		table: 3
+	}]
+}

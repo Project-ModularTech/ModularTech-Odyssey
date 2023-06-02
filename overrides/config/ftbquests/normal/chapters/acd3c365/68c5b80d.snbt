@@ -1,0 +1,24 @@
+{
+	title: "§6大师-Saintess' Sun",
+	x: 12.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d0b31d5f",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 218s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "45f3cd6e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

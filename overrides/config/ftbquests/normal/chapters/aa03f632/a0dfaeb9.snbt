@@ -1,0 +1,27 @@
+{
+	x: -16.0d,
+	y: 2.5d,
+	shape: "gear",
+	text: [
+		"二阶集成电路 他有更好的运算性能和处理性能"
+	],
+	dependencies: [
+		"28c7a7d2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6bdbebd0",
+		type: "item",
+		items: [{
+			id: "contenttweaker:advancedcircuit",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "feb2777e",
+		type: "loot",
+		table: 3
+	}]
+}

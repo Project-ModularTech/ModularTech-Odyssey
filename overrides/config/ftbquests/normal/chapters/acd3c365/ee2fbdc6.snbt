@@ -1,0 +1,24 @@
+{
+	title: "§6大师-冰河世纪",
+	x: 12.0d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d039b1cb",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 94s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "324ec527",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

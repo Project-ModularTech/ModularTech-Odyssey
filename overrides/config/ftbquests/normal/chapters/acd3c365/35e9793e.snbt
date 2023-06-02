@@ -1,0 +1,24 @@
+{
+	title: "§a新手-弹射物护盾",
+	x: -20.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6eeeb350",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 290s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0478e04b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

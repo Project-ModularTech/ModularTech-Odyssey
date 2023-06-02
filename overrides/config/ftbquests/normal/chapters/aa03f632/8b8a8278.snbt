@@ -1,0 +1,22 @@
+{
+	x: -20.0d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"201不锈钢 非常的白净"
+	],
+	dependencies: [
+		"51f3869f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "74c7a383",
+		type: "item",
+		items: [{
+			id: "contenttweaker:stainless_ingot",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

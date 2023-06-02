@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: -13.5d,
+	shape: "gear",
+	text: [
+		"生成率极低",
+		"通常在主世界的深海中发现",
+		"在沙砾中较为容易发现"
+	],
+	dependencies: [
+		"173a0e4e"
+	],
+	tasks: [{
+		uid: "27186e4e",
+		type: "item",
+		items: [{
+			id: "contenttweaker:shenming_ore",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

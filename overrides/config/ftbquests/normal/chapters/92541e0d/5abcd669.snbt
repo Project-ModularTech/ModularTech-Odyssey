@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: -4.5d,
+	dependencies: [
+		"4e50c6cd"
+	],
+	tasks: [{
+		uid: "c32d3160",
+		type: "item",
+		items: [{
+			id: "draconicevolution:chaos_shard",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

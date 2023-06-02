@@ -1,0 +1,24 @@
+{
+	title: "§a新手-荧光闪烁",
+	x: -17.5d,
+	y: 34.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a3873f7c",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 10s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "95ad1137",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

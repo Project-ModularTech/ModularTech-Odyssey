@@ -1,0 +1,30 @@
+{
+	x: -7.5d,
+	y: 3.0d,
+	text: [
+		"桶装的生命源质"
+	],
+	dependencies: [
+		"77730b56"
+	],
+	optional: true,
+	tasks: [{
+		uid: "649c79cd",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "lifeessence",
+				Amount: 1000
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "95ba0e0c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

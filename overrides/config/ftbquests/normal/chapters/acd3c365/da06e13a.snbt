@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-疾风",
+	x: -9.0d,
+	y: 31.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "055d9fc3",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 35s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6ebb5687",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"你的第一个产出ember的设备",
+		"最基础的 也是最浪费的"
+	],
+	dependencies: [
+		"8aa32d3b"
+	],
+	tasks: [{
+		uid: "af96e12c",
+		type: "item",
+		items: [{
+			id: "embers:ember_activator",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e4012efe",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

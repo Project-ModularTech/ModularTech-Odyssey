@@ -1,0 +1,24 @@
+{
+	title: "§6大师-荆棘森林",
+	x: 10.5d,
+	y: 43.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b1a26d81",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 169s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bd49f958",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

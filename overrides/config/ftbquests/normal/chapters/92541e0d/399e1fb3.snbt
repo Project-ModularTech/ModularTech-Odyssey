@@ -1,0 +1,24 @@
+{
+	x: -9.5d,
+	y: -6.5d,
+	shape: "gear",
+	dependencies: [
+		"058a7e57"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "184b90e8",
+		type: "item",
+		items: [{
+			id: "contenttweaker:magicalingot",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a6035fb5",
+		type: "loot",
+		table: 5
+	}]
+}

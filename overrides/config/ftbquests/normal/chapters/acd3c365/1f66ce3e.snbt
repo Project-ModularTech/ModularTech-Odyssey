@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-圣士咏唱",
+	x: -10.5d,
+	y: 25.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c7ee4328",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 272s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "00137dd3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

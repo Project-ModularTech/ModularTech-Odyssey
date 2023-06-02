@@ -1,0 +1,24 @@
+{
+	title: "§6大师-蠹虫群",
+	x: 10.5d,
+	y: 22.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b0cf4286",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 104s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0bc437c3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

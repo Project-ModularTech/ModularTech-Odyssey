@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -7.5d,
+	dependencies: [
+		"85f8fa18"
+	],
+	tasks: [{
+		uid: "887cd96b",
+		type: "item",
+		items: [{
+			id: "mekanism:atomicalloy",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

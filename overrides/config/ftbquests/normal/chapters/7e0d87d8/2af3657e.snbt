@@ -1,0 +1,16 @@
+{
+	x: -13.5d,
+	y: -9.5d,
+	shape: "octagon",
+	tasks: [{
+		uid: "84792ad6",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:material",
+			Damage: 514s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

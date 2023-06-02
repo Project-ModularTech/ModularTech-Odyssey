@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-霜之新星",
+	x: -7.5d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9128536d",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 199s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "56b548a0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

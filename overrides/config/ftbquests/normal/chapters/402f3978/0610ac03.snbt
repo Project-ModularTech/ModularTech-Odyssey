@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 2.5d,
+	dependencies: [
+		"ba91b955"
+	],
+	tasks: [{
+		uid: "9ba16397",
+		type: "item",
+		items: [{
+			id: "extendedcrafting:table_elite",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "812114cc",
+		type: "loot",
+		table: 4
+	}]
+}

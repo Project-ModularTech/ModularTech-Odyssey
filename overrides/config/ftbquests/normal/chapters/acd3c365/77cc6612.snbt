@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-冰霜射线",
+	x: -9.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "98611654",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 18s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f7a37886",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

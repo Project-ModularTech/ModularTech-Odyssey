@@ -1,0 +1,23 @@
+{
+	x: -10.0d,
+	y: -9.5d,
+	shape: "gear",
+	dependencies: [
+		"c399b559"
+	],
+	tasks: [{
+		uid: "24080b8f",
+		type: "item",
+		items: [{
+			id: "avaritia:endest_pearl",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cd383b97",
+		type: "loot",
+		table: 4
+	}]
+}

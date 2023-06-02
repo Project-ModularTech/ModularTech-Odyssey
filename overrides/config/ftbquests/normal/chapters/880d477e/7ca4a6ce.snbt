@@ -1,0 +1,29 @@
+{
+	x: 24.5d,
+	y: -3.0d,
+	shape: "hexagon",
+	text: [
+		"就是你想的那个电梯 ",
+		"§d甚至可以斜向传送！传送最高垂直256格，水平64格，不可同高度平移。"
+	],
+	dependencies: [
+		"bcdf7786"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9dd62b58",
+		type: "item",
+		items: [{
+			id: "enderutilities:ender_elevator",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c058711a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

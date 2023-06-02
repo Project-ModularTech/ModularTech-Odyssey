@@ -1,0 +1,22 @@
+{
+	x: -9.5d,
+	y: 4.5d,
+	text: [
+		"Tip:你可以使用水产捕捞器获取大量的鱼"
+	],
+	dependencies: [
+		"82c94e3c",
+		"a47b23b6"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "43bb113a",
+		type: "item",
+		items: [{
+			id: "avaritia:cosmic_meatballs",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

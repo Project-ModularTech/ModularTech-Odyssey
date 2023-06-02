@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-召唤雪傀儡",
+	x: -9.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "3a719519",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 19s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d96c0c39",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

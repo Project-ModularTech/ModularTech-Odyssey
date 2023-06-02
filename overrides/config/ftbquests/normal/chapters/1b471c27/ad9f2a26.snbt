@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: -8.5d,
+	text: [
+		"大理石染白 陨石粉激发 莱泽尔增产",
+		"你获得了水晶矿石",
+		"这东西吃时运 最多可以获得6个"
+	],
+	dependencies: [
+		"420285bd"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "6da00b7e",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockcustomore",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d4206f07",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

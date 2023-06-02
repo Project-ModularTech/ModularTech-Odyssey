@@ -1,0 +1,26 @@
+{
+	x: -6.5d,
+	y: -8.5d,
+	text: [
+		"赤晶锭除了可用于制作莱泽尔水晶，还可用于制作匠魂工具与武器",
+		"吸血词条可提供百分之二十伤害的回复量，最低可恢复2点生命值"
+	],
+	dependencies: [
+		"b8904f6b"
+	],
+	tasks: [{
+		uid: "23f0995c",
+		type: "item",
+		items: [{
+			id: "contenttweaker:redingot",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5d638a6f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

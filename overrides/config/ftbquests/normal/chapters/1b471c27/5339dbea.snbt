@@ -1,0 +1,30 @@
+{
+	x: 16.0d,
+	y: -14.5d,
+	shape: "gear",
+	text: [
+		"龙之研究的合成设备 电力输入在合成注入装置中",
+		"可以用红石开启聚合"
+	],
+	dependencies: [
+		"6d0cfbb1",
+		"e853fde5"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "01e9cc8d",
+		type: "item",
+		items: [{
+			id: "draconicevolution:fusion_crafting_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19c75a9c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

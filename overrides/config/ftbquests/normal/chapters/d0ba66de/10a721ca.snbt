@@ -1,0 +1,25 @@
+{
+	x: -22.0d,
+	y: 3.0d,
+	dependencies: [
+		"e6177099"
+	],
+	tasks: [{
+		uid: "1c751ed6",
+		type: "item",
+		items: [{
+			id: "tinymobfarm:lasso",
+			tag: {},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25de6afb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

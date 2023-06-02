@@ -1,0 +1,24 @@
+{
+	title: "§6大师-光辉风暴",
+	x: 12.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "28bbe485",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 216s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "79613099",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

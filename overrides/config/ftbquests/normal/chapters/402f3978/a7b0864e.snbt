@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: -11.5d,
+	dependencies: [
+		"2f247f85"
+	],
+	tasks: [{
+		uid: "517406e3",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:polymer_clay",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

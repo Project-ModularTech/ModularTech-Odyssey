@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-霜步",
+	x: 1.5d,
+	y: 47.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "26d9777a",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 154s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "52ced403",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

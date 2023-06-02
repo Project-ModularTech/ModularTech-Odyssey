@@ -1,0 +1,40 @@
+{
+	title: "进阶机器",
+	x: -16.0d,
+	y: -3.5d,
+	text: [
+		"普通机器需要插入电容才能工作 更高级的工作效率更高（耗电也会增加）"
+	],
+	dependencies: [
+		"1328b792",
+		"175b19cc"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "2c859f96",
+		type: "item",
+		items: [{
+			id: "enderio:block_alloy_smelter",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "53a02f0d",
+		type: "item",
+		items: [{
+			id: "enderio:block_sag_mill",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43af9d28",
+		type: "loot",
+		table: 3
+	}]
+}

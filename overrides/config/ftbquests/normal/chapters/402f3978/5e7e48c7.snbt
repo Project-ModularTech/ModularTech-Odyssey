@@ -1,0 +1,21 @@
+{
+	x: 12.0d,
+	y: -11.5d,
+	text: [
+		"通过束缚之剑杀死的怪物，有机会粉碎怪物的灵魂网络产生一个虚弱气血碎片",
+		"带有水晶剑词条的匠魂武器也有概率在击杀时获得虚弱气血碎片，概率受抢夺影响"
+	],
+	dependencies: [
+		"95362694"
+	],
+	tasks: [{
+		uid: "62eea4c9",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_shard",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

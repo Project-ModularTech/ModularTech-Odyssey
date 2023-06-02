@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: -1.5d,
+	dependencies: [
+		"10d6c4d5"
+	],
+	tasks: [{
+		uid: "748b77ef",
+		type: "item",
+		items: [{
+			id: "modularmachinery:parallel_computer_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

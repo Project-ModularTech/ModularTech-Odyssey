@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -13.5d,
+	dependencies: [
+		"7db126a9"
+	],
+	tasks: [{
+		uid: "82c79e2a",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:glitch_heart",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "飞天扫帚",
+	x: -24.0d,
+	y: 3.0d,
+	dependencies: [
+		"e6177099"
+	],
+	tasks: [{
+		uid: "f51ce350",
+		type: "item",
+		items: [{
+			id: "touhou_little_maid:marisa_broom",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dd80c92f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

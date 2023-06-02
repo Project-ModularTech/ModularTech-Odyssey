@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: 3.0d,
+	shape: "hexagon",
+	text: [
+		"用于提升献祭获得生命源质的量",
+		"每一个提升10%",
+		"加法提升"
+	],
+	dependencies: [
+		"83c9fcdd"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6dfb6932",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_rune",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dd4401c3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

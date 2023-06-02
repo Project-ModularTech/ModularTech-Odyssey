@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-活力焕发",
+	x: 3.0d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d48ac397",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 222s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9144765e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 10.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	dependencies: [
+		"9e4070d6"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a20f5b83",
+		type: "item",
+		items: [{
+			id: "modularmachinery:stream_crusher_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b3292789",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

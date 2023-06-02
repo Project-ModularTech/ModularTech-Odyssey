@@ -1,0 +1,31 @@
+{
+	title: "@森林蝙蝠",
+	x: -10.0d,
+	y: 1.0d,
+	text: [
+		"今天你加速了吗？"
+	],
+	dependencies: [
+		"84e1c595"
+	],
+	tasks: [{
+		uid: "fcc9b93f",
+		type: "item",
+		items: [{
+			id: "tiab:timeinabottle",
+			tag: {
+				timeData: {}
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d67d6bbc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

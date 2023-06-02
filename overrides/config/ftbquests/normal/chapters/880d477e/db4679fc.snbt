@@ -1,0 +1,27 @@
+{
+	x: 22.5d,
+	y: 1.5d,
+	shape: "gear",
+	text: [
+		"制作合成催化剂的必须金属 有了它就可以搞一级合成了"
+	],
+	dependencies: [
+		"d0c9bbbf"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "17ea44ae",
+		type: "item",
+		items: [{
+			id: "extendedcrafting:material",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7a663c6f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

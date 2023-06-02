@@ -1,0 +1,26 @@
+{
+	x: 12.5d,
+	y: -3.0d,
+	text: [
+		"大型多方块必备 快去憋一个电弧炉吧！"
+	],
+	dependencies: [
+		"fbf7b650"
+	],
+	tasks: [{
+		uid: "33752b81",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:metal_decoration0",
+			Damage: 5s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "917cfd76",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

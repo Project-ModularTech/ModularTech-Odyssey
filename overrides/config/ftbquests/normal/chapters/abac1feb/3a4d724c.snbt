@@ -1,0 +1,22 @@
+{
+	x: -13.5d,
+	y: -3.0d,
+	text: [
+		"gt痴 对本整合包的多方块机械做了很大贡献"
+	],
+	tasks: [{
+		uid: "c9796238",
+		type: "item",
+		items: [{
+			id: "contenttweaker:chengzhenjie",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4c0e57e3",
+		type: "loot",
+		table: 6
+	}]
+}

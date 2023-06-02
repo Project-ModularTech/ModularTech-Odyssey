@@ -1,0 +1,30 @@
+{
+	x: 2.5d,
+	y: 1.0d,
+	text: [
+		"你的第二个气血宝珠  可以在灵魂网络存储25000lp",
+		""
+	],
+	dependencies: [
+		"83c9fcdd"
+	],
+	tasks: [{
+		uid: "f3098dce",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:apprentice"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "7be52ce7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

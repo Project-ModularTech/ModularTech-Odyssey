@@ -1,0 +1,25 @@
+{
+	x: -17.0d,
+	y: -2.5d,
+	text: [
+		"二阶工作台 你可以使用5*5的配方了"
+	],
+	dependencies: [
+		"b7ed532a"
+	],
+	tasks: [{
+		uid: "8e06b1ad",
+		type: "item",
+		items: [{
+			id: "extendedcrafting:table_advanced",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ceeb3df6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

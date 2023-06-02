@@ -1,0 +1,27 @@
+{
+	x: 18.5d,
+	y: -3.0d,
+	text: [
+		"可以用于制作沉浸和合金窑",
+		"你的第二个合金设备"
+	],
+	dependencies: [
+		"b52bf22a"
+	],
+	tasks: [{
+		uid: "fd9c15e2",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:stone_decoration",
+			Damage: 10s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f3d94793",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

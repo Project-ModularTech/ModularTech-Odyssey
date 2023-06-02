@@ -1,0 +1,28 @@
+{
+	title: "工程师指导手册",
+	x: -14.0d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"工程师手册介绍了该 MOD 中的各种物品、方块、多方块结构和该 MOD 的玩法，是玩家必备的物品",
+		"把手册翻到带多方块结构的一页，与多方块结构投影仪合成就可以查看这个多方块结构的投影"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c831f7d9",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:tool",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f4ad6f0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

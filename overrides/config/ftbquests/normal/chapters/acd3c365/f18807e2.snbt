@@ -1,0 +1,24 @@
+{
+	title: "§a新手-魔法护盾",
+	x: -17.5d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b63b233f",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 144s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a75e71b6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

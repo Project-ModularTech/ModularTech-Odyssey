@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -3.5d,
+	dependencies: [
+		"22829166"
+	],
+	tasks: [{
+		uid: "37d42547",
+		type: "item",
+		items: [{
+			id: "mekanism:controlcircuit",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2e194202",
+		type: "loot",
+		table: 4
+	}]
+}

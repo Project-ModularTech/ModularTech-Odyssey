@@ -1,0 +1,30 @@
+{
+	title: "更大的实用箱子",
+	x: 12.0d,
+	y: -4.5d,
+	shape: "hexagon",
+	text: [
+		"普通箱子的升级版 还是要插存储卡"
+	],
+	dependencies: [
+		"bf5b4e67"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b0e215a2",
+		type: "item",
+		items: [{
+			id: "enderutilities:storage_0",
+			Damage: 5s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55d06836",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

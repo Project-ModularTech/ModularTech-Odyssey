@@ -1,0 +1,20 @@
+{
+	x: -10.0d,
+	y: -3.5d,
+	text: [
+		"强化部件核心可以制作互联方块 马上就可以制作虚空矿机了"
+	],
+	dependencies: [
+		"d58bd8c9"
+	],
+	tasks: [{
+		uid: "cb5d6700",
+		type: "item",
+		items: [{
+			id: "valkyrielib:modifier_component",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

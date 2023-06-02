@@ -1,0 +1,32 @@
+{
+	x: -3.5d,
+	y: 5.0d,
+	text: [
+		"你的第一个气血宝珠",
+		"也是用来制作气血符文的必要道具",
+		"可以在灵魂网络存储5000lp"
+	],
+	dependencies: [
+		"77730b56"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a7178f59",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "659d70af",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-巫师之手",
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8c9c96ef",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 159s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1ec94eee",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

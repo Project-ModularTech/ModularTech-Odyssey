@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-孢灵援护",
+	x: -10.5d,
+	y: 46.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5678c739",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 355s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c2c313f0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

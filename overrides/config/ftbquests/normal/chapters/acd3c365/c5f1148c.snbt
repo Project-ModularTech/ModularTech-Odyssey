@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-炽烈之斧",
+	x: 0.0d,
+	y: 22.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "df333400",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 53s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "799dcd1a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

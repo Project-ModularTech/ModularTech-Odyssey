@@ -1,0 +1,21 @@
+{
+	x: -14.0d,
+	y: -3.5d,
+	text: [
+		"有了好一些的合金炉之后 你便可以制作末影钢了 是制作最高等级机械框架的必要材料"
+	],
+	dependencies: [
+		"b4c5da9b"
+	],
+	tasks: [{
+		uid: "db2d545a",
+		type: "item",
+		items: [{
+			id: "enderio:item_alloy_ingot",
+			Damage: 8s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -8.0d,
+	y: 3.5d,
+	dependencies: [
+		"f0b68d96"
+	],
+	tasks: [{
+		uid: "e9140ad9",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:wooden_device1",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

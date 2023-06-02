@@ -1,0 +1,24 @@
+{
+	title: "§a新手-水花四溅",
+	x: -17.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1937c65a",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 223s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "53b0fc6d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -5.5d,
+	y: -5.0d,
+	text: [
+		"给机器通入电力"
+	],
+	dependencies: [
+		"63bd2cb3",
+		"2bff0041"
+	],
+	tasks: [{
+		uid: "25949b53",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockenergyinputhatch",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

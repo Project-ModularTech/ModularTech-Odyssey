@@ -1,0 +1,27 @@
+{
+	title: "更快的mana运输",
+	x: 10.0d,
+	y: -4.5d,
+	text: [
+		"右击魔力池 泰拉凝聚台就可以安装火花 当然 它可以升级",
+		"用这个凝聚泰拉钢可比发射器慢慢发射好太多了"
+	],
+	dependencies: [
+		"626961dc"
+	],
+	tasks: [{
+		uid: "9ea8d769",
+		type: "item",
+		items: [{
+			id: "botania:spark",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fffb9221",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

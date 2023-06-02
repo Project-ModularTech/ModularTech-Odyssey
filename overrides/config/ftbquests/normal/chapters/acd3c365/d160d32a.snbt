@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-虚弱",
+	x: -10.5d,
+	y: 44.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "87c21cbf",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 356s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "25971c1b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

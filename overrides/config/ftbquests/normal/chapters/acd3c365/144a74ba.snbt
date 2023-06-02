@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-奥数闪光",
+	x: -3.0d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8a057e39",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 283s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "40524b7c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

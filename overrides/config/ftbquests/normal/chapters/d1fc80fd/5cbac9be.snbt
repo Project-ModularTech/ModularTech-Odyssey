@@ -1,0 +1,15 @@
+{
+	x: -8.5d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "d68bf86d",
+		type: "item",
+		items: [{
+			id: "contenttweaker:box_zl",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

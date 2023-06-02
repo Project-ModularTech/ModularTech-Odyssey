@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-虹光喷射",
+	x: -3.0d,
+	y: 31.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d206f19b",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 314s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "979f424d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

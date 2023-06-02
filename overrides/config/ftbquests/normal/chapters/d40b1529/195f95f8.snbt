@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		"物品路由器可以远程无线传输物品/流体，建议尽量使用物品路由器代替远程飞线以减少卡顿"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "b8dce81c",
+		type: "checkmark",
+		title: "物品路由器",
+		icon: {
+			id: "modularrouters:item_router",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

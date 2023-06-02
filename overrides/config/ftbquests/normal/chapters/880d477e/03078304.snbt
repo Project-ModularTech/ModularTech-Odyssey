@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"最基础的石板，用于制作符文或升级为更高等级的石板"
+	],
+	dependencies: [
+		"4679baef"
+	],
+	tasks: [{
+		uid: "6d357ff9",
+		type: "item",
+		items: [{
+			id: "bloodmagic:slate",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "add8b4a9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§6大师-缔约",
+	x: 7.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "cb3f7c6f",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 315s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "68d1389c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

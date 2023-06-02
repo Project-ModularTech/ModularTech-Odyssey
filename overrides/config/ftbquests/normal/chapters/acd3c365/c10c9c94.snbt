@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-闪电陷阱",
+	x: -9.0d,
+	y: 53.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ede92aeb",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 26s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c9741777",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

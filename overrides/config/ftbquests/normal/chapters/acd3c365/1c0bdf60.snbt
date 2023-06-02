@@ -1,0 +1,24 @@
+{
+	title: "§a新手-灯烛术",
+	x: -19.0d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d0b3fbc3",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 271s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fb11a224",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

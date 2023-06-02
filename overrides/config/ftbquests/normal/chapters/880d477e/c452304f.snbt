@@ -1,0 +1,25 @@
+{
+	x: -5.5d,
+	y: -3.0d,
+	text: [
+		"匠魂的基础材料，用于烧制焦黑砖"
+	],
+	dependencies: [
+		"a192dbb6"
+	],
+	tasks: [{
+		uid: "dce395aa",
+		type: "item",
+		items: [{
+			id: "tconstruct:soil",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "52149f81",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

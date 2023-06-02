@@ -1,0 +1,27 @@
+{
+	x: 24.5d,
+	y: -5.0d,
+	text: [
+		"有了这个你就可以获得红宝石矿",
+		"后期可以用于筛海蓝宝石和制作星辉矿"
+	],
+	dependencies: [
+		"5209aa38",
+		"0dcebea9"
+	],
+	tasks: [{
+		uid: "6586af17",
+		type: "item",
+		items: [{
+			id: "modularmachinery:mini_orescreening_machine_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "42b56a70",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

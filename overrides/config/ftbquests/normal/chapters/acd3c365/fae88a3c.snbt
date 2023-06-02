@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-召唤流沙",
+	x: -10.5d,
+	y: 41.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c4444394",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 353s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "966c6a49",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

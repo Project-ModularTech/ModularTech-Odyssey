@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -3.5d,
+	text: [
+		"可用于合成艾洛蒂结构方块 二级设备的必要方块"
+	],
+	dependencies: [
+		"f8008f43"
+	],
+	tasks: [{
+		uid: "865496ad",
+		type: "item",
+		items: [{
+			id: "contenttweaker:crystal_2",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

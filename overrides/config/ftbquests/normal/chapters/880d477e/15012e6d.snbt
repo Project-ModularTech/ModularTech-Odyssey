@@ -1,0 +1,28 @@
+{
+	x: 18.5d,
+	y: -5.0d,
+	text: [
+		"设备的下半部分每个面包含一个独立的流体缓存，当设备上半部分被通入灰烬能量且下半部分中存储的几种熔融金属适用于合金配方，那么熔融合金将会被混合通入到设备上半部分成为合金，并可以被机械流体泵等液体管道导出。"
+	],
+	dependencies: [
+		"432a7472",
+		"e78d57fb",
+		"4a182fc7"
+	],
+	tasks: [{
+		uid: "c4986c40",
+		type: "item",
+		items: [{
+			id: "embers:mixer",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6e6624e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

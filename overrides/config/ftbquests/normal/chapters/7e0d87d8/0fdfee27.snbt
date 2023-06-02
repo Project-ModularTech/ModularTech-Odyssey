@@ -1,0 +1,32 @@
+{
+	x: -36.5d,
+	y: -11.5d,
+	dependencies: [
+		"4bd26ea1"
+	],
+	tasks: [{
+		uid: "d51cc389",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 14s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

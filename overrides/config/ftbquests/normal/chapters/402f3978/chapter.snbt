@@ -1,0 +1,17 @@
+{
+	title: "阶段四  原子时代",
+	icon: {
+		id: "mekanism:machineblock",
+		Damage: 8s,
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {},
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	description: [
+		"物质探索"
+	],
+	always_invisible: false,
+	group: -2012405485,
+	default_quest_shape: ""
+}

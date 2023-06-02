@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-黑暗气泡",
+	x: 0.0d,
+	y: 43.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f9099cb7",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 67s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "badca48a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

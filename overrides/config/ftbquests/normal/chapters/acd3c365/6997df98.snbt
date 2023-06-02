@@ -1,0 +1,24 @@
+{
+	title: "§a新手-心灵欺诈",
+	x: -17.5d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "21fa3314",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 112s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c91441e0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

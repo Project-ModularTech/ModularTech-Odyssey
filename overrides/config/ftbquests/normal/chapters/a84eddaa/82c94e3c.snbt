@@ -1,0 +1,19 @@
+{
+	x: -11.5d,
+	y: 6.5d,
+	shape: "gear",
+	dependencies: [
+		"e6f2aa20"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "784cebec",
+		type: "item",
+		items: [{
+			id: "modularmachinery:pengrenguo_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

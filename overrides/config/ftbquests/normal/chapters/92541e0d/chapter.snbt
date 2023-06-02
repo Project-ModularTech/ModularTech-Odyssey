@@ -1,0 +1,15 @@
+{
+	title: "阶段五  科研时代",
+	icon: {
+		id: "contenttweaker:nova2",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	description: [
+		"追求卓越"
+	],
+	always_invisible: false,
+	group: -2012405485,
+	default_quest_shape: ""
+}

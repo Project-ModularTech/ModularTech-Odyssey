@@ -1,0 +1,38 @@
+{
+    "dependencies": "contenttweaker",
+    "populate": {
+        "shenming_ore": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "contenttweaker:shenming_ore"
+                },
+                "material": "minecraft:gravel",
+                "cluster-size": 1
+            },
+            "cluster-count": 1,
+            "min-height": 0,
+            "max-height": 63,
+            "retrogen": false,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [{
+                    "type": "dictionary",
+                    "entry":[ "OCEAN"]
+                        }]
+            },
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0,
+                    10,
+                    11,
+                    12,
+                    13,
+                    22
+                ]
+            }
+        }
+    }
+}

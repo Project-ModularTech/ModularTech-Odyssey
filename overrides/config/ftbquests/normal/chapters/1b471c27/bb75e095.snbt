@@ -1,0 +1,27 @@
+{
+	x: -15.0d,
+	y: -0.5d,
+	text: [
+		"你会发现插入不了升级 那是因为（基础）的机器不能升级",
+		"你可以做一个硬化升级套件 这样就可以插入升级了",
+		"只需对着机器右键"
+	],
+	dependencies: [
+		"fd944cb1"
+	],
+	tasks: [{
+		uid: "361417cc",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:upgrade",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "407c2cf2",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

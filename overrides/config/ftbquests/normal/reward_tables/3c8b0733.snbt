@@ -1,0 +1,885 @@
+{
+	title: "饰品抽奖箱",
+	icon: {
+		id: "contenttweaker:box_toby",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "artifacts:shock_pendant",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:flame_pendant",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:thorn_pendant",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:panic_necklace",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:whoopie_cushion",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:bottled_cloud",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:bottled_fart",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:magma_stone",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:feral_claws",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:power_glove",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:mechanical_glove",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:fire_gauntlet",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:drinking_hat",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:star_cloak",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:pocket_piston",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:antidote_vessel",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:bubble_wrap",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:sacrificial_amulet",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:lucky_clover",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketballoon",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:shieldcobalt",
+			tag: {
+				HideFlags: 2
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketobsidianskull",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketmagiclenses",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketapple",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketvitamins",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:ringoverclocking",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketshulkerheart",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketbezoar",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketblackdragonscale",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketluckyhorseshoe",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:amuletsinempty",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:amuletsingluttony",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:amuletsinpride",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:amuletsinwrath",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:trinketbrokenheart",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bountifulbaubles:amuletcross",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_feeding",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_spell_discovery",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_move_speed",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_experience_tome",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_haggler",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_absorption",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_auto_shield",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_resurrection",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_transience",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_recovery",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_mount_teleporting",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_transportation",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_light",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_stop_time",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_sixth_sense",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_silk_touch",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_abseiling",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_growth",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_flight",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_hunger_casting",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_undead_helmets",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_minion_variants",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_minion_health",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_anchoring",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_lava_walking",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:charm_auto_smelt",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_banishing",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_glide",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_wither_immunity",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_lich",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_channeling",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_potential",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_frost_warding",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_ice_protection",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_ice_immunity",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_fire_cloaking",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_fire_protection",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_wisdom",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_warding",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:amulet_arcane_defence",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_interdiction",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_paladin",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_defender",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_conjurer",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_blockwrangler",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_mana_return",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_extraction",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_evoker",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_full_moon",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_earth_biome",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_earth_melee",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_poison",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_mind_control",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_necromancy_melee",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_leeching",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_soulbinding",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_stormcloud",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_hammer",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_seeking",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_storm",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_lightning_melee",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_shattering",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_arcane_frost",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_ice_biome",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_condensing",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_ice_melee",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_meteor",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_disintegration",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_fire_biome",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_fire_melee",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_combustion",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_battlemage",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ebwizardry:ring_siphoning",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

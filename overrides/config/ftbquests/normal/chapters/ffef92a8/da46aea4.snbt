@@ -1,0 +1,15 @@
+{
+	x: -8.0d,
+	y: -2.5d,
+	text: [
+		"在完成金属冲压机后，你可以开始着手于制作其他种类的能源炉"
+	],
+	dependencies: [
+		"7f2f5bb8"
+	],
+	tasks: [{
+		uid: "feea6013",
+		type: "checkmark",
+		title: "其他能源炉"
+	}]
+}

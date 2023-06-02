@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -6.5d,
+	text: [
+		"来自白雏菊的转化 是植物魔法的重要材料（符文祭坛每次合成就消耗一个）"
+	],
+	dependencies: [
+		"9b2ddb5d"
+	],
+	tasks: [{
+		uid: "8e7ff804",
+		type: "item",
+		items: [{
+			id: "botania:livingrock",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5fcdaca7",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

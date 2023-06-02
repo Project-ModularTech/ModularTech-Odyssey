@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-Curse Of Umbra",
+	x: -1.5d,
+	y: 55.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "96ceb523",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 416s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d4220db6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

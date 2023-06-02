@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: -4.5d,
+	dependencies: [
+		"fee92257",
+		"7f67caec"
+	],
+	tasks: [{
+		uid: "40d3a7a3",
+		type: "item",
+		items: [{
+			id: "modularmachinery:matter_transformer_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e2db4177",
+		type: "loot",
+		table: 5
+	}]
+}

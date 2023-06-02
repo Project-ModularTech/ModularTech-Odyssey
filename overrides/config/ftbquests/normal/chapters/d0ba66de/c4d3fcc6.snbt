@@ -1,0 +1,24 @@
+{
+	x: -16.0d,
+	y: 1.0d,
+	dependencies: [
+		"69883a13"
+	],
+	tasks: [{
+		uid: "2f679439",
+		type: "item",
+		items: [{
+			id: "modularmachinery:machine_projector",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b0b2955d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

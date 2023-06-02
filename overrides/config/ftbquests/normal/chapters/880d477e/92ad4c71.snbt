@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: -7.0d,
+	text: [
+		"你的第一块铝 到后期会用到很多的 加油吧"
+	],
+	dependencies: [
+		"1391aa01"
+	],
+	tasks: [{
+		uid: "d81bf203",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:material",
+			Damage: 132s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "efeefe51",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

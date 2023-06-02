@@ -1,0 +1,24 @@
+{
+	title: "§6大师-雷光喷涌",
+	x: 12.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "517370df",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 226s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "16d9a7b3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

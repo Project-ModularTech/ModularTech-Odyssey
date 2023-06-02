@@ -1,0 +1,18 @@
+{
+	x: 6.0d,
+	y: -0.5d,
+	dependencies: [
+		"ee1e6211"
+	],
+	tasks: [{
+		uid: "234aa739",
+		type: "item",
+		items: [{
+			id: "avaritia:resource",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

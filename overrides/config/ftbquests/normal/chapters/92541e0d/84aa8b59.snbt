@@ -1,0 +1,22 @@
+{
+	x: 5.5d,
+	y: -4.5d,
+	dependencies: [
+		"5abcd669"
+	],
+	tasks: [{
+		uid: "95d86046",
+		type: "item",
+		items: [{
+			id: "draconicevolution:chaotic_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6e8f43ad",
+		type: "loot",
+		table: 5
+	}]
+}

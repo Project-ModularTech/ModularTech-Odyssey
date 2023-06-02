@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -5.5d,
+	text: [
+		"你需要使用MK3及以上等级的工业高炉来获取龙锭"
+	],
+	dependencies: [
+		"6ba2f687"
+	],
+	tasks: [{
+		uid: "2d71a773",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconium_ingot",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,566 @@
+{
+	title: "五级奖励箱",
+	icon: "contenttweaker:box5",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "contenttweaker:box1",
+		count: 8,
+		weight: 5
+	},
+	{
+		item: "contenttweaker:box2",
+		count: 4,
+		weight: 4
+	},
+	{
+		item: "contenttweaker:box3",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "contenttweaker:box4",
+		weight: 2
+	},
+	{
+		item: "contenttweaker:box5"
+	},
+	{
+		item: "contenttweaker:box6"
+	},
+	{
+		item: "modularmachinery:blockcasing 1 4",
+		count: 64,
+		weight: 3
+	},
+	{
+		item: "environmentaltech:litherite",
+		count: 32,
+		weight: 3
+	},
+	{
+		item: "environmentaltech:erodium",
+		count: 16,
+		weight: 3
+	},
+	{
+		item: "environmentaltech:kyronite",
+		count: 8,
+		weight: 2
+	},
+	{
+		item: "environmentaltech:pladium",
+		count: 2,
+		weight: 2
+	},
+	{
+		item: "environmentaltech:structure_frame_1",
+		count: 16,
+		weight: 3
+	},
+	{
+		item: "environmentaltech:structure_frame_2",
+		count: 8,
+		weight: 2
+	},
+	{
+		item: "environmentaltech:structure_frame_3",
+		count: 4
+	},
+	{
+		item: "minecraft:skull 1 5",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "draconicevolution:draconic_block",
+		count: 4,
+		weight: 2
+	},
+	{
+		item: "draconicevolution:crafting_injector 1 1",
+		count: 4,
+		weight: 2
+	},
+	{
+		item: "draconicevolution:crafting_injector 1 2",
+		count: 2
+	},
+	{
+		item: "draconicevolution:infused_obsidian",
+		count: 32,
+		weight: 3
+	},
+	{
+		item: "draconicevolution:energy_crystal 1 8",
+		weight: 3
+	},
+	{
+		item: "draconicevolution:energy_crystal 1 7",
+		weight: 3
+	},
+	{
+		item: "draconicevolution:energy_crystal 1 4",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "draconicevolution:energy_crystal 1 5",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: {
+			id: "draconicevolution:draconium_capacitor",
+			tag: {
+				DEUpgrades: {
+					rfCap: 3b
+				},
+				Energy: 160000000
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "draconicevolution:draconium_capacitor",
+			Damage: 1s,
+			tag: {
+				Energy: 64000000
+			}
+		}
+	},
+	{
+		item: "draconicevolution:wyvern_energy_core",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "draconicevolution:draconic_energy_core",
+		count: 2,
+		weight: 2
+	},
+	{
+		item: "draconicevolution:dragon_heart",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "draconicadditions:draconic_shield_necklace",
+		weight: 3
+	},
+	{
+		item: "environmentaltech:ionite"
+	},
+	{
+		item: "tconevo:metal 1 10"
+	},
+	{
+		item: "tconevo:metal 1 5",
+		count: 2
+	},
+	{
+		item: "tconevo:metal",
+		count: 4,
+		weight: 2
+	},
+	{
+		item: "thermalexpansion:frame",
+		count: 32,
+		weight: 3
+	},
+	{
+		item: "nuclearcraft:part 1 10",
+		count: 8,
+		weight: 2
+	},
+	{
+		item: "enderio:item_material",
+		count: 8,
+		weight: 2
+	},
+	{
+		item: "contenttweaker:resinmachineblock",
+		count: 16,
+		weight: 3
+	},
+	{
+		item: "mekanism:basicblock 1 8",
+		count: 4,
+		weight: 2
+	},
+	{
+		item: "nuclearcraft:part 1 12",
+		count: 4,
+		weight: 2
+	},
+	{
+		item: "contenttweaker:nova",
+		count: 64,
+		weight: 2
+	},
+	{
+		item: "contenttweaker:nova2",
+		count: 16
+	},
+	{
+		item: "contenttweaker:zl_block",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "minecraft:dragon_egg",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "minecraft:nether_star",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "deepmoblearning:polymer_clay",
+		count: 128,
+		weight: 3
+	},
+	{
+		item: "minecraft:tnt",
+		count: 128,
+		weight: 3
+	},
+	{
+		item: "contenttweaker:tnt1",
+		count: 16,
+		weight: 3
+	},
+	{
+		item: "draconicevolution:particle_generator 1 2",
+		count: 9,
+		weight: 3
+	},
+	{
+		item: "draconicevolution:energy_pylon",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "enderutilities:builderswand",
+		weight: 2
+	},
+	{
+		item: "environmentaltech:solar_cont_2",
+		weight: 2
+	},
+	{
+		item: "environmentaltech:solar_cont_3"
+	},
+	{
+		item: "environmentaltech:solar_cont_1",
+		weight: 3
+	},
+	{
+		item: {
+			id: "extrabotany:natureorb",
+			tag: {
+				xp: 500000
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "draconicevolution:wyvern_helm",
+			tag: {
+				DEUpgrades: {
+					rfCap: 2b,
+					shieldCap: 2b,
+					shieldRec: 2b
+				},
+				Energy: 32000000
+			}
+		}
+	},
+	{
+		item: {
+			id: "draconicevolution:wyvern_chest",
+			tag: {
+				DEUpgrades: {
+					rfCap: 2b,
+					shieldCap: 2b,
+					shieldRec: 2b
+				},
+				Energy: 32000000
+			}
+		}
+	},
+	{
+		item: {
+			id: "draconicevolution:wyvern_legs",
+			tag: {
+				DEUpgrades: {
+					rfCap: 2b,
+					moveSpeed: 2b,
+					shieldCap: 2b,
+					shieldRec: 2b
+				},
+				Energy: 32000000
+			}
+		}
+	},
+	{
+		item: {
+			id: "draconicevolution:wyvern_boots",
+			tag: {
+				DEUpgrades: {
+					rfCap: 2b,
+					jumpBoost: 2b,
+					shieldCap: 2b,
+					shieldRec: 2b
+				},
+				Energy: 32000000
+			}
+		}
+	},
+	{
+		item: {
+			id: "draconicevolution:wyvern_bow",
+			tag: {
+				DEUpgrades: {
+					rfCap: 2b,
+					arrowDmg: 2b,
+					arrowSpeed: 2b,
+					drawSpeed: 2b
+				},
+				Energy: 32000000
+			}
+		}
+	},
+	{
+		item: {
+			id: "draconicevolution:wyvern_axe",
+			tag: {
+				DEUpgrades: {
+					rfCap: 2b,
+					digSpeed: 2b,
+					digAOE: 2b
+				},
+				Energy: 32000000
+			}
+		}
+	},
+	{
+		item: {
+			id: "draconicevolution:wyvern_pick",
+			tag: {
+				DEUpgrades: {
+					rfCap: 2b,
+					digSpeed: 2b,
+					digAOE: 2b
+				},
+				Energy: 32000000
+			}
+		}
+	},
+	{
+		item: {
+			id: "draconicevolution:wyvern_shovel",
+			tag: {
+				DEUpgrades: {
+					rfCap: 2b,
+					digSpeed: 2b,
+					digAOE: 2b
+				},
+				Energy: 32000000
+			}
+		}
+	},
+	{
+		item: {
+			id: "draconicevolution:wyvern_sword",
+			tag: {
+				DEUpgrades: {
+					rfCap: 2b,
+					attackDmg: 2b,
+					attackAOE: 2b
+				},
+				Energy: 32000000
+			}
+		}
+	},
+	{
+		item: "ebwizardry:astral_diamond",
+		count: 2,
+		weight: 4
+	},
+	{
+		item: "ancientspellcraft:sage_tome_master_fire",
+		weight: 3
+	},
+	{
+		item: "ancientspellcraft:sage_tome_master_ice",
+		weight: 3
+	},
+	{
+		item: "ancientspellcraft:sage_tome_master_lightning",
+		weight: 3
+	},
+	{
+		item: "ancientspellcraft:sage_tome_master_necromancy",
+		weight: 3
+	},
+	{
+		item: "ancientspellcraft:sage_tome_master_earth",
+		weight: 3
+	},
+	{
+		item: "ancientspellcraft:sage_tome_master_sorcery",
+		weight: 3
+	},
+	{
+		item: "ancientspellcraft:sage_tome_master_healing",
+		weight: 3
+	},
+	{
+		item: "enderio:block_infinity 1 2",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "matteroverdrive:weapon_module_barrel 1 4",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "draconicevolution:draconium_ingot",
+		count: 64,
+		weight: 3
+	},
+	{
+		item: "nuclearcraft:cooler 1 8",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "nuclearcraft:helium_collector",
+		count: 4,
+		weight: 3
+	},
+	{
+		item: "avaritia:neutron_collector",
+		count: 2,
+		weight: 2
+	},
+	{
+		item: "yabba:upgrade_star_tier",
+		count: 2,
+		weight: 2
+	},
+	{
+		item: "mekanism:tierinstaller 1 2",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "mekanism:tierinstaller 1 3",
+		count: 2
+	},
+	{
+		item: "ancientspellcraft:charm_knowledge_orb"
+	},
+	{
+		item: "ancientspellcraft:charm_power_orb"
+	},
+	{
+		item: "ancientspellcraft:charm_progression_orb"
+	},
+	{
+		item: "ancientspellcraft:charm_lightning_orb",
+		weight: 2
+	},
+	{
+		item: "ancientspellcraft:charm_mana_orb"
+	},
+	{
+		item: "ancientspellcraft:charm_earth_orb",
+		weight: 2
+	},
+	{
+		item: "ancientspellcraft:charm_ice_orb",
+		weight: 2
+	},
+	{
+		item: "ancientspellcraft:charm_healing_orb",
+		weight: 2
+	},
+	{
+		item: "ancientspellcraft:charm_necromancy_orb",
+		weight: 2
+	},
+	{
+		item: "ancientspellcraft:charm_fire_orb",
+		weight: 2
+	},
+	{
+		item: "ancientspellcraft:charm_sorcery_orb",
+		weight: 2
+	},
+	{
+		item: "tinymobfarm:wood_farm",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "tinymobfarm:stone_farm",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "tinymobfarm:iron_farm",
+		count: 8,
+		weight: 2
+	},
+	{
+		item: "tinymobfarm:gold_farm",
+		count: 4,
+		weight: 2
+	},
+	{
+		item: "tinymobfarm:diamond_farm",
+		count: 2
+	},
+	{
+		item: "harvestcraft:bbqplatteritem",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:gourmetvenisonburgeritem",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:garlicbreaditem",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:roastchickenitem",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:lambwithmintsauceitem",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:limejellysandwichitem",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "harvestcraft:toastsandwichitem",
+		count: 8,
+		weight: 3
+	}]
+}

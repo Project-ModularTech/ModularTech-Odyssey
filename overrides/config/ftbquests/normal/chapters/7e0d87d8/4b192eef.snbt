@@ -1,0 +1,18 @@
+{
+	x: -6.0d,
+	y: 1.0d,
+	dependencies: [
+		"e6980ef3"
+	],
+	tasks: [{
+		uid: "73c25761",
+		type: "item",
+		items: [{
+			id: "thermaldynamics:duct_0",
+			Damage: 5s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

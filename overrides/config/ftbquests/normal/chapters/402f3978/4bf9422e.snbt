@@ -1,0 +1,30 @@
+{
+	title: "组合合成",
+	x: 2.0d,
+	y: -5.5d,
+	dependencies: [
+		"fd778e20"
+	],
+	tasks: [{
+		uid: "f0a4197f",
+		type: "item",
+		items: [{
+			id: "extendedcrafting:crafting_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "233ecff1",
+		type: "item",
+		items: [{
+			id: "extendedcrafting:pedestal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

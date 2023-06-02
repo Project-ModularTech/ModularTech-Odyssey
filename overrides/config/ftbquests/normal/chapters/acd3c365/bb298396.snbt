@@ -1,0 +1,24 @@
+{
+	title: "§a新手-幽冥方块",
+	x: -17.5d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "12c972cf",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 142s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c57afb26",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

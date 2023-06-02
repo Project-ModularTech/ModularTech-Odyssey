@@ -1,0 +1,28 @@
+{
+	title: "多方块机械",
+	x: 0.5d,
+	y: -5.0d,
+	description: "组装...",
+	text: [
+		"自定义多方块机械，不可不细品",
+		"根据机器配方不同，所需的输入/输出仓也有不同，输入仓/输出仓需大于等于机器配方所需，否则无法工作"
+	],
+	dependencies: [
+		"7bc38d09"
+	],
+	tasks: [{
+		uid: "a0e37626",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockcasing",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6e42f744",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 24.5d,
+	y: -1.0d,
+	text: [
+		"可以用于制作电梯",
+		"也是制作一些存储设备的基本材料"
+	],
+	dependencies: [
+		"d0c9bbbf"
+	],
+	tasks: [{
+		uid: "e6177099",
+		type: "item",
+		items: [{
+			id: "enderutilities:enderpart",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "44d1c239",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

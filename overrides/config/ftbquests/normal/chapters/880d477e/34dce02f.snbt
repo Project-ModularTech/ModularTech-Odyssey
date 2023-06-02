@@ -1,0 +1,26 @@
+{
+	x: -11.5d,
+	y: -3.0d,
+	text: [
+		"工业大麻种子可通过打草掉落，种植成熟后可获得工业大麻纤维，成熟高度为两格，收割时可以像收割甘蔗和仙人掌一样只打掉第二格获得产物",
+		"§e你可以在种植的作物附近潜行来加速作物生长"
+	],
+	dependencies: [
+		"1670f5c3"
+	],
+	tasks: [{
+		uid: "9746b4bd",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:seed",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "05ea3997",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

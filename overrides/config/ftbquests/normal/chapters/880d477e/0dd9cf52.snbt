@@ -1,0 +1,26 @@
+{
+	x: -7.5d,
+	y: -1.0d,
+	text: [
+		"使用石英磨具研磨焦煤获取焦煤粉"
+	],
+	dependencies: [
+		"41b15e6b"
+	],
+	tasks: [{
+		uid: "4eab21b2",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:material",
+			Damage: 17s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e242b845",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

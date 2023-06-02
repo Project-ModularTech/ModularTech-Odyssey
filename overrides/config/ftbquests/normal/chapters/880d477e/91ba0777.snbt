@@ -1,0 +1,27 @@
+{
+	x: 26.5d,
+	y: -1.0d,
+	shape: "hexagon",
+	text: [
+		"类似于抽屉 可以升级"
+	],
+	dependencies: [
+		"bcdf7786"
+	],
+	optional: true,
+	tasks: [{
+		uid: "706436bf",
+		type: "item",
+		items: [{
+			id: "enderutilities:barrel",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0682f685",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

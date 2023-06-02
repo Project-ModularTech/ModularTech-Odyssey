@@ -1,0 +1,50 @@
+{
+	title: "览术台",
+	x: -20.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "95285ec6",
+		type: "item",
+		items: [{
+			id: "ebwizardry:oak_lectern",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "ebwizardry:spruce_lectern",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "ebwizardry:birch_lectern",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "ebwizardry:jungle_lectern",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "ebwizardry:jungle_lectern",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "ebwizardry:dark_oak_lectern",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bcc6804e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

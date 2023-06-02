@@ -1,0 +1,24 @@
+{
+	title: "§6大师-地狱审判",
+	x: 10.5d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "643caf92",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 212s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5e0a5b1a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

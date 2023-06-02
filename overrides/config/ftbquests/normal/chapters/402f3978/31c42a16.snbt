@@ -1,0 +1,26 @@
+{
+	title: "仪式激活水晶",
+	x: 16.0d,
+	y: -8.5d,
+	dependencies: [
+		"592c1e38"
+	],
+	tasks: [{
+		uid: "fcc39f58",
+		type: "item",
+		items: [{
+			id: "bloodmagic:activation_crystal",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "bloodmagic:activation_crystal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

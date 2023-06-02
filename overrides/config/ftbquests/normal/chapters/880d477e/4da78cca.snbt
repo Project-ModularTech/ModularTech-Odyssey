@@ -1,0 +1,30 @@
+{
+	x: -2.5d,
+	y: -7.0d,
+	shape: "hexagon",
+	text: [
+		"潜行右键模块化机械控制器，可以投影机器结构，缺失或错误的方块会在对应位置高亮显示投影",
+		"§e可用于检测机器结构完整性"
+	],
+	dependencies: [
+		"7bc38d09"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e37c1a47",
+		type: "item",
+		items: [{
+			id: "modularmachinery:machine_projector",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11a5c493",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

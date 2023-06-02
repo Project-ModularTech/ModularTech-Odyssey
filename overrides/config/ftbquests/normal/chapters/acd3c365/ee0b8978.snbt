@@ -1,0 +1,24 @@
+{
+	title: "§a新手-自然陷阱",
+	x: -17.5d,
+	y: 19.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5900fe8d",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 8s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "541e0a69",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

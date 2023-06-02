@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-焰熄术",
+	x: -10.5d,
+	y: 56.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d6deb219",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 236s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3e9425ec",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -18.0d,
+	y: -1.0d,
+	text: [
+		"阻止大范围内怪物生成"
+	],
+	tasks: [{
+		uid: "f97c070e",
+		type: "item",
+		items: [{
+			id: "torchmaster:mega_torch",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "60866d29",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

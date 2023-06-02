@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-自然萌芽",
+	x: -10.5d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "94d39613",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 242s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2184dc11",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

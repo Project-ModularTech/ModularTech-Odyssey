@@ -1,0 +1,24 @@
+{
+	title: "§6大师-永久缩小化",
+	x: 7.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ddd4890e",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 343s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ab603058",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

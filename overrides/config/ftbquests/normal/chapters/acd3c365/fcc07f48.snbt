@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-瞬步",
+	x: -7.5d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2266fc0b",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 196s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7e718fc2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

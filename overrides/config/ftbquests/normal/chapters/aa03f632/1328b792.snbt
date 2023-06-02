@@ -1,0 +1,21 @@
+{
+	x: -18.0d,
+	y: -3.5d,
+	text: [
+		"快速淘汰掉那些简易机器吧 它能制作效率更高的合金炉/sag磨粉机"
+	],
+	dependencies: [
+		"30ed7c61"
+	],
+	tasks: [{
+		uid: "156d21c3",
+		type: "item",
+		items: [{
+			id: "enderio:item_material",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

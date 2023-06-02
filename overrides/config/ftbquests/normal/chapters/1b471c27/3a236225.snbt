@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		"不太好看的玻璃 但是制造电路板非常有用"
+	],
+	dependencies: [
+		"ff23bb2e"
+	],
+	tasks: [{
+		uid: "623bbeb2",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:stone_decoration",
+			Damage: 8s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "af96f73a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

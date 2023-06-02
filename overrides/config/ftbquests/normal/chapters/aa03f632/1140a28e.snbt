@@ -1,0 +1,21 @@
+{
+	x: -18.0d,
+	y: -7.5d,
+	text: [
+		"阿尔夫海姆的特殊材料 你觉得可以注入火焰水来变得奇妙"
+	],
+	dependencies: [
+		"6cc4c23e"
+	],
+	tasks: [{
+		uid: "096cef7b",
+		type: "item",
+		items: [{
+			id: "botania:manaresource",
+			Damage: 8s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

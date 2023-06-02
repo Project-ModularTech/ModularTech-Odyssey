@@ -1,0 +1,31 @@
+{
+	x: 16.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"这个东西可以用于勘察区块的地幔能量",
+		"地幔能量越多 这个区块产出余烬水晶的量就越高"
+	],
+	dependencies: [
+		"8a32426e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e7df50d9",
+		type: "item",
+		items: [{
+			id: "embers:ember_detector",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "06d40f17",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

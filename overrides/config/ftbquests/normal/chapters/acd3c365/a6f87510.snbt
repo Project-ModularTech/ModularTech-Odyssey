@@ -1,0 +1,24 @@
+{
+	title: "§6大师-斗转星移",
+	x: 10.5d,
+	y: 44.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1ef0d4fe",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 170s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "906be20f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "自动化无尽工作台",
+	x: -20.0d,
+	y: 5.0d,
+	dependencies: [
+		"29e43f4f"
+	],
+	tasks: [{
+		uid: "8789a4a3",
+		type: "item",
+		items: [{
+			id: "avaritiaddons:extreme_auto_crafter",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1d1cf6b7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

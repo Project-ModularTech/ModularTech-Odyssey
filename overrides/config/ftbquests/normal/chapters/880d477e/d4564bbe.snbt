@@ -1,0 +1,20 @@
+{
+	x: 14.5d,
+	y: -5.0d,
+	text: [
+		"金属冲压机可以加工板材、金属杆、线缆、弹壳、齿轮等物品，需要安装冲压模具才能工作，材料需要以掉落物形式投入，机器结构能源输入端为正上方"
+	],
+	dependencies: [
+		"ba8c6deb"
+	],
+	tasks: [{
+		uid: "5da316b1",
+		type: "checkmark",
+		title: "金属冲压机"
+	}],
+	rewards: [{
+		uid: "5d95f898",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-召唤恼鬼群",
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b9c80fc3",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 160s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b0fbfc1d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

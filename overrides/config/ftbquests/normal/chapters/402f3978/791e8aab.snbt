@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: 4.5d,
+	text: [
+		"别想了 速度还很慢 也不能插入升级"
+	],
+	dependencies: [
+		"06674f17",
+		"db25d8ff"
+	],
+	tasks: [{
+		uid: "aaad7b2a",
+		type: "item",
+		items: [{
+			id: "environmentaltech:void_ore_miner_cont_2",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "088e3b24",
+		type: "loot",
+		table: 4
+	}]
+}

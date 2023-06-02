@@ -1,0 +1,24 @@
+{
+	title: "§6大师-奥术庇护",
+	x: 7.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b39166bb",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 292s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "eece88bc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

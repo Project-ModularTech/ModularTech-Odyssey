@@ -1,0 +1,29 @@
+{
+	x: -13.5d,
+	y: 4.5d,
+	shape: "hexagon",
+	text: [
+		"种植植物的好伙伴 在部分配方上比有机灌注机好太多了"
+	],
+	dependencies: [
+		"a0dfaeb9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4dc2d78e",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:metal_device1",
+			Damage: 13s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9e19258d",
+		type: "loot",
+		table: 3
+	}]
+}

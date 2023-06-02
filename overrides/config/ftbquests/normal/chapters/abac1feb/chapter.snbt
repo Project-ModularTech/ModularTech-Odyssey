@@ -1,0 +1,12 @@
+{
+	title: "纪念品",
+	icon: {
+		id: "contenttweaker:ohxihh",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

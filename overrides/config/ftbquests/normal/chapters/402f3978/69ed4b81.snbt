@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: -8.5d,
+	dependencies: [
+		"951c2d53",
+		"1b90f0ef"
+	],
+	tasks: [{
+		uid: "587fb711",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockattunementaltar",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cebf0079",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -8.0d,
+	y: -9.5d,
+	dependencies: [
+		"25bfbea8"
+	],
+	tasks: [{
+		uid: "5e39c604",
+		type: "item",
+		items: [{
+			id: "enderutilities:enderpart",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

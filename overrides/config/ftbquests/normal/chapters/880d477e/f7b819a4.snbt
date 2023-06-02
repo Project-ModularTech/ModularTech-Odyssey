@@ -1,0 +1,31 @@
+{
+	x: 16.5d,
+	y: -7.0d,
+	text: [
+		"是embers的绑定工具",
+		"先shift绑定一个余烬能量接收器或者是余烬能量漏斗",
+		"然后右击余烬能量发射器或者是喷发器",
+		""
+	],
+	dependencies: [
+		"e132cff3"
+	],
+	tasks: [{
+		uid: "189931fd",
+		type: "item",
+		items: [{
+			id: "embers:tinker_hammer",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2e2db095",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 18.0d,
+	y: -9.5d,
+	text: [
+		"通过恶魔坩埚、恶魔结晶坛获取",
+		"§e如果需要原生以外的意志晶体，你需要搭建结晶共鸣仪式"
+	],
+	dependencies: [
+		"5efe9138",
+		"31c42a16"
+	],
+	tasks: [{
+		uid: "79f2487b",
+		type: "item",
+		items: [{
+			id: "bloodmagic:item_demon_crystal",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7a4cef6a",
+		type: "loot",
+		table: 4
+	}]
+}

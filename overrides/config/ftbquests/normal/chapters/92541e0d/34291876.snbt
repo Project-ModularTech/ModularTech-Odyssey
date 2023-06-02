@@ -1,0 +1,19 @@
+{
+	x: -17.0d,
+	y: -2.5d,
+	shape: "gear",
+	dependencies: [
+		"97951e00"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4f205c27",
+		type: "item",
+		items: [{
+			id: "contenttweaker:epiccircuit",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

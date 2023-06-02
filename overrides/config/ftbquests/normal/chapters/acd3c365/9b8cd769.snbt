@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-反制",
+	x: -7.5d,
+	y: 22.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6de0bd6f",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 148s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8cd02a38",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

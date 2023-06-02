@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 3.5d,
+	dependencies: [
+		"df9c5d9e"
+	],
+	tasks: [{
+		uid: "9bba8b37",
+		type: "item",
+		items: [{
+			id: "modularmachinery:high_intensity_nuclear_fission_breeder_reactor_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

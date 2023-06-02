@@ -1,0 +1,30 @@
+{
+	x: 16.5d,
+	y: -5.0d,
+	text: [
+		"机械核心可以用于制作接下来的机械",
+		"当然 你可以放在灰烬晶体采掘机上",
+		"这样就可以在上面输入燃料输出灰烬晶体了"
+	],
+	dependencies: [
+		"d4564bbe",
+		"b52bf22a"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "f041a731",
+		type: "item",
+		items: [{
+			id: "embers:mech_core",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a574f066",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

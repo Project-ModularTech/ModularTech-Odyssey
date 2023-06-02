@@ -1,0 +1,24 @@
+{
+	title: "§6大师-召唤冰霜巨口",
+	x: 6.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "13797bfc",
+		type: "item",
+		items: [{
+			id: "mospells:mospells_spell_book",
+			Damage: 465s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bf16a235",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

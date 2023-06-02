@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-涡流水弹",
+	x: 3.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a332afb7",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 208s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c608e11d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

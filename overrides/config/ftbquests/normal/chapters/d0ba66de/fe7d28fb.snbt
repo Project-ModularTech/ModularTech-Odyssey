@@ -1,0 +1,21 @@
+{
+	x: -16.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "135416fc",
+		type: "item",
+		items: [{
+			id: "prefab:item_structure_part",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ac79256",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

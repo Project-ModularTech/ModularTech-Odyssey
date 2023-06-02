@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-太阳祝福",
+	x: -4.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2cdaecd7",
+		type: "item",
+		items: [{
+			id: "mospells:mospells_spell_book",
+			Damage: 469s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "814ed523",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

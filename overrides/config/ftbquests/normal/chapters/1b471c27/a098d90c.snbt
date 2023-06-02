@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: -12.5d,
+	text: [
+		"望远镜的高级版本 不需要在天上晃来晃去了"
+	],
+	dependencies: [
+		"4044b9eb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0cef80f7",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockmachine",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "af112f56",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

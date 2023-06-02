@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"用于升级血魔法祭坛"
+	],
+	dependencies: [
+		"03078304"
+	],
+	tasks: [{
+		uid: "305d9039",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_rune",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "abdb3093",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

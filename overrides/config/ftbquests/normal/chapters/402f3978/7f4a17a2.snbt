@@ -1,0 +1,26 @@
+{
+	x: 10.0d,
+	y: -1.5d,
+	shape: "gear",
+	dependencies: [
+		"97951e00",
+		"863f1c11",
+		"73962e91"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "fc827d5e",
+		type: "item",
+		items: [{
+			id: "modularmachinery:mini_circuit_assembler_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "60595bf2",
+		type: "loot",
+		table: 4
+	}]
+}

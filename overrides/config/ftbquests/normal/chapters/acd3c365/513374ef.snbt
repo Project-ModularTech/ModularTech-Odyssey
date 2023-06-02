@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-火焰灌注",
+	x: 1.5d,
+	y: 28.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0d0c5f6c",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 125s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "300ffd5a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

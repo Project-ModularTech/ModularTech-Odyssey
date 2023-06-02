@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-Curse Of Gills",
+	x: -1.5d,
+	y: 58.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2ce57fc8",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 417s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2517475f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

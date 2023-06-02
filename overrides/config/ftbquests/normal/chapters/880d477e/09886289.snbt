@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: -7.0d,
+	shape: "hexagon",
+	text: [
+		"将滤网基座放在水中，注意上方一格须有水流过",
+		"将滤网插入滤网基座即可",
+		"§e根据放入的滤网种类获取不同物资"
+	],
+	dependencies: [
+		"7bc38d09"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a805a3b0",
+		type: "item",
+		items: [{
+			id: "waterstrainer:strainer_base",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c18096e7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

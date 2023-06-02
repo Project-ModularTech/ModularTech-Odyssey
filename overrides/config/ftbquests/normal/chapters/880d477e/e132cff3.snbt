@@ -1,0 +1,69 @@
+{
+	title: "金属冲压模具",
+	x: 14.5d,
+	y: -7.0d,
+	text: [
+		"冲压用的模具们",
+		"前期制造板 齿轮 线缆的好伙伴",
+		"可以节约不少金属"
+	],
+	dependencies: [
+		"d4564bbe"
+	],
+	tasks: [{
+		uid: "4bb07280",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:mold",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e729e6e",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:mold",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2020f992",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:mold",
+			Damage: 2s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "10fcd45b",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:mold",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26e5e827",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

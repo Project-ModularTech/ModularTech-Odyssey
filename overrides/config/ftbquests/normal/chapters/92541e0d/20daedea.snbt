@@ -1,0 +1,33 @@
+{
+	title: "来自Ionite的私货",
+	x: 13.5d,
+	y: -2.5d,
+	text: [
+		"嘘 不要告诉ohxihh",
+		"§d我看到你了！——ohxihh"
+	],
+	dependencies: [
+		"3ce9a311"
+	],
+	tasks: [{
+		uid: "0c4580d9",
+		type: "item",
+		items: [{
+			id: "environmentaltech:ionite",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d45e1d58",
+		type: "item",
+		item: {
+			id: "ancientspellcraft:charm_ice_orb",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

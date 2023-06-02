@@ -1,0 +1,10 @@
+{
+	title: "终章  创世之力",
+	icon: "draconicevolution:creative_rf_source",
+	description: [
+		"世界终归于你"
+	],
+	always_invisible: false,
+	group: -2012405485,
+	default_quest_shape: ""
+}

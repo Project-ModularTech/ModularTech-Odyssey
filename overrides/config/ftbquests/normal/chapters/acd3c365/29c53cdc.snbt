@@ -1,0 +1,24 @@
+{
+	title: "§a新手-Death Mark",
+	x: -19.0d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "fbebaf81",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 420s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ee287a5e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

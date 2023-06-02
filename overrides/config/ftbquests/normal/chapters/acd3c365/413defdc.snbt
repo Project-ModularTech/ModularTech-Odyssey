@@ -1,0 +1,24 @@
+{
+	title: "§6大师-僵尸天启",
+	x: 10.5d,
+	y: 52.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b0c422f9",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 186s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5fe25921",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

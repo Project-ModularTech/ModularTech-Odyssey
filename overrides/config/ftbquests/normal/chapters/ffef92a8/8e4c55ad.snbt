@@ -1,0 +1,21 @@
+{
+	x: -10.0d,
+	y: 3.5d,
+	text: [
+		"手持其右击风车可替换其风帆以进行升级"
+	],
+	dependencies: [
+		"fe0567fd"
+	],
+	tasks: [{
+		uid: "228bdcf3",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:material",
+			Damage: 12s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

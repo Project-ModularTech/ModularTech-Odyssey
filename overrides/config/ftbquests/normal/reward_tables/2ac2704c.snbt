@@ -1,0 +1,555 @@
+{
+	title: "ohxihh的奖励箱",
+	icon: "contenttweaker:box_oh",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "contenttweaker:ohxihh"
+	},
+	{
+		item: "contenttweaker:ohxihh",
+		count: 2
+	},
+	{
+		item: "minecraft:fish 1 3"
+	},
+	{
+		item: "minecraft:bedrock"
+	},
+	{
+		item: {
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000
+			}
+		}
+	},
+	{
+		item: "nuclearcraft:portable_ender_chest"
+	},
+	{
+		item: "minecraft:beacon"
+	},
+	{
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0,
+				mekData: {
+					energyStored: 2000000.0d
+				}
+			}
+		}
+	},
+	{
+		item: "botania:terraaxe"
+	},
+	{
+		item: "contenttweaker:chengzhenjie"
+	},
+	{
+		item: "resize:shrinking_bauble"
+	},
+	{
+		item: "resize:growth_bauble"
+	},
+	{
+		item: "avaritiaddons:avaritiaddons_chest"
+	},
+	{
+		item: "contenttweaker:jiuxia2025"
+	},
+	{
+		item: "contenttweaker:ximen"
+	},
+	{
+		item: "contenttweaker:shadow_zl"
+	},
+	{
+		item: "contenttweaker:sumlotus",
+		count: 16
+	},
+	{
+		item: "contenttweaker:capsh"
+	},
+	{
+		item: "contenttweaker:xiaoyu"
+	},
+	{
+		item: "contenttweaker:zhixiaoma"
+	},
+	{
+		item: "contenttweaker:box1"
+	},
+	{
+		item: "contenttweaker:box2"
+	},
+	{
+		item: "contenttweaker:box3"
+	},
+	{
+		item: "contenttweaker:box_huaji"
+	},
+	{
+		item: "contenttweaker:box_toby"
+	},
+	{
+		item: "astralsorcery:blockcustomflower"
+	},
+	{
+		item: "environmentaltech:solar_cont_1"
+	},
+	{
+		item: "environmentaltech:solar_cont_2"
+	},
+	{
+		item: "environmentaltech:solar_cont_3"
+	},
+	{
+		item: {
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "avaritia:block_resource",
+					Count: 1b,
+					Damage: 1s
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "conarm:armorforge",
+			tag: {
+				textureBlock: {
+					id: "avaritia:block_resource",
+					Count: 1b,
+					Damage: 1s
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:block_painted_stone",
+			tag: {
+				"enderio:paint": {
+					Name: "avaritia:block_resource",
+					Properties: {
+						type: "infinity"
+					}
+				},
+				"enderio:paintsrc": {
+					id: "avaritia:block_resource",
+					Count: 1b,
+					Damage: 1s,
+					ForgeCaps: {
+						"wizardryutils:summoneditemdata": {}
+					}
+				},
+				"enderio:original": {
+					id: "minecraft:cobblestone",
+					Count: 1b,
+					Damage: 0s,
+					ForgeCaps: {
+						"wizardryutils:summoneditemdata": {}
+					}
+				}
+			}
+		},
+		count: 64
+	},
+	{
+		item: {
+			id: "enderio:block_painted_stone",
+			tag: {
+				"enderio:paint": {
+					Name: "avaritiatweaks:gaia_block"
+				},
+				"enderio:paintsrc": {
+					id: "avaritiatweaks:gaia_block",
+					Count: 1b,
+					Damage: 0s,
+					ForgeCaps: {
+						"wizardryutils:summoneditemdata": {}
+					}
+				},
+				"enderio:original": {
+					id: "minecraft:cobblestone",
+					Count: 1b,
+					Damage: 0s,
+					ForgeCaps: {
+						"wizardryutils:summoneditemdata": {}
+					}
+				}
+			}
+		},
+		count: 64
+	},
+	{
+		item: {
+			id: "enderio:block_painted_stone",
+			tag: {
+				"enderio:paint": {
+					Name: "extendedcrafting:storage",
+					Properties: {
+						variant: "ultimate"
+					}
+				},
+				"enderio:paintsrc": {
+					id: "extendedcrafting:storage",
+					Count: 1b,
+					Damage: 4s,
+					ForgeCaps: {
+						"wizardryutils:summoneditemdata": {}
+					}
+				},
+				"enderio:original": {
+					id: "minecraft:cobblestone",
+					Count: 1b,
+					Damage: 0s,
+					ForgeCaps: {
+						"wizardryutils:summoneditemdata": {}
+					}
+				}
+			}
+		},
+		count: 64
+	},
+	{
+		item: "enderutilities:handybag"
+	},
+	{
+		item: "rftools:environmental_controller"
+	},
+	{
+		item: "artifacts:bottled_cloud"
+	},
+	{
+		item: "ebwizardry:charm_stop_time"
+	},
+	{
+		item: "ebwizardry:charm_silk_touch"
+	},
+	{
+		item: "ebwizardry:charm_light"
+	},
+	{
+		item: "ebwizardry:charm_flight"
+	},
+	{
+		item: "ebwizardry:charm_storm"
+	},
+	{
+		item: "ebwizardry:amulet_resurrection"
+	},
+	{
+		item: "ebwizardry:master_wand"
+	},
+	{
+		item: "ebwizardry:master_fire_wand"
+	},
+	{
+		item: "ebwizardry:master_ice_wand"
+	},
+	{
+		item: "ebwizardry:master_lightning_wand"
+	},
+	{
+		item: "ebwizardry:master_necromancy_wand"
+	},
+	{
+		item: "ebwizardry:master_healing_wand"
+	},
+	{
+		item: "ebwizardry:master_earth_wand"
+	},
+	{
+		item: "ebwizardry:astral_diamond",
+		count: 4
+	},
+	{
+		item: "ebwizardry:identification_scroll",
+		count: 16
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "aeadditions:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			}
+		}
+	},
+	{
+		item: {
+			id: "aeadditions:storage.physical",
+			Damage: 1s,
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			}
+		}
+	},
+	{
+		item: "ebwizardry:charm_feeding"
+	},
+	{
+		item: {
+			id: "mekanism:atomicdisassembler",
+			tag: {
+				mekData: {
+					energyStored: 1000000.0d
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:armoredjetpack",
+			tag: {
+				mekData: {
+					stored: {
+						gasName: "hydrogen",
+						amount: 24000
+					}
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:flamethrower",
+			tag: {
+				mekData: {
+					stored: {
+						gasName: "hydrogen",
+						amount: 24000
+					}
+				}
+			}
+		}
+	},
+	{
+		item: "draconicevolution:wyvern_axe"
+	},
+	{
+		item: "draconicevolution:wyvern_bow"
+	},
+	{
+		item: "draconicevolution:wyvern_pick"
+	},
+	{
+		item: "draconicevolution:wyvern_shovel"
+	},
+	{
+		item: "draconicevolution:wyvern_sword"
+	},
+	{
+		item: "draconicadditions:wyvern_shield_necklace"
+	},
+	{
+		item: "enderio:block_cap_bank 1 1"
+	},
+	{
+		item: "enderio:block_cap_bank 1 2"
+	},
+	{
+		item: "enderio:item_capacitor_stellar"
+	},
+	{
+		item: "enderio:item_capacitor_melodic"
+	},
+	{
+		item: "openglider:hang_glider_basic"
+	},
+	{
+		item: "openglider:hang_glider_advanced"
+	},
+	{
+		item: "embers:ancient_motive_core",
+		count: 16
+	},
+	{
+		item: "embers:mech_core",
+		count: 4
+	},
+	{
+		item: "thermalexpansion:frame",
+		count: 4
+	},
+	{
+		item: "astralsorcery:itemusabledust",
+		count: 32
+	},
+	{
+		item: "astralsorcery:itemusabledust 1 1",
+		count: 32
+	},
+	{
+		item: "tconevo:material",
+		count: 4
+	},
+	{
+		item: "deepmoblearning:polymer_clay",
+		count: 64
+	},
+	{
+		item: {
+			id: "vehicle:vehicle_crate",
+			tag: {
+				BlockEntityTag: {
+					vehicle: "vehicle:sports_plane",
+					engineTier: 0,
+					wheelType: 0
+				}
+			}
+		}
+	},
+	{
+		item: "rftools:peace_essence"
+	},
+	{
+		item: "ironchest:iron_shulker_box_light_blue 1 5"
+	},
+	{
+		item: "botania:auraringgreater"
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "loonium"
+			}
+		}
+	},
+	{
+		item: "oeintegration:excavatemodifier",
+		count: 8
+	},
+	{
+		item: "contenttweaker:zl_block",
+		count: 4
+	},
+	{
+		item: "contenttweaker:nova2",
+		count: 10
+	},
+	{
+		item: "contenttweaker:nova2",
+		count: 20
+	},
+	{
+		item: "contenttweaker:nova2",
+		count: 40
+	},
+	{
+		item: "extrabotany:manabarrel"
+	},
+	{
+		item: "extrabotany:quantummanabuffer"
+	},
+	{
+		item: "extrabotany:material 1 1"
+	},
+	{
+		item: "astralsorcery:itemcraftingcomponent 1 4",
+		count: 8
+	},
+	{
+		item: "botania:manaresource 1 14",
+		count: 4
+	},
+	{
+		item: "minecraft:tallgrass 1 1"
+	},
+	{
+		item: {
+			id: "vehicle:industrial_jerry_can",
+			tag: {
+				fuel: 15000.0f
+			}
+		}
+	},
+	{
+		item: "avaritia:skullfire_sword"
+	},
+	{
+		item: "touhou_little_maid:substitute_jizo"
+	},
+	{
+		item: "environmentaltech:modifier_creative_flight"
+	},
+	{
+		item: {
+			id: "modularmachinery:niu_niu_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "modularmachinery:zl2_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "modularmachinery:vein_miner_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:star_cloak",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:lucky_clover",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:bubble_wrap",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:antidote_vessel",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "artifacts:sacrificial_amulet",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}]
+}

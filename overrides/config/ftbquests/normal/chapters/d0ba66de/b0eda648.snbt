@@ -1,0 +1,20 @@
+{
+	title: "比悬浮沙漏更好！",
+	x: -10.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "359dda98",
+		type: "item",
+		items: [{
+			id: "rftools:timer_block",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a12a8213",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

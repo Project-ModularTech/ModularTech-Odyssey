@@ -1,0 +1,28 @@
+{
+	x: 8.0d,
+	y: -16.5d,
+	shape: "gear",
+	text: [
+		"高级的海蓝宝石 可以用于做很多好东西"
+	],
+	dependencies: [
+		"fecb20ae"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8e3ba40d",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemcraftingcomponent",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0b7730bf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

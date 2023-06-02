@@ -1,0 +1,36 @@
+{
+	x: -6.0d,
+	y: -11.5d,
+	dependencies: [
+		"8c5226be",
+		"6ac51473"
+	],
+	tasks: [{
+		uid: "6bebf309",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:trial_keystone",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	},
+	{
+		uid: "b4f05d28",
+		type: "item",
+		items: [{
+			id: "deepmoblearning:trial_key",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "66eb3ad0",
+		type: "loot",
+		table: 4
+	}]
+}

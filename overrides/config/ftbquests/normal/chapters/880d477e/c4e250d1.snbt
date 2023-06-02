@@ -1,0 +1,26 @@
+{
+	x: 12.5d,
+	y: -5.0d,
+	text: [
+		"匠魂 开始咯~",
+		""
+	],
+	dependencies: [
+		"d4564bbe"
+	],
+	tasks: [{
+		uid: "e546ca17",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0ff16469",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

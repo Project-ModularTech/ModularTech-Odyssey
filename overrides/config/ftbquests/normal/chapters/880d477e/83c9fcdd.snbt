@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: 3.0d,
+	text: [
+		"二阶的石板 用处有很多"
+	],
+	dependencies: [
+		"d30a330a"
+	],
+	tasks: [{
+		uid: "3eab3b61",
+		type: "item",
+		items: [{
+			id: "bloodmagic:slate",
+			Damage: 1s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "93a06d38",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

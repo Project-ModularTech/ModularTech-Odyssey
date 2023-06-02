@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: -4.5d,
+	text: [
+		"链接器用于连接水晶石与方块星能的交互 效应连接通道的绑定",
+		"右键谁水晶石或棱镜or透镜 再次右击想绑定的方块就可以了",
+		"当绑定状态下从手持脱离都会取消绑定"
+	],
+	dependencies: [
+		"bd6d95c7"
+	],
+	tasks: [{
+		uid: "9aeeb083",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemlinkingtool",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5394c2ec",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

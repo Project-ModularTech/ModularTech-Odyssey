@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-支柱",
+	x: -13.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "33f05b0e",
+		type: "item",
+		items: [{
+			id: "mospells:mospells_spell_book",
+			Damage: 459s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "37b467a8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

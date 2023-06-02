@@ -1,0 +1,24 @@
+{
+	title: "§6大师-风暴之眼",
+	x: 9.0d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d07a700f",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 284s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1330c1e0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

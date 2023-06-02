@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-口袋工作台",
+	x: -7.5d,
+	y: 35.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c153a7d4",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 120s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "af494690",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

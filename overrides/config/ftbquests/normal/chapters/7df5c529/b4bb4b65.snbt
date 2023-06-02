@@ -1,0 +1,21 @@
+{
+	x: -5.5d,
+	y: -1.0d,
+	text: [
+		"获取配方流体产物"
+	],
+	dependencies: [
+		"63bd2cb3",
+		"2bff0041"
+	],
+	tasks: [{
+		uid: "b610f98f",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blockfluidoutputhatch",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "§6大师-蘑菇森林",
+	x: 9.0d,
+	y: 22.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f7649d73",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spellcraft_spell_book",
+			Damage: 351s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a9efaa49",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

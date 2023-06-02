@@ -1,0 +1,15 @@
+{
+	title: "阶段九  群星时代",
+	icon: {
+		id: "modularmachinery:star_crafting_controller",
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	description: [
+		"群星璀璨"
+	],
+	always_invisible: false,
+	group: -2012405485,
+	default_quest_shape: ""
+}

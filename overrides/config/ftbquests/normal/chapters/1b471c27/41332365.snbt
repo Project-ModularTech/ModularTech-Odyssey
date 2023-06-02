@@ -1,0 +1,26 @@
+{
+	x: -11.0d,
+	y: -4.5d,
+	text: [
+		"用于制作书树脂提取器",
+		"也可以用于做简易机械框架"
+	],
+	dependencies: [
+		"236ce635"
+	],
+	tasks: [{
+		uid: "29530fbc",
+		type: "item",
+		items: [{
+			id: "contenttweaker:resinmachineblock",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "92d59689",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

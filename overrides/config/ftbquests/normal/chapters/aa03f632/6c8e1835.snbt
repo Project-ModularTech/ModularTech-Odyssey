@@ -1,0 +1,28 @@
+{
+	x: -16.0d,
+	y: -1.5d,
+	text: [
+		"有了更好的电路板 就可以制作合成特殊合金的合金炉了"
+	],
+	dependencies: [
+		"6d8e6c5b",
+		"b4c5da9b",
+		"a0dfaeb9"
+	],
+	tasks: [{
+		uid: "eb4cf156",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:alloy_furnace_idle",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2812a179",
+		type: "loot",
+		table: 3
+	}]
+}

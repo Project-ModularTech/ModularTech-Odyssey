@@ -1,0 +1,24 @@
+{
+	title: "§a新手-触发法术-伤害",
+	x: -20.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "16c8bcb6",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 329s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a71d4ac8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

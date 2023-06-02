@@ -1,0 +1,38 @@
+{
+	title: "实用的箱子",
+	x: 26.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"把存储卡插进去吧",
+		"便捷箱子迫不及待了（喜）"
+	],
+	dependencies: [
+		"397b22fe"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0d4a766e",
+		type: "item",
+		items: [{
+			id: "enderutilities:storage_0",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		{
+			id: "enderutilities:storage_0",
+			Damage: 4s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "757e8710",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

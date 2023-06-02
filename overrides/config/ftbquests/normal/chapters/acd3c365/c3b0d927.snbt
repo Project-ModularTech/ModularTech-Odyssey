@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-触发法术-摔落",
+	x: -12.0d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8cd10b18",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 328s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "63a7652e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

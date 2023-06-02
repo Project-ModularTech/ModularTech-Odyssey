@@ -1,0 +1,24 @@
+{
+	x: -17.0d,
+	y: 1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"1f5c3e64"
+	],
+	optional: true,
+	tasks: [{
+		uid: "11f4566b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:hot_room_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "36eb6f33",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

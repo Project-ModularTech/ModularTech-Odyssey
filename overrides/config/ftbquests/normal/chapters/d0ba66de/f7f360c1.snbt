@@ -1,0 +1,22 @@
+{
+	x: -16.0d,
+	y: 3.0d,
+	dependencies: [
+		"ffd1e422"
+	],
+	tasks: [{
+		uid: "78279111",
+		type: "item",
+		items: [{
+			id: "enderutilities:asu",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "aa59461a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

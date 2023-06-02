@@ -1,0 +1,24 @@
+{
+	title: "§9学徒-气泡",
+	x: -9.0d,
+	y: 34.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b5df3d0e",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 34s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "84edcb43",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

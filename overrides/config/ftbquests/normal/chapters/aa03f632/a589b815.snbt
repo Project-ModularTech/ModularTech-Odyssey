@@ -1,0 +1,21 @@
+{
+	x: -12.0d,
+	y: -1.5d,
+	text: [
+		"最好的机械框架 你可以制作最好的sag/合金炉了"
+	],
+	dependencies: [
+		"d58bd8c9"
+	],
+	tasks: [{
+		uid: "ac97297b",
+		type: "item",
+		items: [{
+			id: "enderio:item_material",
+			Damage: 54s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

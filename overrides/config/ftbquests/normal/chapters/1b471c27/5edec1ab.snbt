@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: -6.5d,
+	text: [
+		"植物魔法的开端 可以做植物魔法的所有功能/产能花（阿斯加德蒲公英滚出去）"
+	],
+	dependencies: [
+		"2cbe49d3",
+		"bd6d95c7"
+	],
+	tasks: [{
+		uid: "c05942f4",
+		type: "item",
+		items: [{
+			id: "botania:altar",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e7ba51c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

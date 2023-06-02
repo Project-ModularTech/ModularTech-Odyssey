@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-水上行走",
+	x: -3.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9a04683d",
+		type: "item",
+		items: [{
+			id: "ancientspellcraft:ancient_spell_book",
+			Damage: 286s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d130a7bb",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

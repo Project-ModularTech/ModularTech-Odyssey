@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-魔爆术",
+	x: 0.0d,
+	y: 17.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b63bbbbc",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 50s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a7f682ec",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

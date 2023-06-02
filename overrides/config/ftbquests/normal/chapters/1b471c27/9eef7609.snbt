@@ -1,0 +1,27 @@
+{
+	x: -9.0d,
+	y: -6.5d,
+	text: [
+		"陨石粉是一个具有魔力的材料",
+		"接下来你会用到很多的"
+	],
+	dependencies: [
+		"e997f24b"
+	],
+	tasks: [{
+		uid: "46128d89",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:material",
+			Damage: 45s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "499d554d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

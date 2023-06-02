@@ -1,0 +1,15 @@
+{
+	x: -6.0d,
+	y: 1.5d,
+	text: [
+		"4096RF/t"
+	],
+	dependencies: [
+		"57f51f7b"
+	],
+	tasks: [{
+		uid: "43cde835",
+		type: "checkmark",
+		title: "柴油发电机"
+	}]
+}

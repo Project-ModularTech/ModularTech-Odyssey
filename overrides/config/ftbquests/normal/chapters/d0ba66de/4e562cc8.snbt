@@ -1,0 +1,25 @@
+{
+	x: -22.0d,
+	y: -7.0d,
+	text: [
+		"电力的远程传输与转换"
+	],
+	dependencies: [
+		"ee37144a"
+	],
+	tasks: [{
+		uid: "aedc54b2",
+		type: "item",
+		items: [{
+			id: "fluxnetworks:fluxcontroller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1bc3e65e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

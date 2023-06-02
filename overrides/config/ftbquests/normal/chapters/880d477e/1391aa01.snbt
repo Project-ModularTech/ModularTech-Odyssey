@@ -1,0 +1,28 @@
+{
+	title: "工业高炉",
+	x: 0.5d,
+	y: -7.0d,
+	shape: "gear",
+	text: [
+		"工业高炉分为多个阶段，每一阶段都有比前一个阶段更快的烧炼配方，你需要升级替换工业高炉结构，将工业高炉控制器放入合成栏可以合成下一级高炉控制器，最高为Ultra级，将Ultra级控制器放入合成则会返回MK1控制器",
+		"§e——来自GregTech"
+	],
+	dependencies: [
+		"63bd2cb3"
+	],
+	tasks: [{
+		uid: "2db7dc92",
+		type: "item",
+		items: [{
+			id: "modularmachinery:electric_blast_furnacemk1_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7380d83c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

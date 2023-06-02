@@ -1,0 +1,35 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"402f3978"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "325f762e",
+		type: "checkmark",
+		title: "完成阶段四",
+		icon: {
+			id: "mekanism:machineblock",
+			Damage: 8s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}
+	}],
+	rewards: [{
+		uid: "a6c9d3a5",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "000a3d89",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "16307049",
+		type: "loot",
+		table: 5
+	}]
+}

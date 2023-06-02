@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: -10.5d,
+	text: [
+		"有了活木你就可以制作活木枝了 是合成森林法杖的必要物品"
+	],
+	dependencies: [
+		"3bda1505"
+	],
+	tasks: [{
+		uid: "1fb5bf83",
+		type: "item",
+		items: [{
+			id: "botania:manaresource",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4c5d3d06",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

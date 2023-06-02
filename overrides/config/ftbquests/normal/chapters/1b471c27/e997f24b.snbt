@@ -1,0 +1,26 @@
+{
+	title: "天外来客",
+	x: -11.0d,
+	y: -6.5d,
+	text: [
+		"陨石也不会自然生成，你需要通过合成获取"
+	],
+	dependencies: [
+		"328e2691"
+	],
+	tasks: [{
+		uid: "0851bd4c",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:sky_stone_block",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5eddd97b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

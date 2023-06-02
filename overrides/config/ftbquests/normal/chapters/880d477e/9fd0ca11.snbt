@@ -1,0 +1,28 @@
+{
+	x: -0.5d,
+	y: -9.0d,
+	text: [
+		"不会损坏，但由此产生的代价是工作时需要供应蚯蚓"
+	],
+	dependencies: [
+		"09886289"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ed843477",
+		type: "item",
+		items: [{
+			id: "waterstrainer:strainer_fisherman",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e6b595a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

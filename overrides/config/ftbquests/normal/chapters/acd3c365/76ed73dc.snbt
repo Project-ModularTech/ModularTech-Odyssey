@@ -1,0 +1,24 @@
+{
+	title: "§6大师-雷霆圣锤",
+	x: 12.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9b20282f",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 98s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "56ed00bf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 7.5d,
+	y: -4.5d,
+	dependencies: [
+		"84aa8b59"
+	],
+	tasks: [{
+		uid: "4ea64e2e",
+		type: "item",
+		items: [{
+			id: "draconicevolution:crafting_injector",
+			Damage: 3s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63d49069",
+		type: "loot",
+		table: 5
+	}]
+}

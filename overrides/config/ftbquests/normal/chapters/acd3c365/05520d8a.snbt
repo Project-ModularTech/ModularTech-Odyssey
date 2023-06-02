@@ -1,0 +1,24 @@
+{
+	title: "§d进阶-静电立场",
+	x: 0.0d,
+	y: 37.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "61256e9c",
+		type: "item",
+		items: [{
+			id: "ebwizardry:spell_book",
+			Damage: 63s,
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ad90e78f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

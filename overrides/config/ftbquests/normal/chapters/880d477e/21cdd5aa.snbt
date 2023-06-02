@@ -1,0 +1,37 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	text: [
+		"你可以使用冶炼炉完成前期倍矿或制作一些合金"
+	],
+	dependencies: [
+		"dbc1f8a0"
+	],
+	tasks: [{
+		uid: "a9433489",
+		type: "item",
+		items: [{
+			id: "tconstruct:smeltery_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f4ea1c3",
+		type: "item",
+		item: {
+			id: "minecraft:lava_bucket",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "40973730",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

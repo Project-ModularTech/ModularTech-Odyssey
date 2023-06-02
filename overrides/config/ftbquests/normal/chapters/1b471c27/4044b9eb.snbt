@@ -1,0 +1,30 @@
+{
+	x: 4.0d,
+	y: -12.5d,
+	text: [
+		"望远镜可以观测星座",
+		"不知道的可以看星图 获得后的星图就可以连接了",
+		"星座星和背景星会错开 shift+右键划线 正确之后会自动识别"
+	],
+	dependencies: [
+		"acdefbd4"
+	],
+	tasks: [{
+		uid: "8cc08f7d",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemhandtelescope",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d33119a7",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

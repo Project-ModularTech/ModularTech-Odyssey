@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: -5.5d,
+	shape: "hexagon",
+	dependencies: [
+		"20035146"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bba761da",
+		type: "item",
+		items: [{
+			id: "avaritia:skullfire_sword",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {},
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "badb7a02",
+		type: "loot",
+		table: 4
+	}]
+}

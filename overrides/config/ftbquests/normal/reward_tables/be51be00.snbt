@@ -1,0 +1,388 @@
+{
+	title: "二级奖励箱",
+	icon: "contenttweaker:box2",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "extendedcrafting:material",
+		count: 16
+	},
+	{
+		item: "extendedcrafting:material 1 2",
+		count: 8
+	},
+	{
+		item: "extendedcrafting:table_basic"
+	},
+	{
+		item: "contenttweaker:chengzhenjie"
+	},
+	{
+		item: "contenttweaker:shadow_zl"
+	},
+	{
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		item: "immersiveengineering:metal_decoration0 1 3",
+		count: 4
+	},
+	{
+		item: "immersiveengineering:metal_decoration0 1 4",
+		count: 4
+	},
+	{
+		item: "immersiveengineering:metal_decoration0 1 5",
+		count: 4
+	},
+	{
+		item: "ebwizardry:apprentice_wand"
+	},
+	{
+		item: "ebwizardry:apprentice_ice_wand"
+	},
+	{
+		item: "ebwizardry:apprentice_fire_wand"
+	},
+	{
+		item: "ebwizardry:apprentice_lightning_wand"
+	},
+	{
+		item: "ebwizardry:apprentice_necromancy_wand"
+	},
+	{
+		item: "ebwizardry:apprentice_earth_wand"
+	},
+	{
+		item: "ebwizardry:apprentice_sorcery_wand"
+	},
+	{
+		item: "ebwizardry:apprentice_healing_wand"
+	},
+	{
+		item: "ebwizardry:amulet_potential"
+	},
+	{
+		item: "ebwizardry:amulet_banishing"
+	},
+	{
+		item: "ebwizardry:amulet_transience"
+	},
+	{
+		item: "ebwizardry:charm_spell_discovery"
+	},
+	{
+		item: "ebwizardry:amulet_glide"
+	},
+	{
+		item: "appliedenergistics2:drive"
+	},
+	{
+		item: "appliedenergistics2:controller"
+	},
+	{
+		item: "appliedenergistics2:material 1 7",
+		count: 64
+	},
+	{
+		item: "environmentaltech:connector",
+		count: 4
+	},
+	{
+		item: "minecraft:diamond_block",
+		count: 4
+	},
+	{
+		item: "minecraft:lapis_block",
+		count: 4
+	},
+	{
+		item: "minecraft:gold_block",
+		count: 4
+	},
+	{
+		item: "minecraft:emerald_block"
+	},
+	{
+		item: "minecraft:redstone_block",
+		count: 4
+	},
+	{
+		item: "minecraft:iron_block",
+		count: 4
+	},
+	{
+		item: "tconstruct:clear_glass",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:storage 1 1",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:storage",
+		count: 4
+	},
+	{
+		item: "contenttweaker:box1"
+	},
+	{
+		item: "contenttweaker:box2"
+	},
+	{
+		item: "thermalexpansion:frame"
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 33"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 34"
+	},
+	{
+		item: "appliedenergistics2:part 1 56",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:part 1 16",
+		count: 16
+	},
+	{
+		item: "minecraft:log 1 1",
+		count: 64
+	},
+	{
+		item: "nuclearcraft:solar_panel_advanced"
+	},
+	{
+		item: "nuclearcraft:rtg_americium"
+	},
+	{
+		item: "enderio:block_solar_panel 1 2"
+	},
+	{
+		item: "enderio:block_solar_panel 1 1"
+	},
+	{
+		item: "immersiveengineering:material 1 27",
+		count: 4
+	},
+	{
+		item: "contenttweaker:basiccircuit",
+		count: 2
+	},
+	{
+		item: "minecraft:ender_pearl",
+		count: 32
+	},
+	{
+		item: "minecraft:blaze_rod",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:material 1 52",
+		count: 8
+	},
+	{
+		item: "minecraft:iron_block",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:storage",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:storage 1 2",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:fluix_block",
+		count: 8
+	},
+	{
+		item: "threng:material",
+		count: 8
+	},
+	{
+		item: "threng:material 1 4"
+	},
+	{
+		item: "immersiveengineering:material 1 26"
+	},
+	{
+		item: "immersiveengineering:metal_device1 1 13"
+	},
+	{
+		item: "resize:shrinking_bauble"
+	},
+	{
+		item: "resize:growth_bauble"
+	},
+	{
+		item: "enderutilities:asu",
+		count: 2
+	},
+	{
+		item: "enderutilities:machine_0",
+		count: 4
+	},
+	{
+		item: "contenttweaker:box3"
+	},
+	{
+		item: "extendedcrafting:material 1 7",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:quartz_growth_accelerator"
+	},
+	{
+		item: "draconicevolution:magnet"
+	},
+	{
+		item: "appliedenergistics2:part 1 380"
+	},
+	{
+		item: "enderutilities:enderpart 1 51"
+	},
+	{
+		item: "enderutilities:enderpart 1 52"
+	},
+	{
+		item: "rftools:machine_frame",
+		count: 4
+	},
+	{
+		item: "botania:travelbelt"
+	},
+	{
+		item: "minecraft:nether_star",
+		count: 2
+	},
+	{
+		item: "ebwizardry:ring_condensing"
+	},
+	{
+		item: "immersiveengineering:metal_decoration0 1 3",
+		count: 2
+	},
+	{
+		item: "immersiveengineering:metal_decoration0 1 4",
+		count: 2
+	},
+	{
+		item: "immersiveengineering:metal_decoration0 1 5",
+		count: 2
+	},
+	{
+		item: "enderio:block_cap_bank 1 1"
+	},
+	{
+		item: {
+			id: "thermalexpansion:capacitor",
+			Damage: 2s,
+			tag: {
+				Energy: 9000000
+			}
+		}
+	},
+	{
+		item: "thermalfoundation:fertilizer 1 1",
+		count: 8
+	},
+	{
+		item: "thermalfoundation:fertilizer 1 2",
+		count: 8
+	},
+	{
+		item: "appliedenergistics2:crafting_storage_16k"
+	},
+	{
+		item: "appliedenergistics2:crafting_storage_4k",
+		count: 2
+	},
+	{
+		item: "appliedenergistics2:crafting_accelerator",
+		count: 4
+	},
+	{
+		item: {
+			id: "appliedenergistics2:dense_energy_cell",
+			tag: {
+				internalCurrentPower: 1600000.0d,
+				internalMaxPower: 1600000.0d
+			}
+		}
+	},
+	{
+		item: "appliedenergistics2:material 1 30",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 30",
+		count: 16
+	},
+	{
+		item: {
+			id: "tinymobfarm:lasso",
+			tag: {}
+		},
+		count: 2
+	},
+	{
+		item: "tinymobfarm:iron_farm"
+	},
+	{
+		item: "botania:manaresource 1 4",
+		count: 2
+	},
+	{
+		item: "botania:manaresource",
+		count: 16
+	},
+	{
+		item: "extendedcrafting:table_advanced"
+	},
+	{
+		item: "environmentaltech:litherite_crystal",
+		count: 16
+	},
+	{
+		item: "yabba:item_barrel",
+		count: 2
+	},
+	{
+		item: "yabba:upgrade_iron_tier",
+		count: 2
+	},
+	{
+		item: "harvestcraft:honeysoyribsitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:charsiuitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:gooseberrysmoothieitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:friedpecanokraitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:pumpkinmuffinitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:zeppoleitem",
+		count: 4
+	},
+	{
+		item: "harvestcraft:cornflakesitem",
+		count: 4
+	}]
+}

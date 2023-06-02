@@ -1,0 +1,27 @@
+{
+	x: 14.0d,
+	y: -8.5d,
+	text: [
+		"通入余烬能量来把物品烧成灰烬 是灰烬的好来源",
+		"余烬的炼金 每个种子配方都不一样 所以不要想着投机取巧",
+		"你可以给所需的象征最低的灰烬 这样仅需一次错误就可以成功炼金"
+	],
+	dependencies: [
+		"1fe459ad"
+	],
+	tasks: [{
+		uid: "426aab8a",
+		type: "item",
+		items: [{
+			id: "embers:cinder_plinth",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e911f9b1",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

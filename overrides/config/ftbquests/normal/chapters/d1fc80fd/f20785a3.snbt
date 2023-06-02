@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "0c227565",
+		type: "item",
+		items: [{
+			id: "contenttweaker:box9",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

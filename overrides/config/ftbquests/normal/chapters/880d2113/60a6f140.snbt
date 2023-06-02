@@ -1,0 +1,49 @@
+{
+	icon: {
+		id: "thermalexpansion:machine",
+		Damage: 3s,
+		tag: {
+			Facing: 3b,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			RSControl: 0b,
+			Energy: 0,
+			Level: 0b
+		},
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		}
+	},
+	x: -4.5d,
+	y: 3.0d,
+	dependencies: [
+		"1b471c27"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "48bf26f2",
+		type: "checkmark",
+		title: "完成阶段二"
+	}],
+	rewards: [{
+		uid: "0a2dc441",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "790af8b0",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "2fd7bcd4",
+		type: "loot",
+		table: 3
+	}]
+}

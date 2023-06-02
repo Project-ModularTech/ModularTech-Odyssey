@@ -1,0 +1,27 @@
+{
+	title: "你需要三根",
+	x: 20.5d,
+	y: -1.0d,
+	text: [
+		"石墨电极用于维持电弧炉工作，你需要同时在电弧炉中安装三根石墨电极才可使用电弧炉"
+	],
+	dependencies: [
+		"7ef023ff"
+	],
+	tasks: [{
+		uid: "dff2cc83",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:graphite_electrode",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8c8e140",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

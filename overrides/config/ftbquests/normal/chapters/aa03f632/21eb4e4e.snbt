@@ -1,0 +1,42 @@
+{
+	x: -20.0d,
+	y: 2.5d,
+	shape: "hexagon",
+	text: [
+		"挂机就能获得钓鱼所获得的东西 蛮不错的 可以解决食物问题"
+	],
+	dependencies: [
+		"28c7a7d2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "035f9d12",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			Damage: 4s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "356b2ff6",
+		type: "loot",
+		table: 3
+	}]
+}

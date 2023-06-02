@@ -1,0 +1,27 @@
+{
+	x: 2.5d,
+	y: -5.0d,
+	shape: "hexagon",
+	text: [
+		"土高炉是一台非常简陋的模块化机械，你可以在土高炉中获取更快的炼钢速度"
+	],
+	dependencies: [
+		"63bd2cb3"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bfd902cc",
+		type: "item",
+		items: [{
+			id: "modularmachinery:primitive_blast_furnace_controller",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8129c9dc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

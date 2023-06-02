@@ -1,0 +1,28 @@
+{
+	title: "模块化!",
+	x: -1.5d,
+	y: -5.0d,
+	description: "大型机械与超大型机械",
+	text: [
+		"这是制造模块化机械的重要材料",
+		"前期可通过冶炼炉合金浇筑获得"
+	],
+	dependencies: [
+		"21cdd5aa"
+	],
+	tasks: [{
+		uid: "69883a13",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemmodularium",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ffa5c74e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}
